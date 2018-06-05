@@ -1,0 +1,19 @@
+<div class="container experience-container">
+    <h3>Experience</h3>
+
+    {% for experience in site.data.experience %}
+        <div class="row clearfix experience">
+            <div class="col-xs-12 col-sm-4 col-md-3 left-column">
+                <h4>{{ experience.company }}</h4>
+                {%- if experience.link -%}
+                    <a href="http://{{ experience.link }}" target="_blank">{{ experience.link }}</a>
+                {%- endif -%}
+                <p>{{ experience.dates }}</p>
+                <p><b>{{ experience.job_title }}</b></p>
+            </div>
+            <div class="col-xs-12 col-sm-8 col-md-9">
+                 {{ experience.description | markdownify }}
+            </div>
+        </div>
+    {% endfor %}
+</div>
