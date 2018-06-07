@@ -15,7 +15,9 @@
                 </p>
             </div>
             <div class="col-xs-12 col-sm-8 col-md-9">
-                <p class="quote">{{ project.quote }}</p>
+                {%- if education.quote -%}
+                    <p class="quote">{{ project.quote }}</p>
+                {%- endif -%}
                 {{ project.description | markdownify }}
             </div>
         </div>
