@@ -1,0 +1,17 @@
+<div class="container experience-container">
+    <h3>{{ site.education_title | default: "Education" }}</h3>
+
+    {% for education in site.data.education %}
+        <div class="row clearfix education">
+            <div class="col-xs-12 col-sm-4 col-md-3 left-column">
+                <h4>{{ education.name }}</h4>
+                <p>{{ education.dates }}</p>
+                <p><b>{{ education.qualification }}</b></p>
+            </div>
+            <div class="col-xs-12 col-sm-8 col-md-9">
+                <p class="quote">{{ education.quote }}</p>
+                {{ education.description | markdownify }}
+            </div>
+        </div>
+    {% endfor %}
+</div>

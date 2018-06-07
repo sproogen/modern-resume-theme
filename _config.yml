@@ -7,14 +7,14 @@ website: www.github.com/sproogen/resume-theme
 # Social links
 twitter_username: jekyllrb
 github_username:  jekyll
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
 instagram_username: jekyll
 linkedin_username: jekyll
-pinterest_username: jekyll
+# pinterest_username: jekyll
 youtube_username: jekyll
-googleplus_username: +jekyll
+# googleplus_username: +jekyll
 
 # About Section
 # about_title: About Me
@@ -25,8 +25,26 @@ about_content: > # this means to ignore newlines until the next config item.
   <br>
   You can even add break lines and anything else markdown supports.
 
+# Projects Section
+# projects_title: Projects
+
+# Experience Section
+# experience_title: Experience
+
+# Education Section
+# educaton_title: Education
+
+# More Section
+# more_title: A Little More About Me
+more_content: > # this means to ignore newlines until the next config item.
+  This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests. Or you could title it **Skills**
+  and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+
+# Footer
+footer_show_references: true
+
 # Build settings
-# theme: minima
+theme: resume-theme
 
 sass:
   sass_dir: _sass
