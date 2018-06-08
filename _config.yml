@@ -46,7 +46,8 @@ more_content: > # this means to ignore newlines until the next config item.
 footer_show_references: true
 
 # Build settings
-theme: resume-theme
+# theme: resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/resume-theme (Use this if you are hosting your resume on GitHub)
 
 sass:
   sass_dir: _sass
