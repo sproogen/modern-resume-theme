@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "resume-theme"
-  spec.version       = "0.1.1"
+  spec.version       = "0.1.2"
   spec.authors       = ["James Grant"]
   spec.email         = ["sprog31@gmail.com"]
 
