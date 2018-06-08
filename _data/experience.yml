@@ -1,14 +1,9 @@
-- company: Google
-  link: www.google.com
-  job_title: Senior Network System Administrator
-  dates: November 2015 - Present
+# Experience template
+- company: Company name
+  link: Link to company (optional)
+  job_title: Job title
+  dates: Date Range (eg. November 2016 - present)
   quote: >
-   It's a sick company
+   Short description of the company (optional)
   description: >
-    I work here
-
-- company: Apple
-  job_title: Network System Administrator
-  dates: January 2013 - November 2015
-  description: >
-    I worked here
+    Description of role

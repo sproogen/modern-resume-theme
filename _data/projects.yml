@@ -1,7 +1,8 @@
-- name: Its Going To Be
-  link: www.itsgoingto.be
-  github: sproogen/itsgoingto.be
+# Project template
+- name: Project name
+  link: Link to project (eg. sproogen.github.io/resume-theme)(optional)
+  github: Github page for project (eg. sproogen/resume-theme)(optional)
   quote: >
-    This is a thing
+    Short overview of the project (optional)
   description: >
-    I made this thing
+    Description about the work on/with the project

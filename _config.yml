@@ -1,26 +1,26 @@
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Your Name
+title: Your job title
+email: Your email (optional)
+website: Your website (optional)
 
 # favicon: images/favicon.ico
 
 # Social links
 twitter_username: jekyllrb
 github_username:  jekyll
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
+dribbble_username: jekyll
+facebook_username: jekyll
+flickr_username: jekyll
 instagram_username: jekyll
 linkedin_username: jekyll
-# pinterest_username: jekyll
+pinterest_username: jekyll
 youtube_username: jekyll
-# googleplus_username: +jekyll
+googleplus_username: +jekyll
 
 # About Section
-# about_title: About Me
-about_profile_image: images/profile.jpg
+# about_title: About Me (Use this to override about section title)
+about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: > # this means to ignore newlines until the next config item.
   Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
   <br>
@@ -28,16 +28,16 @@ about_content: > # this means to ignore newlines until the next config item.
   You can even add break lines and anything else markdown supports.
 
 # Projects Section
-# projects_title: Projects
+# projects_title: Projects #(Use this to override about projects section title)
 
 # Experience Section
-# experience_title: Experience
+# experience_title: Experience #(Use this to override about experience section title)
 
 # Education Section
-# educaton_title: Education
+# educaton_title: Education #(Use this to override about education section title)
 
 # More Section
-# more_title: A Little More About Me
+# more_title: A Little More About Me #(Use this to override about more section title)
 more_content: > # this means to ignore newlines until the next config item.
   This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests. Or you could title it **Skills**
   and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
@@ -46,7 +46,8 @@ more_content: > # this means to ignore newlines until the next config item.
 footer_show_references: true
 
 # Build settings
-theme: resume-theme
+# theme: resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/resume-theme (Use this if you are hosting your resume on GitHub)
 
 sass:
   sass_dir: _sass
