@@ -3,6 +3,7 @@ name: Brett Harris
 title: Senior Network System Administrator
 email: brett.h@email.co.uk
 website: www.github.com/sproogen/resume-theme
+repository: sproogen/resume-theme
 
 # favicon: images/favicon.ico
 
@@ -46,7 +47,7 @@ more_content: > # this means to ignore newlines until the next config item.
 footer_show_references: true
 
 # Build settings
-theme: resume-theme
+remote_theme: sproogen/resume-theme
 
 sass:
   sass_dir: _sass
