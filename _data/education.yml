@@ -1,7 +1,8 @@
-- name: Bristol University
-  dates: 2010 - 2013
-  qualification: BSc Computer Science
+# Education Template
+- name: Institution name
+  dates: Date Range (eg. 2016 - 2019)
+  qualification: Qualifications (eg. BA Performing Arts)
   quote: >
-    It's a university
+    Short institution or course description (optional)
   description: >
-    I studied here
+    Description of qualification
