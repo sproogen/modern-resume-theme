@@ -1,10 +1,12 @@
+# Site
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/resume-theme)
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
 # Personal info
 name: Your Name
 title: Your job title
 email: Your email (optional)
 website: Your website (optional)
-
-# favicon: images/favicon.ico
 
 # Social links
 twitter_username: jekyllrb
