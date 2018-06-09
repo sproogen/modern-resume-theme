@@ -1,0 +1,15 @@
+- company: Company 1
+  link: google.com
+  job_title: Job title 1
+  dates: November 2016 - present
+  quote: >
+   Short description of the company (optional)
+  description: >
+    Description of role
+
+- company: Company 2
+  job_title: Job title 1
+  dates: January 2014 - November 2016
+  description: >
+    Description of role
+

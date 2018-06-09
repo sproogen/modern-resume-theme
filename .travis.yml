@@ -16,5 +16,5 @@ branches:
     - develop
 
 script:
-  - bundle exec jekyll build
+  - bundle exec jekyll build --config _test/_config.yml
   - bundle exec htmlproofer ./_site --disable-external
