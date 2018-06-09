@@ -1,8 +1,10 @@
-# frozen_string_literal: true
+lib = File.expand_path("../lib", __FILE__)
+$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+require "resume_theme/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "resume-theme"
-  spec.version       = "0.1.3"
+  spec.version       = ResumeTheme::VERSION
   spec.authors       = ["James Grant"]
   spec.email         = ["sprog31@gmail.com"]
 
