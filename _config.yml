@@ -26,7 +26,7 @@ about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: > # this means to ignore newlines until the next config item.
   Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
-  You can even add break lines and anything else markdown supports.
+  You can even add paragraphs by using empty lines like this and add anything else markdown supports.
 
 # Projects Section
 # projects_title: Projects #(Use this to override about projects section title)
