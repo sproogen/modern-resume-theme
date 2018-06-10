@@ -29,6 +29,7 @@ before_install:
   - if [ "$TRAVIS_BRANCH" == "develop" ]; then
       git config --global user.email ${EMAIL};
       git config --global user.name ${USER};
-      gem bump --skip-ci --tag;
+      gem bump --skip-ci;
+      gem tag --no-push;
       git push "https://${GH_TOKEN}@${GH_REPO}" develop --tags > /dev/null 2>&1;
     fi
