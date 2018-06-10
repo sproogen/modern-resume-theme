@@ -1,12 +1,14 @@
-# frozen_string_literal: true
+lib = File.expand_path("../lib", __FILE__)
+$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+require "resume-theme/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "resume-theme"
-  spec.version       = "0.1.3"
+  spec.version       = ResumeTheme::VERSION
   spec.authors       = ["James Grant"]
   spec.email         = ["sprog31@gmail.com"]
 
-  spec.summary       = " Write a short summary, because Rubygems requires one."
+  spec.summary       = "Write a short summary, because Rubygems requires one."
   spec.homepage      = "https://github.com/sproogen/resume-theme"
   spec.license       = "GPL-3.0"
 
@@ -17,4 +19,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake", "~> 12.0"
+  spec.add_development_dependency "html-proofer"
 end

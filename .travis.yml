@@ -1,0 +1,36 @@
+language: ruby
+rvm:
+- 2.4.2
+
+sudo: false
+
+cache: bundler
+
+env:
+  global:
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+    - USER="Travis CI"
+    - EMAIL="travis@travis-ci.org"
+    - REPO="sproogen/resume-theme"
+    - GH_REPO="github.com/${REPO}.git"
+    - secure: "IM3SuN/3YyGH6J1dzeXHQjkr6pr2o6kojg3drnjcR0MNEyvMx5Q5gBtYyJ/GvpWw0Ii/m7TnklaZ8gZaMZ+zky6vtu6tsJyIvKPJI0tFXTmen0UBbXQr/lVFJTt57M3TzZIgQDsmNU2bGwDhOsfShr/ZHTEjXxwxP9glPSwVTEFnkEHF7rzn7AVuSnWkSaueh/p+5XicKlZ5b7Aqx1Q5GWzSmSXKRV68ikYTbJElg8BDPP5XNDtrsfggBenr83jocIausL4g7uQK8vci0xiiTi8ODZ/HjdkofQpAP2waimydp8Jy6z3bINNHW94IVJ9/7Q5r36cmVz8KCKzrw/C8u+KMMvldJ5BoI/MRaBwhpBo+z3eqo149igWgYbYPwCJLqKAdJKps1Wj9MHopS6D1YJCOzpH/bvPN/g5Kj/zH4TwtUClkmlg/R1YDn7Vzvc+CNO8FW2+HZJ2ak2yogSd1b/yMzZeF9kMykkiAjFeUb8zuIJ808+Kcal+sp7Jyw833BJacQe8oBZkAzUKU2AmlMAGQnMtTbV59NXJ9/bT97EEHmAeJ49csi9UqYa06oiRRC+nsRun/x2PYovpEac5IksYELyHG3Ceoqi0gqKuuXQ+1wMxFUQbsvjbgC7x5S5XMOupeAE7wV7p+cZsI4U4p2ou9URI9NGRL76o9Ur990d0="
+
+branches:
+  only:
+    - master
+    - develop
+
+script:
+  - bundle exec jekyll build --config _test/_config.yml
+  - bundle exec htmlproofer ./_site --disable-external
+
+before_install:
+  - if [ "$TRAVIS_BRANCH" == "master" ] && [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
+      gem install gem-release --pre;
+      git config --global user.email ${EMAIL};
+      git config --global user.name ${USER};
+      git checkout master;
+      gem bump --skip-ci;
+      gem tag --no-push;
+      git push "https://${GH_TOKEN}@${GH_REPO}" master --tags;
+    fi

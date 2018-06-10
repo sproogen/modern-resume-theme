@@ -1,12 +1,12 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/resume-theme)
+repository: sproogen/resume-theme
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Personal info
 name: Your Name
 title: Your job title
-email: Your email (optional)
-website: Your website (optional)
+email: test@email.com
+website: sproogen.github.io/resume-theme
 
 # Social links
 twitter_username: jekyllrb
@@ -22,7 +22,7 @@ googleplus_username: +jekyll
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: _test/images/travis.png
 about_content: > # this means to ignore newlines until the next config item.
   Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
@@ -49,6 +49,14 @@ footer_show_references: true
 # Build settings
 # theme: resume-theme (Use this is you are hosting your resume yourself)
 # remote_theme: sproogen/resume-theme (Use this if you are hosting your resume on GitHub)
+
+data_dir: _test/_data
+
+include:
+ - _test
+
+exclude:
+  - vendor
 
 sass:
   sass_dir: _sass

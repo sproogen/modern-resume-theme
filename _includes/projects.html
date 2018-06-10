@@ -18,7 +18,10 @@
                 {%- if education.quote -%}
                     <p class="quote">{{ project.quote }}</p>
                 {%- endif -%}
-                {{ project.description | markdownify }}
+                {% assign paragraphs = project.description | strip | newline_to_br | split: '<br />' %}
+                {% for paragraph in paragraphs %}
+                    {{ paragraph | markdownify }}
+                {% endfor %}
             </div>
         </div>
     {% endfor %}
