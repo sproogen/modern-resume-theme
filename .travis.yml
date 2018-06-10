@@ -20,10 +20,6 @@ branches:
     - master
     - develop
 
-script:
-  - bundle exec jekyll build --config _test/_config.yml
-  - bundle exec htmlproofer ./_site --disable-external
-
 before_install:
   - if [ "$TRAVIS_BRANCH" == "master" ] && [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
       gem install gem-release --pre;
@@ -33,4 +29,18 @@ before_install:
       gem bump --skip-ci;
       gem tag --no-push;
       git push "https://${GH_TOKEN}@${GH_REPO}" master --tags;
+    fi
+
+script:
+  - bundle exec jekyll build --config _test/_config.yml
+  - bundle exec htmlproofer ./_site --disable-external
+
+after_success:
+  - if [ "$TRAVIS_BRANCH" == "master" ] && [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
+      git config --global user.email ${EMAIL};
+      git config --global user.name ${USER};
+      git checkout develop;
+      git pull origin develop;
+      git merge master;
+      git push "https://${GH_TOKEN}@${GH_REPO}" develop;
     fi
