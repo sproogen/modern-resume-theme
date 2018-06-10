@@ -31,5 +31,5 @@ before_install:
       git config --global user.name ${USER};
       gem bump --skip-ci;
       gem tag --no-push;
-      git push "https://${GH_TOKEN}@${GH_REPO}" develop > /dev/null 2>&1;
+      git push "https://${GH_TOKEN}@${GH_REPO}" develop;
     fi
