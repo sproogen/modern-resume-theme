@@ -25,12 +25,12 @@ script:
   - bundle exec htmlproofer ./_site --disable-external
 
 before_install:
-  - gem install gem-release --pre
-  - if [ "$TRAVIS_BRANCH" == "master" ]; then
-      git config --global user.email ${EMAIL};
-      git config --global user.name ${USER};
-      git checkout master;
-      gem bump --skip-ci;
-      gem tag --no-push;
-      git push "https://${GH_TOKEN}@${GH_REPO}" master --tags;
+  - if [ "$TRAVIS_BRANCH" == "master" ] && [ "${TRAVIS_PULL_REQUEST}" = "false" ]; then
+      gem install gem-release --pre
+      git config --global user.email ${EMAIL}
+      git config --global user.name ${USER}
+      git checkout master
+      gem bump --skip-ci
+      gem tag --no-push
+      git push "https://${GH_TOKEN}@${GH_REPO}" master --tags
     fi
