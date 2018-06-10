@@ -25,7 +25,7 @@ script:
   - bundle exec htmlproofer ./_site --disable-external
 
 before_install:
-  - gem install gem-release
+  - gem install gem-release --pre
   - if [ "$TRAVIS_BRANCH" == "develop" ]; then
       git config --global user.email ${EMAIL};
       git config --global user.name ${USER};
