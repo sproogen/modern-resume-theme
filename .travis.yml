@@ -32,16 +32,13 @@ before_install:
     fi
 
 script:
-  - gem build resume-theme.gemspec
   - bundle exec jekyll build --config _test/_config.yml
   - bundle exec htmlproofer ./_site --disable-external
 
 after_success:
   - if [ "$TRAVIS_BRANCH" == "master" ] && [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
-      git config --global user.email ${EMAIL};
-      git config --global user.name ${USER};
+      git fetch origin develop;
       git checkout develop;
-      git pull origin develop;
       git merge master;
       git push "https://${GH_TOKEN}@${GH_REPO}" develop;
     fi
