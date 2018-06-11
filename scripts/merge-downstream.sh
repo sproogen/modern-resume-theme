@@ -1,10 +1,12 @@
 #!/bin/bash
 
+set -ev
+
 if [ "$TRAVIS_BRANCH" == "master" ] && [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
     git remote set-branches --add origin develop;
+    git fetch origin develop;
 
     git checkout develop;
-    git pull origin develop;
 
     git merge master;
 
