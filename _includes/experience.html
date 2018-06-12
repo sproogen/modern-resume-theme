@@ -12,7 +12,7 @@
                 <p><b>{{ experience.job_title }}</b></p>
             </div>
             <div class="col-xs-12 col-sm-8 col-md-9">
-                {%- if education.quote -%}
+                {%- if experience.quote -%}
                     <p class="quote">{{ experience.quote }}</p>
                 {%- endif -%}
                 {% assign paragraphs = experience.description | strip | newline_to_br | split: '<br />' %}
