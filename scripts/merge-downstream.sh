@@ -14,7 +14,10 @@ if [ "$TRAVIS_BRANCH" == "master" ] && [ "$TRAVIS_PULL_REQUEST" == "false" ]; th
         git merge --abort;
         git reset --hard;
 
-        curl -H "Authorization: token ${GITHUB_TOKEN}" -X POST -d '{"title":"Automatic merge failure", "base":"develop", "head":"master"}' "https://api.github.com/repos/${TRAVIS_REPO_SLUG}/pulls";
+        git checkout -b merge-conflict;
+        git push "https://${GITHUB_TOKEN}@${GITHUB_REPO}" merge-conflict;
+
+        curl -H "Authorization: token ${GITHUB_TOKEN}" -X POST -d '{"title":"Automatic merge failure", "base":"develop", "head":"merge-conflict"}' "https://api.github.com/repos/${TRAVIS_REPO_SLUG}/pulls";
     else
         git push "https://${GITHUB_TOKEN}@${GITHUB_REPO}" develop;
     fi
