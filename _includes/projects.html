@@ -15,7 +15,7 @@
                 </p>
             </div>
             <div class="col-xs-12 col-sm-8 col-md-9">
-                {%- if education.quote -%}
+                {%- if project.quote -%}
                     <p class="quote">{{ project.quote }}</p>
                 {%- endif -%}
                 {% assign paragraphs = project.description | strip | newline_to_br | split: '<br />' %}
