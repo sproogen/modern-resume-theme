@@ -9,24 +9,25 @@ email: brett.h@email.co.uk
 website: www.github.com/sproogen/resume-theme
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: facespics
+github_username:  sproogen
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
+instagram_username: chillwildlife
+linkedin_username: jameswgrant
 # pinterest_username: jekyll
-youtube_username: jekyll
+youtube_username: globalmtb
 # googleplus_username: +jekyll
 
 # About Section
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: > # this means to ignore newlines until the next config item.
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
 
-  You can even add paragraphs by using empty lines like this and add anything else markdown supports.
+  I am most skilled in:
+  <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
 # Projects Section
 # projects_title: Projects
@@ -40,8 +41,11 @@ about_content: > # this means to ignore newlines until the next config item.
 # More Section
 # more_title: A Little More About Me
 more_content: > # this means to ignore newlines until the next config item.
-  This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests. Or you could title it **Skills**
-  and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+  Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+   - Climbing
+   - Fortnite
+   - Knitting
+   - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
 # Footer
 footer_show_references: true
