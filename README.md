@@ -11,27 +11,27 @@ Start by creating an account on [GitHub](https://github.com/join)
 ##### Step 2 - Create Repository
 Create a repository on GitHub to hold your files and host your resume. You can find out how to do that [here](https://pages.github.com/)
 
-#### Step 3 - Download Resume Template
+##### Step 3 - Download Resume Template
 Download and extract the following zip into the git repository you have just created. [resume-template.zip](https://github.com/sproogen/resume-theme/archive/gh-pages.zip)
 
-#### Step 4 - Push it
+##### Step 4 - Push it
 Commit and push the resume template to github
 ```
 $ git add --all
 $ git commit -m "Initial resume setup"
 $ git push -u origin master
 ```
-#### Set 5 - See it
+##### Set 5 - See it
 You should now be able to see the demo resume template using this theme at `[your-username].github.io`
 
 ## Usage
 
 So now you will be able to see the demo template at your github url. You can can edit the yml files and replace the demo content with your own. Hopefully it will be faily simple to work out where all the content goes, but here is a quick overview.
 
-#### _config.yml
+##### _config.yml
 This will contain all the of the main configuration for your resume such as your name, email, social media links and about me content. It will also allow you to change the titles of some of the content sections.
 
-#### _data/education.yml
+##### _data/education.yml
 A list of all your education, each education will follow this format
 ```
 - name: Institution name
@@ -43,7 +43,7 @@ A list of all your education, each education will follow this format
     Description of qualification
 ```
 
-#### _data/experience.yml
+##### _data/experience.yml
 A list of all your experience, each experience will follow this format
 ```
 - company: Company name
@@ -56,7 +56,7 @@ A list of all your experience, each experience will follow this format
     Description of role
 ```
 
-#### _data/projects.yml
+##### _data/projects.yml
 A list of all your projects, each project will follow this format
 ```
 - name: Project name
