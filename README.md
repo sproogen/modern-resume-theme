@@ -30,6 +30,7 @@ So now you will be able to see the demo template at your github url. You can can
 
 ##### _config.yml
 This will contain all the of the main configuration for your resume such as your name, email, social media links and about me content. It will also allow you to change the titles of some of the content sections.
+A full example of the _config.yml can be found [here](https://github.com/sproogen/resume-theme/blob/master/_config.yml)
 
 ##### _data/education.yml
 A list of all your education, each education will follow this format

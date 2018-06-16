@@ -1,16 +1,16 @@
 <div class="container intro-container">
-    <h3>{{ site.about_title | default: "About Me" }}</h3>
-    <div class="row clearfix">
-        {%- if site.about_profile_image -%}
-            <div class="col-xs-12 col-sm-4 col-md-3">
-                <span class="profile-img" style="background-image: url({{ site.about_profile_image | relative_url }})" />
-            </div>
-        {%- endif -%}
-        <div class="{{ 'col-xs-12 ' }}{%- if site.about_profile_image -%}col-sm-8 col-md-9{%- endif -%}">
-            {% assign paragraphs = site.about_content | strip | newline_to_br | split: '<br />' %}
-            {% for paragraph in paragraphs %}
-                {{ paragraph | markdownify }}
-            {% endfor %}
-        </div>
+  <h3>{{ site.about_title | default: "About Me" }}</h3>
+  <div class="row clearfix">
+    {%- if site.about_profile_image -%}
+      <div class="col-xs-12 col-sm-4 col-md-3">
+        <span class="profile-img" style="background-image: url({{ site.about_profile_image | relative_url }})" />
+      </div>
+    {%- endif -%}
+    <div class="{{ 'col-xs-12 ' }}{%- if site.about_profile_image -%}col-sm-8 col-md-9{%- endif -%}">
+      {% assign paragraphs = site.about_content | strip | newline_to_br | split: '<br />' %}
+      {% for paragraph in paragraphs %}
+        {{ paragraph | markdownify }}
+      {% endfor %}
     </div>
+  </div>
 </div>
