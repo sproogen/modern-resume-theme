@@ -26,7 +26,7 @@ You should now be able to see the demo resume template using this theme at `[you
 
 ## Usage
 
-So now you will be able to see the demo template at your github url. You can can edit the yml files and replace the demo content with your own. Hopefully it will be faily simple to work out where all the content goes, but here is a quick overview.
+So now you will be able to see the demo template at your github url. You can can edit the yml files and replace the demo content with your own. Hopefully it will be fairly simple to work out where all the content goes, but here is a quick overview.
 
 ##### _config.yml
 This will contain all the of the main configuration for your resume such as your name, email, social media links and about me content. It will also allow you to change the titles of some of the content sections.
