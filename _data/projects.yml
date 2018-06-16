@@ -4,5 +4,5 @@
   github: Github page for project (eg. sproogen/resume-theme)(optional)
   quote: >
     Short overview of the project (optional)
-  description: >
+  description: | # this will include new lines to allow paragraphs
     Description about the work on/with the project

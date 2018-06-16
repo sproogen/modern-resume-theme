@@ -15,10 +15,7 @@
                 {%- if experience.quote -%}
                     <p class="quote">{{ experience.quote }}</p>
                 {%- endif -%}
-                {% assign paragraphs = experience.description | strip | newline_to_br | split: '<br />' %}
-                {% for paragraph in paragraphs %}
-                    {{ paragraph | markdownify }}
-                {% endfor %}
+                {{ experience.description | strip | markdownify }}
             </div>
         </div>
     {% endfor %}
