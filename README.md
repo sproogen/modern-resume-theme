@@ -1,52 +1,86 @@
 # resume-theme [![Build Status](https://travis-ci.org/sproogen/resume-theme.svg?branch=master)](https://travis-ci.org/sproogen/resume-theme)
 
-Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
+TODO: Introduction
 
-To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
+## Installation & setup guide
+This template is designed to be hosted using GitHub pages and so that's what these instructions will cover. If you plan on hosting it seperately then there might be some extra steps that we wont cover.
 
-TODO: Delete this and the text above, and describe your gem
+##### Step 1 - GitHub
+Start by creating an account on [GitHub](https://github.com/join)
 
+##### Step 2 - Create Repository
+Create a repository on GitHub to hold your files and host your resume. You can find out how to do that [here](https://pages.github.com/)
 
-## Installation
+#### Step 3 - Download Resume Template
+Download and extract the following zip into the git repository you have just created. [resume-template.zip](https://github.com/sproogen/resume-theme/archive/gh-pages.zip)
 
-Add this line to your Jekyll site's `Gemfile`:
-
-```ruby
-gem "resume-theme"
+#### Step 4 - Push it
+Commit and push the resume template to github
 ```
-
-And add this line to your Jekyll site's `_config.yml`:
-
-```yaml
-theme: resume-theme
+$ git add --all
+$ git commit -m "Initial resume setup"
+$ git push -u origin master
 ```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install resume-theme
+#### Set 5 - See it
+You should now be able to see the demo resume template using this theme at `[your-username].github.io`
 
 ## Usage
 
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
+So now you will be able to see the demo template at your github url. You can can edit the yml files and replace the demo content with your own. Hopefully it will be faily simple to work out where all the content goes, but here is a quick overview.
+
+#### _config.yml
+This will contain all the of the main configuration for your resume such as your name, email, social media links and about me content. It will also allow you to change the titles of some of the content sections.
+
+#### _data/education.yml
+A list of all your education, each education will follow this format
+```
+- name: Institution name
+  dates: Date Range (eg. 2016 - 2019)
+  qualification: Qualifications (eg. BA Performing Arts)
+  quote: >
+    Short institution or course description (optional)
+  description: | # this will include new lines to allow paragraphs
+    Description of qualification
+```
+
+#### _data/experience.yml
+A list of all your experience, each experience will follow this format
+```
+- company: Company name
+  link: Link to company (optional)
+  job_title: Job title
+  dates: Date Range (eg. November 2016 - present)
+  quote: >
+   Short description of the company (optional)
+  description: | # this will include new lines to allow paragraphs
+    Description of role
+```
+
+#### _data/projects.yml
+A list of all your projects, each project will follow this format
+```
+- name: Project name
+  link: Link to project (eg. sproogen.github.io/resume-theme)(optional)
+  github: Github page for project (eg. sproogen/resume-theme)(optional)
+  quote: >
+    Short overview of the project (optional)
+  description: | # this will include new lines to allow paragraphs
+    Description about the work on/with the project
+```
+
+## Running locally
+
+TODO: Write instructions on installing ruby and jekyll locally and launching site locally.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/hello. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/sproogen/resume-theme. You can view our full guide to contributing [here](https://github.com/sproogen/resume-theme/blob/master/CONTRIBUTING.md)
+This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## Development
 
-To set up your environment to develop this theme, run `bundle install`.
-
-Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
-
-When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
-To add a custom directory to your theme-gem, please edit the regexp in `resume-theme.gemspec` accordingly.
+TODO: Write instructions on installing ruby and jekyll locally and launching site locally.
 
 ## License
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
