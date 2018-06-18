@@ -86,7 +86,15 @@ This project is intended to be a safe, welcoming space for collaboration, and co
 
 ## Development
 
-TODO: Write instructions on installing ruby and jekyll locally and launching site locally.
+Before you start make sure you have *Ruby* and the gems for *Jekyll* installed locally. You can find out how to do that [here](https://jekyllrb.com/docs/installation/).
+
+1. Fork/Clone the repository locally
+2. `cd resume-theme`
+3. `bundle install`
+4. `bundle exec jekyll serve`
+5. Open your browser to `http://localhost:4000`
+
+Any changes you make will automatically build and you will see these by refreshing your browser. To find out more about *Jekyll* take a look [here](https://jekyllrb.com/docs/usage/).
 
 ## License
 
