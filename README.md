@@ -11,6 +11,8 @@ You can view the full project [roadmap here](https://github.com/sproogen/resume-
 ## Installation & setup guide
 This template is designed to be hosted using GitHub pages and so that's what these instructions will cover. If you plan on hosting it seperately then there might be some extra steps that we wont cover.
 
+Before starting it might be useful to familiarise yourself with [Jekyll](https://jekyllrb.com/docs/home/), [Markdown](https://www.markdownguide.org/getting-started) and [GitHub pages](https://pages.github.com/).
+
 ##### Step 1 - GitHub
 Start by creating an account on [GitHub](https://github.com/join)
 
@@ -77,7 +79,15 @@ A list of all your projects, each project will follow this format
 
 ## Running locally
 
-TODO: Write instructions on installing ruby and jekyll locally and launching site locally.
+Before you start make sure you have *Ruby* and the gems for *Jekyll* installed locally. You can find out how to do that [here](https://jekyllrb.com/docs/installation/).
+
+1. Clone your resume repository locally *(if you haven't already)*
+2. `cd [your-repository-name]`
+3. `bundle install`
+4. `bundle exec jekyll serve`
+5. Open your browser to `http://localhost:4000`
+
+Any changes you make will automatically build and you will be able to see these by refreshing your browser.
 
 ## Contributing
 
@@ -88,13 +98,13 @@ This project is intended to be a safe, welcoming space for collaboration, and co
 
 Before you start make sure you have *Ruby* and the gems for *Jekyll* installed locally. You can find out how to do that [here](https://jekyllrb.com/docs/installation/).
 
-1. Fork/Clone the repository locally
+1. Fork and or clone this repository locally
 2. `cd resume-theme`
 3. `bundle install`
 4. `bundle exec jekyll serve`
 5. Open your browser to `http://localhost:4000`
 
-Any changes you make will automatically build and you will see these by refreshing your browser. To find out more about *Jekyll* take a look [here](https://jekyllrb.com/docs/usage/).
+Any changes you make will automatically build and you will be able to see these by refreshing your browser. To find out more about *Jekyll* take a look [here](https://jekyllrb.com/docs/usage/).
 
 ## License
 
