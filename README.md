@@ -1,6 +1,12 @@
 # resume-theme [![Build Status](https://travis-ci.org/sproogen/resume-theme.svg?branch=master)](https://travis-ci.org/sproogen/resume-theme)
 
-TODO: Introduction
+*A modern simple static resume template and theme. Powered by Jekyll and GitHub pages.*
+
+[View Demo](https://sproogen.github.io/resume-theme/)
+
+![img](example.png)
+
+You can view the full project [roadmap here](https://github.com/sproogen/resume-theme/projects/1).
 
 ## Installation & setup guide
 This template is designed to be hosted using GitHub pages and so that's what these instructions will cover. If you plan on hosting it seperately then there might be some extra steps that we wont cover.
