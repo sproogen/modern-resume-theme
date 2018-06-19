@@ -22,8 +22,8 @@ Pull requests are the best way to propose changes to the codebase (we use [Githu
 ## Any contributions you make will be under the MIT Software License
 In short, when you submit code changes, your submissions are understood to be under the same [MIT License](http://choosealicense.com/licenses/mit/) that covers the project. Feel free to contact the maintainers if that's a concern.
 
-## Report bugs using Github's [issues](https://github.com/briandk/transcriptase-atom/issues)
-We use GitHub issues to track public bugs. Report a bug by [opening a new issue](); we've even got bug templates to make it easier for you!
+## Report bugs using Github's [issues](https://github.com/sproogen/resume-theme/issues)
+We use GitHub issues to track public bugs. Report a bug by [opening a new issue](https://github.com/sproogen/resume-theme/issues/new?template=bug_report.md); we've even got bug templates to make it easier for you!
 
 **Great Bug Reports** tend to have:
 
@@ -42,4 +42,4 @@ As this is mostly templating we don't have many linting rules, but please
 * Keep it tidy and easily understandable
 
 ## License
-By contributing, you agree that your contributions will be licensed under its MIT License.
+By contributing, you agree that your contributions will be licensed under its [MIT License](http://choosealicense.com/licenses/mit/).
