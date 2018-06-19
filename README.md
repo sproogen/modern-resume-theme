@@ -1,4 +1,4 @@
-# resume-theme [![Build Status](https://travis-ci.org/sproogen/resume-theme.svg?branch=master)](https://travis-ci.org/sproogen/resume-theme)
+# resume-theme [![Gem Version](https://badge.fury.io/rb/resume-theme.svg)](https://badge.fury.io/rb/resume-theme) [![Build Status](https://travis-ci.org/sproogen/resume-theme.svg?branch=master)](https://travis-ci.org/sproogen/resume-theme)
 
 *A modern simple static resume template and theme. Powered by Jekyll and GitHub pages.*
 
