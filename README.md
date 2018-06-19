@@ -4,7 +4,7 @@
 
 [View Demo](https://sproogen.github.io/resume-theme/)
 
-![img](example.png)
+![img](screenshot.png)
 
 You can view the full project [roadmap here](https://github.com/sproogen/resume-theme/projects/1).
 
