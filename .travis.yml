@@ -29,6 +29,9 @@ script:
 after_success:
   - ./scripts/merge-downstream.sh
 
+before_deploy:
+  - gem build resume-theme.gemspec
+
 deploy:
   - provider: rubygems
     on:
@@ -36,6 +39,6 @@ deploy:
     api_key: ${RUBYGEMS_TOKEN}
   - provider: releases
     api_key: ${GITHUB_TOKEN}
-    file: "resume-theme.gemspec"
+    file: "resume-theme-$(gem bump --pretend --no-commit | awk '{ print $3 }').gem"
     on:
       branch: master
