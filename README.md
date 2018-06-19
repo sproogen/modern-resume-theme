@@ -89,6 +89,8 @@ Before you start make sure you have *Ruby* and the gems for *Jekyll* installed l
 
 Any changes you make will automatically build and you will be able to see these by refreshing your browser.
 
+*Note: You will need to re-run `bundle exec jekyll serve` to see changes made in `_config.yml`.*
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/sproogen/resume-theme. You can view our full guide to contributing [here](https://github.com/sproogen/resume-theme/blob/master/CONTRIBUTING.md)
@@ -105,6 +107,8 @@ Before you start make sure you have *Ruby* and the gems for *Jekyll* installed l
 5. Open your browser to `http://localhost:4000`
 
 Any changes you make will automatically build and you will be able to see these by refreshing your browser. To find out more about *Jekyll* take a look [here](https://jekyllrb.com/docs/usage/).
+
+*Note: You will need to re-run `bundle exec jekyll serve` to see changes made in `_config.yml`.*
 
 ## License
 
