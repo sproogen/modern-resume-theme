@@ -1,25 +1,24 @@
 <div class="container projects-container">
-    <h3>{{ site.projects_title | default: "Projects" }}</h3>
-
-    {% for project in site.data.projects %}
-        <div class="row clearfix project">
-            <div class="col-xs-12 col-sm-4 col-md-3 left-column">
-                <h4>{{ project.name }}</h4>
-                {%- if project.link -%}
-                    <a href="http://{{ project.link }}" target="_blank">{{ project.link }}</a>
-                {%- endif -%}
-                <p>
-                    <a href="https://github.com/{{ project.github }}" target="_blank">
-                        <i class="fa fa-github"></i>
-                    </a>
-                </p>
-            </div>
-            <div class="col-xs-12 col-sm-8 col-md-9">
-                {%- if project.quote -%}
-                    <p class="quote">{{ project.quote }}</p>
-                {%- endif -%}
-                {{ project.description | strip | markdownify }}
-            </div>
-        </div>
-    {% endfor %}
+  <h3>{{ site.projects_title | default: "Projects" }}</h3>
+  {% for project in site.data.projects %}
+    <div class="row clearfix project">
+      <div class="col-xs-12 col-sm-4 col-md-3 left-column">
+        <h4>{{ project.name }}</h4>
+        {%- if project.link -%}
+          <a href="http://{{ project.link }}" target="_blank">{{ project.link }}</a>
+        {%- endif -%}
+        <p>
+          <a href="https://github.com/{{ project.github }}" target="_blank">
+            <i class="fa fa-github"></i>
+          </a>
+        </p>
+      </div>
+      <div class="col-xs-12 col-sm-8 col-md-9">
+        {%- if project.quote -%}
+          <p class="quote">{{ project.quote }}</p>
+        {%- endif -%}
+        {{ project.description | strip | markdownify }}
+      </div>
+    </div>
+  {% endfor %}
 </div>
