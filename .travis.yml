@@ -33,8 +33,7 @@ deploy:
   - provider: rubygems
     on:
       branch: master
-    api_key:
-      secure: "RNKG1VHenOH/xa5Qax6nK8rEP4iS9rQ28jXOb0q3sgWbcgRoBm2B9lUl1WZ6gPcOIIlN+79FFXEzWJMM1NPxs9N5ZLHVQV35D8ApA2lFOU8C4jzgQstAIXh0Pa8HBHTnYbjHObobiuKmI4oqOQ/WV8I6281Ol+PcQizstLwiHI+soqRea94vuuOCqalaQL9zOXZHaqYyQYJSJOFWAyPO3+wjJU8lpN9Dt3n2J+XZujbdIG99otQAE+/dr+cy0ax4a8K0voEOQ9rVdSUjXMspsog7kT+qcVUehmcTfVRyWZcUPTgVgJ3vneWTtdRTVAK75TuENlPFJ0SsIYuHmIHigQpvdWBGFF43h+Ipm37Y+jRTdwxhhShmrfQ4Ljvnp/AahxHmMUSF12c0Ft0wPCsMqWbQJs9MZneTB5NXq+OvJDI2Ve8fYvrINgPdFv+tn8gE8tR8BU3nZB+gsFLzdOiJPfwCxf9xSTexWYCTSqFoo9LgML00g0BykQE9Nm4mY0/y4VqUjMCAoHnlh7hK7N2wFNBiGEcGtwmRVacCBWz42W5lX6T8KuM5nT10hOwXF+uVSUsSw7JglHOWYharegjnhnjS9fbbQCUXSuDuUunZWagTYKj4QM94BmMoEAT+RZ1LsKWR6SojjMB8Cms2J70TcqZBsO5CBGug1VWk6NzdNJI="
+    api_key: ${RUBYGEMS_TOKEN}
   - provider: releases
     api_key: ${GITHUB_TOKEN}
     file: "resume-theme-$(gem bump --pretend --no-commit | awk '{ print $3 }').gem"
