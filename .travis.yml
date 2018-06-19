@@ -36,6 +36,6 @@ deploy:
     api_key: ${RUBYGEMS_TOKEN}
   - provider: releases
     api_key: ${GITHUB_TOKEN}
-    file: "resume-theme-$(gem bump --pretend --no-commit | awk '{ print $3 }').gem"
+    file: "resume-theme.gemspec"
     on:
       branch: master
