@@ -2,10 +2,7 @@
   <h3>{{ site.more_title | default: "A Little More About Me" }}</h3>
   <div class="row clearfix">
     <div class="col-md-12">
-      {% assign paragraphs = site.more_content | strip | newline_to_br | split: '<br />' %}
-      {% for paragraph in paragraphs %}
-        {{ paragraph | markdownify }}
-      {% endfor %}
+      {{ site.more_content | strip | markdownify }}
     </div>
   </div>
 </div>

@@ -1,6 +1,5 @@
 <div class="container education-container">
   <h3>{{ site.education_title | default: "Education" }}</h3>
-
   {% for education in site.data.education %}
     <div class="row clearfix education">
       <div class="col-xs-12 col-sm-4 col-md-3 left-column">
@@ -12,10 +11,7 @@
         {%- if education.quote -%}
           <p class="quote">{{ education.quote }}</p>
         {%- endif -%}
-        {% assign paragraphs = education.description | strip | newline_to_br | split: '<br />' %}
-        {% for paragraph in paragraphs %}
-          {{ paragraph | markdownify }}
-        {% endfor %}
+        {{ education.description | strip | markdownify }}
       </div>
     </div>
   {% endfor %}

@@ -4,5 +4,5 @@
   qualification: Qualifications (eg. BA Performing Arts)
   quote: >
     Short institution or course description (optional)
-  description: >
+  description: | # this will include new lines to allow paragraphs
     Description of qualification
