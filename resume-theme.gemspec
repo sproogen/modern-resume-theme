@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["James Grant"]
   spec.email         = ["sprog31@gmail.com"]
 
-  spec.summary       = "Write a short summary, because Rubygems requires one."
+  spec.summary       = "A modern simple static resume template and theme. Powered by Jekyll and GitHub pages."
   spec.homepage      = "https://github.com/sproogen/resume-theme"
   spec.license       = "MIT"
 
