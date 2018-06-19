@@ -31,6 +31,7 @@ after_success:
 
 before_deploy:
   - gem build resume-theme.gemspec
+  - export RESUME_THEME_GEM=$(ls *.gem)
 
 deploy:
   - provider: rubygems
@@ -39,6 +40,7 @@ deploy:
     api_key: ${RUBYGEMS_TOKEN}
   - provider: releases
     api_key: ${GITHUB_TOKEN}
-    file: "resume-theme-$(gem bump --pretend --no-commit | awk '{ print $3 }').gem"
+    skip_cleanup: true
+    file: "${RESUME_THEME_GEM}"
     on:
       branch: master
