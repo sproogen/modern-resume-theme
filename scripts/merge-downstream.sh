@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# set -v
-
 if [ "$TRAVIS_BRANCH" == "master" ] && [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
   git remote set-branches --add origin develop;
   git fetch origin develop;

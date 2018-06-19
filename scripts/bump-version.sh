@@ -1,10 +1,8 @@
 #!/bin/bash
 
-set -ev
+set -e
 
 if [ "$TRAVIS_BRANCH" == "master" ] && [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
-  gem install gem-release --pre;
-
   git config --global user.email ${EMAIL};
   git config --global user.name ${USER};
 
