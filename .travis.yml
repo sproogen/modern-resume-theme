@@ -30,7 +30,7 @@ after_success:
   - ./scripts/merge-downstream.sh
 
 before_deploy:
-  - gem build resume-theme.gemspec
+  - gem build modern-resume-theme.gemspec
   - export RESUME_THEME_GEM=$(ls *.gem)
 
 deploy:
