@@ -3,12 +3,17 @@
   {% for experience in site.data.experience %}
     <div class="row clearfix experience">
       <div class="col-xs-12 col-sm-4 col-md-3 left-column">
-        <h4>{{ experience.company }}</h4>
-        {%- if experience.link -%}
-          <a href="http://{{ experience.link }}" target="_blank">{{ experience.link }}</a>
-        {%- endif -%}
-        <p>{{ experience.dates }}</p>
+        <h4 class="name">
+          {%- if experience.link -%}
+            <a href="http://{{ experience.link }}" target="_blank">
+          {%- endif -%}
+            {{ experience.company }}
+          {%- if experience.link -%}
+            </a>
+          {%- endif -%}
+          </h4>
         <p><b>{{ experience.job_title }}</b></p>
+        <p>{{ experience.dates }}</p>
       </div>
       <div class="col-xs-12 col-sm-8 col-md-9">
         {%- if experience.quote -%}

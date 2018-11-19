@@ -98,21 +98,60 @@ ul.icons a {
   }
 }
 
-.left-column a {
-  font-size: 2em;
-  color: inherit;
-  font-style: italic;
-  font-weight: 300;
-}
-
-.left-column p {
-  text-align: left;
-  margin-bottom: 3px;
-  font-size: 1.6em;
+.projects-container, .experience-container, .education-container {
+  h3 {
+    margin-bottom: 0;
+  }
 }
 
 .experience, .education, .project {
-  margin-top:30px;
+  margin-top: 3em;
+
+  .left-column {
+    text-align: left;
+
+    p {
+      margin-bottom: 3px;
+      font-size: 1.6em;
+      text-align: inherit;
+      font-weight: 300;
+
+      b {
+        font-weight: 500;
+      }
+    }
+
+    @media (max-width: 768px) {
+      text-align: center;
+
+      p {
+        text-align: center;
+      }
+    }
+
+    a {
+      color: inherit;
+      font-style: italic;
+      font-weight: 300;
+    }
+
+    .fa {
+      font-size: 2em;
+    }
+
+    .project-link {
+      font-size: 1.5em;
+    }
+
+    h4 {
+      margin-bottom: 0.4em;
+      font-weight: 500;
+
+      a {
+        font-weight: 500;
+      }
+    }
+  }
 }
 
 .footer-container {
@@ -149,7 +188,8 @@ ul.icons a {
 }
 
 p.quote {
-  font-size: 1.6em;
+  font-size: 1.4em;
   font-style: italic;
-  padding: 10px 50px;
+  padding: 1em 2.5em;
+  text-align: center;
 }
