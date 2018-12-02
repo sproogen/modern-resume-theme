@@ -24,7 +24,9 @@
         {%- include education.html -%}
       {%- endif -%}
 
-      {%- include more.html -%}
+      {%- if site.more_content -%}
+        {%- include more.html -%}
+      {%- endif -%}
 
     </div>
   </main>
