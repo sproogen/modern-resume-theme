@@ -44,7 +44,7 @@ ul.icons a {
   text-align: right;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .icons {
     text-align: center;
   }
@@ -59,7 +59,7 @@ ul.icons a {
   font-weight:500;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .header-contianer div{
     text-align: center;
   }
@@ -89,12 +89,12 @@ ul.icons a {
 }
 
 .into-text-1 {
-  margin-top:30px;
+  margin-top: 30px;
 }
 
 @media only screen and (max-width : 992px) {
   .into-text-1 {
-    margin-top:20px;
+    margin-top: 20px;
   }
 }
 
@@ -121,7 +121,7 @@ ul.icons a {
       }
     }
 
-    @media (max-width: 768px) {
+    @media screen and (max-width: 768px) {
       text-align: center;
 
       p {
@@ -146,6 +146,10 @@ ul.icons a {
     h4 {
       margin-bottom: 0.4em;
       font-weight: 500;
+
+      @media print {
+        margin-bottom: 0.2em;
+      }
 
       a {
         font-weight: 500;
@@ -192,4 +196,10 @@ p.quote {
   font-style: italic;
   padding: 1em 2.5em;
   text-align: center;
+
+  @media print {
+    text-align: left;
+    padding: 0em 1em;
+    margin-top: 1em;
+  }
 }
