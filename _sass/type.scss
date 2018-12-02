@@ -4,6 +4,10 @@ body {
   font-feature-settings: "kern", "liga", "pnum";
   font-size: 1em;
   line-height: 1.5;
+
+  @media print {
+    font-size: 0.9em;
+  }
 }
 
 h1,
@@ -49,6 +53,10 @@ h3 {
   border-bottom: dashed 2px #CCCCCC;
   padding-bottom: 10px;
   margin-bottom:40px;
+
+  @media print {
+    margin-bottom: 20px;
+  }
 }
 
 h4 {
