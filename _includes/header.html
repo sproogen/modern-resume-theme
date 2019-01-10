@@ -48,6 +48,13 @@
             </a>
           </li>
         {%- endif -%}
+        {%- if site.xing_username -%}
+          <li>
+            <a target="_blank" href="https://www.xing.com/profile/{{ site.xing_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
+              <i class="fa fa-xing" title="Xing link"></i>
+            </a>
+          </li>
+        {%- endif -%}
         {%- if site.pinterest_username -%}
           <li>
             <a target="_blank" href="https://www.pinterest.com/{{ site.pinterest_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
