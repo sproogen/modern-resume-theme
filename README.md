@@ -70,6 +70,21 @@ A list of all your experience, each experience will follow this format
     Description of role
 ```
 
+If you wish to specify multiple titles for a single company, use this format
+```
+- company: Company name
+  link: Link to company (optional)
+  jobs:
+    - title: Job title 1
+      dates: Date Range (eg. November 2016 - present) 
+    - title: Job title 2
+      dates: Date Range (eg. January 2015 - November 2016) 
+  quote: >
+   Short description of the company (optional)
+  description: | # this will include new lines to allow paragraphs
+    Description of role
+```
+
 ##### _data/projects.yml
 A list of all your projects, each project will follow this format
 ```
