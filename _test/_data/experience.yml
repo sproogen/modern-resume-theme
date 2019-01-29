@@ -13,3 +13,11 @@
   description: >
     Description of role
 
+- company: Company 3
+  jobs:
+    - title: Job title 1
+      dates: February 2013 - December 2013
+    - title: Job title 2
+      dates: June 2012 - February 2013
+  description: >
+    Description of role
