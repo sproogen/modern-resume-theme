@@ -7,11 +7,13 @@
 
 ![img](screenshot.png)
 
-*Thank you for checking out my resume theme / template. If you have any feedback or suggestions for things I can add please let me know by either by raising an [issue](https://github.com/sproogen/modern-resume-theme/issues/new/choose) or feel free to send me an email to [sprog31@gmail.com](mailto:sprog31@gmail.com). I would love to see how you are using it and I'm always happy to help.*
+*Thank you for checking out my resume theme / template. If you have any feedback or suggestions for things I can add please let me know by either by raising an [issue](https://github.com/sproogen/modern-resume-theme/issues/new/choose) or feel free to send me an email to [sprog31@gmail.com](mailto:sprog31@gmail.com), I'm always happy to help.*
+
+*I always enjoy seeing how people are using my creatings and if you would like to say thanks feel free to [buy me a coffee (buymeacoffee.com/vJ6HfLu)](https://buymeacoff.ee/vJ6HfLu).*
 
 *If you would like to see how I am using this then you can view my resume [here (jameswgrant.co.uk)](http://www.jameswgrant.co.uk/) and find the code [here (sproogen/jameswgrant)](https://github.com/sproogen/jameswgrant), hopefully this might help you.*
 
-You can view the full project [roadmap here](https://github.com/sproogen/modern-resume-theme/projects/1).
+You can view the project [roadmap here](https://github.com/sproogen/modern-resume-theme/projects/1).
 
 ## Installation & setup guide
 This template is designed to be hosted using GitHub pages and so that's what these instructions will cover. If you plan on hosting it seperately then there might be some extra steps that we wont cover.
