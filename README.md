@@ -61,7 +61,7 @@ A list of all your education, each education will follow this format
 A list of all your experience, each experience will follow this format
 ```
 - company: Company name
-  link: Link to company (optional)
+  link: Link to company (eg. https://google.com)(optional)
   job_title: Job title
   dates: Date Range (eg. November 2016 - present)
   quote: >
@@ -89,7 +89,7 @@ If you wish to specify multiple titles for a single company, use this format
 A list of all your projects, each project will follow this format
 ```
 - name: Project name
-  link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  link: Link to project (eg. https://sproogen.github.io/modern-resume-theme)(optional)
   github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
   quote: >
     Short overview of the project (optional)
