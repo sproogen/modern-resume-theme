@@ -90,6 +90,11 @@
           Email: <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a>
         </p>
       {%- endif -%}
+      {%- if site.phone -%}
+        <p>
+          Phone: {{ site.phone | escape }}
+        </p>
+      {%- endif -%}
       {%- if site.website -%}
         <p>
           Web: <a href="http://{{ site.website }}" target="_blank">{{ site.website | escape }}</a>
