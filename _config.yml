@@ -6,7 +6,8 @@ repository: Git repository where your resume will be hosted, only required if yo
 name: Your Name
 title: Your job title
 email: Your email (optional)
-website: Your website (optional)
+phone: Your phone number (optional)
+website: Your website (eg. https://google.com)(optional)
 
 # Social links
 twitter_username: jekyllrb

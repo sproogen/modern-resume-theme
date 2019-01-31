@@ -5,15 +5,19 @@
       <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 left-column">
         <h4 class="name">
           {%- if experience.link -%}
-            <a href="http://{{ experience.link }}" target="_blank">
+            {% include a.html href=experience.link %}
           {%- endif -%}
-            {{ experience.company }}
+          {{ experience.company }}
           {%- if experience.link -%}
             </a>
           {%- endif -%}
           </h4>
         <p><b>{{ experience.job_title }}</b></p>
         <p>{{ experience.dates }}</p>
+        {% for job in experience.jobs %}
+          <p><b>{{ job.title }}</b></p>
+          <p>{{ job.dates }}</p>
+        {% endfor %}
       </div>
       <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
         {%- if experience.quote -%}
