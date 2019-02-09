@@ -126,6 +126,8 @@ This project is intended to be a safe, welcoming space for collaboration, and co
 
 Before you start make sure you have *Ruby* and the gems for *Jekyll* installed locally. You can find out how to do that [here](https://jekyllrb.com/docs/installation/).
 
+*Note: You will need version `1.15.2` of bundler, as this is the only version that Heroku supports.*
+
 1. Fork and or clone this repository locally
 2. `cd modern-resume-theme`
 3. `bundle install`

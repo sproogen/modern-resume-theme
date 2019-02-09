@@ -35,6 +35,7 @@ GEM
     execjs (2.7.0)
     faraday (0.15.4)
       multipart-post (>= 1.2, < 3)
+    ffi (1.10.0)
     ffi (1.10.0-x64-mingw32)
     forwardable-extended (2.6.0)
     gemoji (3.0.0)
@@ -224,6 +225,8 @@ GEM
       jekyll-seo-tag (~> 2.1)
     minitest (5.11.3)
     multipart-post (2.0.0)
+    nokogiri (1.10.1)
+      mini_portile2 (~> 2.4.0)
     nokogiri (1.10.1-x64-mingw32)
       mini_portile2 (~> 2.4.0)
     octokit (4.13.0)
@@ -260,12 +263,12 @@ GEM
     yell (2.0.7)
 
 PLATFORMS
+  ruby
   x64-mingw32
 
 DEPENDENCIES
-  bundler (~> 1.15.2)
   html-proofer (~> 3.9)
   modern-resume-theme!
 
 BUNDLED WITH
-   1.15.2
+   2.0.1
