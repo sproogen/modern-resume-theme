@@ -122,7 +122,11 @@ This project is intended to be a safe, welcoming space for collaboration, and co
 
 ## Development
 
+### Locally
+
 Before you start make sure you have *Ruby* and the gems for *Jekyll* installed locally. You can find out how to do that [here](https://jekyllrb.com/docs/installation/).
+
+*Note: You will need version `1.15.2` of bundler, as this is the only version that Heroku supports.*
 
 1. Fork and or clone this repository locally
 2. `cd modern-resume-theme`
@@ -133,6 +137,10 @@ Before you start make sure you have *Ruby* and the gems for *Jekyll* installed l
 Any changes you make will automatically build and you will be able to see these by refreshing your browser. To find out more about *Jekyll* take a look [here](https://jekyllrb.com/docs/usage/).
 
 *Note: You will need to re-run `bundle exec jekyll serve` to see changes made in `_config.yml`.*
+
+### Docker
+
+If you have docker installed you can simply run `docker-compose up` to launch the site in a container, it will then be hosted at `http://localhost:4000`
 
 ## License
 
