@@ -1,5 +1,6 @@
 # Experience template
-- company: Company name
+- layout: left
+  company: Company name
   link: Link to company (optional)
   job_title: Job title
   dates: Date Range (eg. November 2016 - present)

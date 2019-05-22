@@ -100,10 +100,10 @@ ul.icons a {
   }
 }
 
-.experience, .layout {
+.layout {
   margin-top: 3em;
 
-  .left-column {
+  .details {
     text-align: left;
 
     p {
@@ -151,6 +151,18 @@ ul.icons a {
         font-weight: 500;
       }
     }
+  }
+}
+
+.layout-right, .layout-top-right {
+  .details {
+    text-align: right;
+  }
+}
+
+.layout-top-middle {
+  .details {
+    text-align: center;
   }
 }
 

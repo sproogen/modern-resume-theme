@@ -6,7 +6,8 @@
   description: >
     Description of qualification
 
-- name: Institution 2
+- layout: left
+  name: Institution 2
   dates: 2013 - 2016
   qualification: A levels
   description: >
