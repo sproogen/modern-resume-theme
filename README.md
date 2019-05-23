@@ -11,8 +11,6 @@
 
 *I always enjoy seeing how people are using my creations and if you would like to say thanks feel free to [buy me a coffee (buymeacoffee.com/vJ6HfLu)](https://buymeacoff.ee/vJ6HfLu).*
 
-[![Buy me a coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/vJ6HfLu)
-
 *If you would like to see how I am using this then you can view my resume [here (jameswgrant.co.uk)](http://www.jameswgrant.co.uk/) and find the code [here (sproogen/jameswgrant)](https://github.com/sproogen/jameswgrant), hopefully this might help you.*
 
 You can view the project [roadmap here](https://github.com/sproogen/modern-resume-theme/projects/1).
@@ -52,7 +50,8 @@ A full example of the _config.yml can be found [here](https://github.com/sprooge
 ##### _data/education.yml
 A list of all your education, each education will follow this format
 ```
-- name: Institution name
+- layout: left (options: left, right, top, top-right, top-middle)
+  name: Institution name
   dates: Date Range (eg. 2016 - 2019)
   qualification: Qualifications (eg. BA Performing Arts)
   quote: >
@@ -64,7 +63,8 @@ A list of all your education, each education will follow this format
 ##### _data/experience.yml
 A list of all your experience, each experience will follow this format
 ```
-- company: Company name
+- layout: left (options: left, right, top, top-right, top-middle)
+  company: Company name
   link: Link to company (eg. https://google.com)(optional)
   job_title: Job title
   dates: Date Range (eg. November 2016 - present)
@@ -74,9 +74,10 @@ A list of all your experience, each experience will follow this format
     Description of role
 ```
 
-If you wish to specify multiple titles for a single company, use this format
+If you wish to specify multiple job titles for a single company, use this format
 ```
-- company: Company name
+- layout: left (options: left, right, top, top-right, top-middle)
+  company: Company name
   link: Link to company (optional)
   jobs:
     - title: Job title 1
@@ -92,7 +93,8 @@ If you wish to specify multiple titles for a single company, use this format
 ##### _data/projects.yml
 A list of all your projects, each project will follow this format
 ```
-- name: Project name
+- layout: left (options: left, right, top, top-right, top-middle)
+  name: Project name
   link: Link to project (eg. https://sproogen.github.io/modern-resume-theme)(optional)
   github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
   quote: >
@@ -100,6 +102,9 @@ A list of all your projects, each project will follow this format
   description: | # this will include new lines to allow paragraphs
     Description about the work on/with the project
 ```
+
+##### assets/main.scss
+Add any css changes or additions you want to make here after the line `@import 'modern-resume-theme';`
 
 ## Running locally
 
