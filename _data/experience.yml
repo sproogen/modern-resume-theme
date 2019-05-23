@@ -1,4 +1,5 @@
-- company: The Boring Company
+- layout: left
+  company: The Boring Company
   link: boringcompany.com
   job_title: Senior Network System Administrator
   dates: November 2017 - Present

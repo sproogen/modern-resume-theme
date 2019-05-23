@@ -1,4 +1,5 @@
-- name: Super awesome project
+- layout: top
+  name: Super awesome project
   link: github.com/sproogen
   github: sproogen/resume-theme
   quote: >
