@@ -1,24 +1,6 @@
 <div class="container projects-container">
   <h3>{{ site.projects_title | default: "Projects" }}</h3>
   {% for project in site.data.projects %}
-    <div class="row clearfix project">
-      <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 left-column">
-        <h4>{{ project.name }}</h4>
-        {%- if project.link -%}
-          {% include a.html href=project.link class="project-link" %}{{ project.link }}</a>
-        {%- endif -%}
-        <p class="no-print">
-          <a href="https://github.com/{{ project.github }}" target="_blank">
-            <i class="fa fa-github" title="{{ project.name }} Github link"></i>
-          </a>
-        </p>
-      </div>
-      <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
-        {%- if project.quote -%}
-          <p class="quote">{{ project.quote }}</p>
-        {%- endif -%}
-        {{ project.description | strip | markdownify }}
-      </div>
-    </div>
+    {% include {{ project.layout | default: 'left' | append: ".html" }} item=project %}
   {% endfor %}
 </div>

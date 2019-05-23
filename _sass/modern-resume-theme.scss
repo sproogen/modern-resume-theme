@@ -100,10 +100,10 @@ ul.icons a {
   }
 }
 
-.experience, .education, .project {
+.layout {
   margin-top: 3em;
 
-  .left-column {
+  .details {
     text-align: left;
 
     p {
@@ -135,12 +135,12 @@ ul.icons a {
       font-size: 2em;
     }
 
-    .project-link {
+    .link {
       font-size: 1.5em;
     }
 
     h4 {
-      margin-bottom: 0.4em;
+      margin-bottom: 0.1em;
       font-weight: 500;
 
       @media print {
@@ -151,6 +151,18 @@ ul.icons a {
         font-weight: 500;
       }
     }
+  }
+}
+
+.layout-right, .layout-top-right {
+  .details {
+    text-align: right;
+  }
+}
+
+.layout-top-middle {
+  .details {
+    text-align: center;
   }
 }
 

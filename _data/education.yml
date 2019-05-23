@@ -1,5 +1,6 @@
 # Education Template
-- name: Institution name
+- layout: left
+  name: Institution name
   dates: Date Range (eg. 2016 - 2019)
   qualification: Qualifications (eg. BA Performing Arts)
   quote: >

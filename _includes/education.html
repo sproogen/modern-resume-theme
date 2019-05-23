@@ -1,18 +1,6 @@
 <div class="container education-container">
   <h3>{{ site.education_title | default: "Education" }}</h3>
   {% for education in site.data.education %}
-    <div class="row clearfix education">
-      <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 left-column">
-        <h4>{{ education.name }}</h4>
-        <p><b>{{ education.qualification }}</b></p>
-        <p>{{ education.dates }}</p>
-      </div>
-      <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
-        {%- if education.quote -%}
-          <p class="quote">{{ education.quote }}</p>
-        {%- endif -%}
-        {{ education.description | strip | markdownify }}
-      </div>
-    </div>
+    {% include {{ education.layout | default: 'left' | append: ".html" }} item=education %}
   {% endfor %}
 </div>
