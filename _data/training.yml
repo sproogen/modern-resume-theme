@@ -1,0 +1,9 @@
+- layout: top
+  name: Training Course Title
+  location: Location of training course
+  dates: Dates of training
+  verification: https://example.com
+  quote: >
+    Short overview of the course (optional)
+  description: | # this will include new lines to allow paragraphs
+    Description of what the course involved
