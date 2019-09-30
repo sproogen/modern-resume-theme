@@ -1,38 +1,38 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+repository: ObiMadu/ObiMadu.Github.Io
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
-phone: Your phone number (optional)
-website: Your website (eg. https://google.com)(optional)
+name: Obi F.M.
+tag: Personal Site
+title: Wannabe Web and Software Programmer
+email: Bob.Obi@Yahoo.Com
+phone: +234 9075855455
+website: Https://ObiMadu.Github.Io
 
 # Social links
+github_username:  ObiMadu
 twitter_username: jekyllrb
-github_username:  jekyll
-dribbble_username: jekyll
+#dribbble_username: jekyll
 facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
+#flickr_username: jekyll
+#instagram_username: jekyll
+#linkedin_username: jekyll
+#xing_username: jekyll
+#pinterest_username: jekyll
 youtube_username: jekyll
 googleplus_username: +jekyll
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
-about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else markdown supports such as
-    - Lists
-    - Tables
-    - Links
-    - Images
+about_profile_image: assets/images/profile.png
+about_content: | # this will include new lines to allow paragraphs. 
+    My name is __'Obichukwu Favour Madubuko'__ (Obi Madu, Obi F.M., for short).  
+    
+    I'm a born again christian. I recogise Jesus Christ who is the only Son of God and saviour of all mankind as my Lord and personal Saviour.
+    
+    Here's <mark>[more about me](http://www.obifm/about.html)</mark>
+   
 
 # Projects Section
 # projects_title: Projects #(Use this to override about projects section title)

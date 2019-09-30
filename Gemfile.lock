@@ -259,6 +259,7 @@ GEM
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
     unicode-display_width (1.6.0)
+    wdm (0.1.1)
     yell (2.2.0)
 
 PLATFORMS
@@ -268,6 +269,7 @@ PLATFORMS
 DEPENDENCIES
   html-proofer (~> 3.9)
   modern-resume-theme!
+  wdm (>= 0.1.0)
 
 BUNDLED WITH
-   1.15.2
+   1.17.2
