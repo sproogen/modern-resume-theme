@@ -27,11 +27,27 @@ googleplus_username: +jekyll
 # about_title: About Me (Use this to override about section title)
 about_profile_image: assets/images/profile.png
 about_content: | # this will include new lines to allow paragraphs. 
-    My name is __'Obichukwu Favour Madubuko'__ (Obi Madu, Obi F.M., for short).  
+    My name is ___<mark>Obichukwu</mark> <mark>Favour</mark> <mark>Madubuko</mark>___ (Obi Madu, Obi F.M., for short).  
+    I'm a born again christian. I recogise _<mark>Jesus Christ</mark>_ who is the only Son of God and saviour of all mankind as my Lord and personal Saviour.
     
-    I'm a born again christian. I recogise Jesus Christ who is the only Son of God and saviour of all mankind as my Lord and personal Saviour.
+    I spend my time serving God through Christ, Learning new things, practicalising some theoritical
+    IT based knowledge or speculation with the closest accesible PC i get my hands on, or else
+    documeting the little bits of knowledge i've acquired through time, within the IT circle specifically.
     
-    Here's <mark>[more about me](http://www.obifm/about.html)</mark>
+    I'm interested in Computers and other tech stuff many people refer to as geek.
+    I can operate near smoothly on the windows command line, engage the power of the linux bash,
+    and live with a GUI.
+    
+    I operate a bit above the rudiments of the _HTML, CSS and Python_ Programming languages.
+    I built this site from scratch in a jekyll production environment.
+    I'm a fan of free and open source software.
+    
+    I started this site as a presentable personal online journal.
+    Alot of the grammar in my writeups are unrefined.
+    
+    However, i write in hope that to the one who lands here with a problem, and one covered 
+    here, he/she would be able to find a understandable solution, in a Do-It-Yourself fashion.
+    
    
 
 # Projects Section
@@ -44,14 +60,14 @@ about_content: | # this will include new lines to allow paragraphs.
 # education_title: Education #(Use this to override about education section title)
 
 # More Section
-# more_title: A Little More About Me #(Use this to override about more section title)
+more_title: My Interests
 more_content: | # this will include new lines to allow paragraphs
-  This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+  This is where i'll write a little more about myself. I could title this section **Interests** and include some of my other interests.
 
-  Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+  Or i could title it **Skills** and write a bit more about things that make me more desirable, like *leadership* or *teamwork*
 
 # Footer
-footer_show_references: true
+footer_show_references: false
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)

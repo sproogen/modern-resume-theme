@@ -1,10 +1,10 @@
 # Experience template
 - layout: left
-  company: Company name
-  link: Link to company (optional)
-  job_title: Job title
-  dates: Date Range (eg. November 2016 - present)
+  company: Peace House Press
+  link: 
+  job_title: Printing Apprentice
+  dates: November 2018 - present
   quote: >
-   Short description of the company (optional)
+   Certified training in printing
   description: | # this will include new lines to allow paragraphs
     Description of role
