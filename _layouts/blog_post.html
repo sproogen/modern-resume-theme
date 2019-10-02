@@ -1,0 +1,31 @@
+---
+layout: blog_default
+---
+
+<!-- Content
+   ================================================== -->
+   <div id="content-wrap">
+
+   	<div class="row">
+
+   		<div id="main" class="eight columns">
+
+   			<article class="entry">
+
+					{%- include post_header.html -%}  
+				
+					<div class="entry-content-media">
+						<div class="post-thumb">
+							<img src="images/m-farmerboy.jpg">
+						</div> 
+					</div>
+					
+					{{content}}
+					{%- include post_tags.html -%} 
+					{%- include post_next_previous.html -%} 
+			</article>
+				{%- include post_comments.html -%}  	
+		</div> <!-- main end -->
+		{%- include post_sidebar.html -%}	
+		</div> <!-- end row -->
+	</div> <!-- end content-wrap -->  
