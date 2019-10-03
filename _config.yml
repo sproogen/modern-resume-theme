@@ -10,6 +10,24 @@ email: Bob.Obi@Yahoo.Com
 phone: +234 9075855455
 website: Https://ObiMadu.Github.Io
 
+# Blog
+blog_title: Obi F.M.
+blog_tag: Personal Blog
+blog_slogan: Personal Blog
+blog_description:
+blog_author: Obi F.M.
+collections:
+    category:
+    output: true
+defaults:  
+  -
+    scope: 
+     path: ""
+     type: category
+   values: 
+   layout: "blog_default"
+
+
 # Social links
 github_username:  ObiMadu
 telegram_username: ObiMadu

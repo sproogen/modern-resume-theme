@@ -1,4 +1,7 @@
 					<p class="tags">
   			         <span>Tagged in </span>:
-  				      <a href="#">orci</a>, <a href="#">lectus</a>, <a href="#">varius</a>, <a href="#">turpis</a>
+					 <!-- Work on this -->
+					 {%for tag in post.tags%}
+  				      <span>{{tag}}<span>
+					 {%endfor%}
   			       </p> 

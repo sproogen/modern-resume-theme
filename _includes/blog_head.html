@@ -1,11 +1,11 @@
-<head>
 
+<head>
    <!--- Basic Page Needs
    ================================================== -->
    <meta charset="utf-8">
-	<title>Keep It Simple.</title>
-	<meta name="description" content="">  
-	<meta name="author" content="">
+	<title>{{site.name}} | {{site.blog_tag}}</title>
+	<meta name="description" content="{{site.blog_description}}">  
+	<meta name="author" content="{{site.blog_author}}">
 
 	<!-- mobile specific metas
    ================================================== -->
@@ -13,16 +13,16 @@
 
    <!-- CSS
     ================================================== -->
-   <link rel="stylesheet" href="/assets/css/default.css">
-	<link rel="stylesheet" href="/assets/css/layout.css">  
-	<link rel="stylesheet" href="/assets/css/media-queries.css"> 
+   <link rel="stylesheet" href=" {% link /assets/css/default.css %}">
+	<link rel="stylesheet" href=" {% link /assets/css/layout.css %}">  
+	<link rel="stylesheet" href="{% link /assets/css/media-queries.css %}"> 
 
    <!-- Script
    ================================================== -->
-	<script src="/assets/js/modernizr.js"></script>
+	<script src="{% link /assets/js/modernizr.js %}"></script>
 
    <!-- Favicons
 	================================================== -->
-	<link rel="shortcut icon" href="favicon.png" >
+	<link rel="shortcut icon" href="{% link /assets/images/favicon.png %}">
 
 </head>

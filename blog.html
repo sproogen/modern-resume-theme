@@ -1,0 +1,48 @@
+---
+layout: blog_default
+---
+   <!-- Content
+   ================================================== -->
+   <div id="content-wrap">
+
+   	<div class="row">
+
+   		<div id="main" class="eight columns">
+
+			{% for post in site.posts %}
+	   		<article class="entry">
+
+					<header class="entry-header">
+
+						<h2 class="entry-title">
+							<a href="{{post.url}}" title="{{post.title}}">{{post.title}}</a>
+						</h2> 				 
+					
+						<div class="entry-meta">
+							<ul>
+								<li>{{post.date | date_to_string: "ordinal"}}</li>
+								<span class="meta-sep">&bull;</span>								
+								<li><a href="" title="" rel="category tag">{{post.category}}</a></li>
+								<span class="meta-sep">&bull;</span>
+								<li>{{site.blog_author}}</li>
+							</ul>
+						</div> 
+					 
+					</header> 
+					
+					<div class="entry-content">
+						<p>{{post.excerpt}}</p>
+					</div> 
+
+			</article> 
+			<!-- end entry -->				
+			{% endfor %}
+				
+   		</div> 
+		<!-- end main -->
+		{%- include post_sidebar.html -%}	
+   	</div> 
+	<!-- end row -->
+
+   </div> 
+   <!-- end content-wrap -->
