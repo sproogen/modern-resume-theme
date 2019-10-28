@@ -1,3 +1,0 @@
-@import "~bootswatch/dist/[theme]/variables";
-@import "~bootstrap/scss/bootstrap";
-@import "~bootswatch/dist/[theme]/bootswatch";
