@@ -147,7 +147,10 @@ html {
     top: 0px; }
 
 body {
-  background: #ffffff;
+  background-color: var(--main-background-color);
+  color: var(--main-text-color);
+
+  
   font-family: Roboto, sans-serif;
   -webkit-font-smoothing: antialiased; }
 

@@ -1,0 +1,17 @@
+html, html[data-theme="light"], {
+    --light-text-color: hsl(0, 0%, 35%);
+    --main-background-color: hsl(0, 5%, 95%);
+    --main-text-color: hsl(0, 0%, 0%);
+  }
+  
+  html[data-theme="dark"] {
+    --light-text-color: hsl(0, 0%, 60%);
+    --main-background-color: hsl(0, 0%, 10%);
+    --main-text-color: hsl(123, 94%, 50%);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    html {
+      content: "dark";
+    }
+}
