@@ -12,11 +12,4 @@
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
   {%- endif -%}
-
-  <script language="javascript">
-    const theme = localStorage.getItem('theme');
-	    if (theme === "dark") {
-		    document.documentElement.setAttribute('data-theme', 'dark');
-	  }
-  </script>
 </head>
