@@ -4,22 +4,20 @@ repository: Git repository where your resume will be hosted, only required if yo
 
 # Personal info
 name: K. Shivaramakrishnan
-title: NLP Consultant / CTO / CEO
+title: NLP Consultant | DS
 email: shiva.adam@gmail.com
 phone: +91 82489 84778
 # website: Your website (eg. https://google.com)(optional)
 
-# Social links
 twitter_username: jekyllrb
 github_username:  jekyll
-#dribbble_username: jekyll
-#facebook_username: jekyll
-#flickr_username: jekyll
-#instagram_username: jekyll
 linkedin_username: jekyll
 
 # About Section
-# about_title: About Me (Use this to override about section title)
+Self-driven NLP and biohardware Engineer with 5+ years of experience in architecting, 
+developing and deploying robust embedded and saas and MLaaS solutions. 
+Adept at working in fast paced startup environments and contributions to reduce chaos.
+
 about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
   Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
