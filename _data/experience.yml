@@ -1,19 +1,24 @@
 # Experience template
 - layout: left
-  company: Company name - Cephei Technologies, IIT Madras Research Park
- # link: Link to company (optional)
+  company: Company name :
+  Cephei Technologies, IIT Madras Research Park
   job_title: Co. Founder & CTO
   dates: August'2019 to Present
   quote: >
-   Short description of the company (optional)
+   Cephei is a deep-technology startup Incubated at 
+   MedTech Incubator of IIT Madras Incubation cell. 
+   Our platform provides natural and technical language 
+   based featured learning and interaction solutions.
   description: | # this will include new lines to allow paragraphs
     Description of role
+    As Founding member 
 
 - layout: left
-  company: Company name
-  link: Link to company (optional)
-  job_title: Job title
-  dates: Date Range (eg. November 2016 - present)
+  company: Company name :
+  Healthcare Technology Innovation Centre, IIT Madras Research Park
+  link: https://htic.iitm.ac.in
+  job_title: Technical Consultant
+  dates: 
   quote: >
    Short description of the company (optional)
   description: | # this will include new lines to allow paragraphs
