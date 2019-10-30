@@ -1,9 +1,9 @@
 # Experience template
 - layout: left
-  company: Company name
-  link: Link to company (optional)
-  job_title: Job title
-  dates: Date Range (eg. November 2016 - present)
+  company: Cephei Technologies, MedTech Incubation Centre,IIT Madras Research Park
+ # link: Link to company (optional)
+  job_title: Co. Founder & CTO
+  dates: August'2019 to Present
   quote: >
    Short description of the company (optional)
   description: | # this will include new lines to allow paragraphs
