@@ -118,10 +118,10 @@ ul.icons a {
     }
 
     @media screen and (max-width: 768px) {
-      text-align: center;
+      text-align: center!important;
 
       p {
-        text-align: center;
+        text-align: center!important;
       }
     }
 
@@ -160,6 +160,20 @@ ul.icons a {
   }
 }
 
+.layout-right {
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+.layout-top-right {
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .layout-top-middle {
   .details {
     text-align: center;
@@ -170,13 +184,13 @@ ul.icons a {
   margin-top:100px;
 }
 
-.footer-container p{
+.footer-container p {
   text-align: center;
   font-style: italic;
   font-weight: 300;
 }
 
-.footer-container a{
+.footer-container a {
   color: inherit;
   font-style: italic;
   font-weight: 300;
