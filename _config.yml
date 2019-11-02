@@ -9,6 +9,10 @@ email: Your email (optional)
 phone: Your phone number (optional)
 website: Your website (eg. https://google.com)(optional)
 
+#Collections
+collections:
+- sections
+
 # Social links
 twitter_username: jekyllrb
 github_username:  jekyll
