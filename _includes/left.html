@@ -24,6 +24,17 @@
     {%- if include.item.quote -%}
       <p class="quote">{{ include.item.quote }}</p>
     {%- endif -%}
+    {%- if include.item.work_title -%}
+      <p class="quote">
+      {%- if include.item.work_url -%}
+        <a href="{{ include.item.work_url }}">
+      {%- endif -%}
+      {{ include.item.work_title }}
+      {%- if include.item.work_url -%}
+        </a>
+      {%- endif -%}
+    </p>
+    {%- endif -%}
     {{ include.item.description | strip | markdownify }}
   </div>
 </div>

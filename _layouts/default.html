@@ -32,6 +32,10 @@
         {%- include more.html -%}
       {%- endif -%}
 
+      {%- if site.data.publications.size > 0 -%}
+        {%- include publications.html -%}
+      {%- endif -%}
+
     </div>
   </main>
 
