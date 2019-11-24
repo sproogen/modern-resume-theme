@@ -12,4 +12,10 @@
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
   {%- endif -%}
+  {%- if jekyll.environment == 'production' and site.gtm -%}
+    {%- include gtm_head.html -%}
+  {%- endif -%}
+  {%- if jekyll.environment == 'production' and site.gtag -%}
+    {%- include gtag.html -%}
+  {%- endif -%}
 </head>
