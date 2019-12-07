@@ -1,54 +1,60 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+repository: camelop/about
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
-phone: Your phone number (optional)
-website: Your website (eg. https://google.com)(optional)
+name: Xiaoyuan Liu (刘啸远)
+title: Senior Undergrad, Computer Science
+email: lxy9843 [dot] sjtu [dot] edu [dot] cn
+phone: 132 - 6229 - 0218
+website: littleround.cn
+blog: littleround.cn/main
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-googleplus_username: +jekyll
+twitter_username: littleRound_cn
+github_username:  camelop
+linkedin_username: 啸远-刘-b46033190
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  I am an undergraduate student majoring in <mark>Computer Science</mark> at [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/), [ACM Honors Class](https://acm.sjtu.edu.cn/home), Zhiyuan College.
+  - **ACM Honors Class**: it is an elite CS program at SJTU for top 5% talented students.
+  - **Research Interest**: I am broadly interested in **computer security and systems**, especially building secure systems and use **machine learning** to boost their performance. I also want to explore how to manage and schedule machine learning components at the system level so they can be better applied without violating privacy.
 
-  You can even add paragraphs by using empty lines like this and add anything else markdown supports such as
-    - Lists
-    - Tables
-    - Links
-    - Images
+# Honors Section
+honor_title: Honors and Awards
+honor_content: |
+  - The 32nd China's National Olympiad in Informatics (NOI) Silver Medal [2015]
+  - KoGuan Encouragement Scholarship **(Top 0.3%, SJTU)** [2017]
+  - Zhiyuan Honorary Scholarship [2016, 2017, 2018, 2019]
+  - Academic Excellence Scholarship [2017, 2018, 2019]
+  - Outstanding Student Cadre **(Top 0.8%, SJTU)** [2018]
 
 # Projects Section
-# projects_title: Projects #(Use this to override about projects section title)
+projects_title: Selected Projects #(Use this to override about projects section title)
 
 # Experience Section
-# experience_title: Experience #(Use this to override about experience section title)
+experience_title: Research Experience #(Use this to override about experience section title)
 
 # Education Section
 # education_title: Education #(Use this to override about education section title)
 
 # More Section
-# more_title: A Little More About Me #(Use this to override about more section title)
+more_title: Misc #(Use this to override about more section title)
 more_content: | # this will include new lines to allow paragraphs
-  This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+  **Materials**
+  - [CV](https://littleround.cn/static/personal/cv_xiaoyuanliu_SJTU_2019_12.pdf)
 
-  Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+  **Teaching Experience**
+  - **Lead Teaching Assistant** C++ Programming (A) - Fall 2017
+  - **Lead Teaching Assistant** Data Structures - Spring 2018
+  - **Student Instructor** Principle and Practice of Computer Algorithms - Summer 2018
+
+  **Activities**
+  - Student Council Vice President 2018
+  - Head of the Department of Culture and Sports, Student Union 2017
 
 # Footer
 footer_show_references: true

@@ -97,7 +97,12 @@
       {%- endif -%}
       {%- if site.website -%}
         <p>
-          Web: {% include a.html href=site.website %}{{ site.website | escape }}</a>
+          Website: {% include a.html href=site.website %}{{ site.website | escape }}</a>
+        </p>
+      {%- endif -%}
+      {%- if site.blog -%}
+        <p>
+          Blog: {% include a.html href=site.blog %}{{ site.blog | escape }}</a>
         </p>
       {%- endif -%}
     </div>

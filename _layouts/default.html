@@ -12,16 +12,22 @@
 
       {%- include about.html -%}
 
-      {%- if site.data.projects.size > 0 -%}
-        {%- include projects.html -%}
+      {%- include honors.html -%}
+
+      {%- if site.data.education.size > 0 -%}
+        {%- include education.html -%}
       {%- endif -%}
 
       {%- if site.data.experience.size > 0 -%}
         {%- include experience.html -%}
       {%- endif -%}
 
-      {%- if site.data.education.size > 0 -%}
-        {%- include education.html -%}
+      {%- if site.data.teaching_experience.size > 0 -%}
+        {%- include teaching_experience.html -%}
+      {%- endif -%}
+
+      {%- if site.data.projects.size > 0 -%}
+        {%- include projects.html -%}
       {%- endif -%}
 
       {%- if site.more_content -%}

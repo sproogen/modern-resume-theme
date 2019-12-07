@@ -1,0 +1,8 @@
+<div class="container intro-container">
+  <h3>{{ site.about_title | default: "Honors" }}</h3>
+  <div class="row clearfix">
+    <div class="{{ 'col-xs-16 ' }}">
+      {{ site.honor_content | strip | markdownify }}
+    </div>
+  </div>
+</div>

@@ -1,9 +1,5 @@
 # Education Template
-- layout: left
-  name: Institution name
-  dates: Date Range (eg. 2016 - 2019)
-  qualification: Qualifications (eg. BA Performing Arts)
-  quote: >
-    Short institution or course description (optional)
-  description: | # this will include new lines to allow paragraphs
-    Description of qualification
+- layout: top-middle
+  name: Shanghai Jiao Tong University
+  dates: 2016 - 2020 (Expected)
+  qualification: Honors Bachelor of Science (B.Sc. Hons) in Computer Science
