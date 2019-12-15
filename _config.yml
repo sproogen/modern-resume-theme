@@ -9,6 +9,8 @@ email: Your email (optional)
 phone: Your phone number (optional)
 website: Your website (eg. https://google.com)(optional)
 
+darkmode: false
+
 # Social links
 twitter_username: jekyllrb
 github_username:  jekyll
@@ -31,7 +33,7 @@ about_content: | # this will include new lines to allow paragraphs
   You can even add paragraphs by using empty lines like this and add anything else markdown supports such as
     - Lists
     - Tables
-    - Links
+    - <a href="google.com">Links</a>
     - Images
 
 # Projects Section
