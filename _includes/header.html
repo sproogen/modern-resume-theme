@@ -34,6 +34,13 @@
             </a>
           </li>
         {%- endif -%}
+        {%- if site.stackoverflow_username -%}
+          <li>
+            <a target="_blank" href="https://stackoverflow.com/users/{{ site.stackoverflow_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
+              <i class="fab fa-stack-overflow" title="Stackoverflow link"></i>
+            </a>
+          </li>
+        {%- endif -%}
         {%- if site.instagram_username -%}
           <li>
             <a target="_blank" href="https://www.instagram.com/{{ site.instagram_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
@@ -89,7 +96,7 @@
               <i class="fab fa-orcid" title="ORCiD link"></i>
             </a>
           </li>
-        {%- endif -%}</ul>
+        {%- endif -%}
       </ul>
 
       {%- if site.email -%}
