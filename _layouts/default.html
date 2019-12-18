@@ -1,14 +1,18 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: " en " }}">
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 
 {%- include head.html -%}
 
-<body>
+<body class="{% if site.darkmode %}dark{% endif %}">
 
   {%- include header.html -%}
 
   <main class="page-content" aria-label="Content">
     <div class="wrapper">
+
+      {%- if jekyll.environment == 'production' and site.gtm -%}
+        {%- include gtm_body.html -%}
+      {%- endif -%}
 
       {%- include about.html -%}
 
@@ -32,7 +36,7 @@
   </main>
 
   {%- include footer.html -%}
-
+  <script src="{{ '/assets/js/index.js' | relative_url }}"></script>
 </body>
 
 </html>

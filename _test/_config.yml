@@ -12,6 +12,7 @@ website: sproogen.github.io/modern-resume-theme
 # Social links
 twitter_username: jekyllrb
 github_username:  jekyll
+stackoverflow_username: "00000001"
 dribbble_username: jekyll
 facebook_username: jekyll
 flickr_username: jekyll
@@ -21,6 +22,16 @@ xing_username: jekyll
 pinterest_username: jekyll
 youtube_username: jekyll
 googleplus_username: +jekyll
+orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+- title: Test link
+  icon: fa-ello
+  url: sproogen.github.io/modern-resume-theme
+# - title: another link
+#   icon: font awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
 
 # About Section
 # about_title: About Me (Use this to override about section title)

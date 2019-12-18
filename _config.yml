@@ -9,9 +9,12 @@ email: Your email (optional)
 phone: Your phone number (optional)
 website: Your website (eg. https://google.com)(optional)
 
+darkmode: false
+
 # Social links
 twitter_username: jekyllrb
 github_username:  jekyll
+stackoverflow_username: "00000001"
 dribbble_username: jekyll
 facebook_username: jekyll
 flickr_username: jekyll
@@ -21,6 +24,22 @@ xing_username: jekyll
 pinterest_username: jekyll
 youtube_username: jekyll
 googleplus_username: +jekyll
+orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+- title: Link name
+  icon: Font Awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+  url: Link url (eg. https://google.com)
+# - title: another link
+#   icon: font awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
 
 # About Section
 # about_title: About Me (Use this to override about section title)
@@ -31,7 +50,7 @@ about_content: | # this will include new lines to allow paragraphs
   You can even add paragraphs by using empty lines like this and add anything else markdown supports such as
     - Lists
     - Tables
-    - Links
+    - <a href="google.com">Links</a>
     - Images
 
 # Projects Section
