@@ -92,11 +92,18 @@
         {%- endif -%}
         {%- if site.orcid_username -%}
           <li>
-            <a target="_blank" href="https://orcid.org/{{ site.orcid_username| escape }}" class="button button--sacnite button--round-l">
+            <a target="_blank" href="https://orcid.org/{{ site.orcid_username | escape }}" class="button button--sacnite button--round-l">
               <i class="fab fa-orcid" title="ORCiD link"></i>
             </a>
           </li>
         {%- endif -%}
+        {% for link in site.additional_links %}
+          <li>
+            {% include a.html href=link.url class="button button--sacnite button--round-l" %}
+              <i class="fab {{ link.icon }}" title="{{ link.title | escape }}"></i>
+            </a>
+          </li>
+        {% endfor %}
       </ul>
 
       {%- if site.email -%}
