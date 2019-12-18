@@ -99,7 +99,7 @@
         {%- endif -%}
         {% for link in site.additional_links %}
           <li>
-            <a target="_blank" href="{{ link.url | escape }}" class="button button--sacnite button--round-l">
+            {% include a.html href=link.url class="button button--sacnite button--round-l" %}
               <i class="fab {{ link.icon }}" title="{{ link.title | escape }}"></i>
             </a>
           </li>
