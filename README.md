@@ -1,9 +1,9 @@
 # modern-resume-theme [![Gem Version](https://badge.fury.io/rb/modern-resume-theme.svg)](https://badge.fury.io/rb/modern-resume-theme) [![Build Status](https://travis-ci.com/sproogen/modern-resume-theme.svg?branch=master)](https://travis-ci.com/sproogen/modern-resume-theme)
 
 *A modern simple static resume template and theme. Powered by Jekyll and GitHub pages.*
-*Host your own resume on GitHub for **free!****
+*Host your own resume on GitHub for **free!***
 
-Now includes **Dark Mode***
+Now includes **Dark Mode**
 
 [View Demo](https://sproogen.github.io/modern-resume-theme/)
 
@@ -121,7 +121,7 @@ Before you start make sure you have *Ruby* and the gems for *Jekyll* installed l
 1. Clone your resume repository locally *(if you haven't already)*
 2. `cd [your-repository-name]`
 3. `bundle install`
-4. `bundle exec jekyll serve -- watch`
+4. `bundle exec jekyll serve`
 5. Open your browser to `http://localhost:4000`
 
 Any changes you make will automatically build and you will be able to see these by refreshing your browser.
