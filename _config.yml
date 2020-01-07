@@ -3,18 +3,18 @@ repository: Git repository where your resume will be hosted, only required if yo
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
-phone: Your phone number (optional)
-website: Your website (eg. https://google.com)(optional)
+name: Himanshu Sagar
+title: Software Development Engineer
+email: himanshusagar@protonmail.com
+phone: +91-9811010857
+website: https://himanshusagar.github.io/
 
-darkmode: false
+darkmode: true
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
+#twitter_username: jekyllrb
+github_username:  himanshusagar
+stackoverflow_username: "users/6384727/e-n-d"
 dribbble_username: jekyll
 facebook_username: jekyll
 flickr_username: jekyll
