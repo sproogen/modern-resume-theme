@@ -3,6 +3,8 @@
 *A modern simple static resume template and theme. Powered by Jekyll and GitHub pages.*
 *Host your own resume on GitHub for **free!***
 
+Now includes **Dark Mode**
+
 [View Demo](https://sproogen.github.io/modern-resume-theme/)
 
 ![img](screenshot.png)
@@ -46,6 +48,12 @@ So now you will be able to see the demo template at your github url. You can can
 ##### _config.yml
 This will contain all the of the main configuration for your resume such as your name, email, social media links and about me content. It will also allow you to change the titles of some of the content sections.
 A full example of the _config.yml can be found [here](https://github.com/sproogen/modern-resume-theme/blob/master/_config.yml)
+
+##### Dark Mode
+Dark mode is configured via _config.yml 
+```
+darkmode: true/false
+```
 
 ##### _data/education.yml
 A list of all your education, each education will follow this format
