@@ -2,11 +2,11 @@ body {
   color: #333;
   font-family: Roboto, sans-serif;
   font-feature-settings: "kern", "liga", "pnum";
-  font-size: 1em;
+  font-size: 1rem;
   line-height: 1.5;
 
   @media print {
-    font-size: 0.9em;
+    font-size: 0.9rem;
   }
 }
 
@@ -17,13 +17,13 @@ h4,
 h5,
 h6 {
   font-family: Roboto, sans-serif;
-  font-size: 1em;
+  font-size: 1rem;
   line-height: 1.2;
-  margin: 0 0 0.75em;
+  margin: 0 0 0.75rem;
 }
 
 p {
-  margin: 0 0 0.75em; }
+  margin: 0 0 0.75rem; }
 
 a {
   color: #477dca;
@@ -36,19 +36,19 @@ color: #355e98;
 }
 
 h1 {
-  font-size: 4em;
-  margin-bottom: 0.1em;
+  font-size: 4rem;
+  margin-bottom: 0.1rem;
   font-weight: 500;
 }
 
 h2 {
   font-weight: 300;
-  font-size: 2em;
+  font-size: 2rem;
 }
 
 h3 {
   font-weight: 300;
-  font-size: 3em;
+  font-size: 3rem;
   text-align: center;
   border-bottom: dashed 2px #CCCCCC;
   padding-bottom: 10px;
@@ -61,17 +61,17 @@ h3 {
 
 h4 {
   font-weight: 300;
-  font-size:2.5em;
+  font-size:2.5rem;
   margin-bottom:3px;
 }
 
 p, ul {
-  font-size: 1.6em;
+  font-size: 1.6rem;
   text-align: justify;
 }
 
 a i {
-  font-size:1.6em;
+  font-size:1.6rem;
 }
 
 mark {
