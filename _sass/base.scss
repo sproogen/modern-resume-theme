@@ -12,11 +12,11 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
   cursor: pointer;
   display: inline-block;
   font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
-  font-size: 1em;
+  font-size: 1rem;
   -webkit-font-smoothing: antialiased;
   font-weight: 600;
   line-height: 1;
-  padding: 0.75em 1.5em;
+  padding: 0.75rem 1.5rem;
   text-decoration: none;
   transition: background-color 150ms ease;
   user-select: none;
@@ -38,53 +38,53 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
 fieldset {
   background-color: #f7f7f7;
   border: 1px solid #ddd;
-  margin: 0 0 0.75em;
-  padding: 1.5em; }
+  margin: 0 0 0.75rem;
+  padding: 1.5rem; }
 
 input,
 label,
 select {
   display: block;
   font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
-  font-size: 1em; }
+  font-size: 1rem; }
 
 label {
   font-weight: 600;
-  margin-bottom: 0.375em; }
+  margin-bottom: 0.375rem; }
   label.required::after {
     content: "*"; }
   label abbr {
     display: none; }
 
 select {
-  margin-bottom: 1.5em;
+  margin-bottom: 1.5rem;
   max-width: 100%;
   width: auto; }
 
 dl {
-  margin-bottom: 0.75em; }
+  margin-bottom: 0.75rem; }
   dl dt {
     font-weight: bold;
-    margin-top: 0.75em; }
+    margin-top: 0.75rem; }
   dl dd {
     margin: 0; }
 
 table {
   border-collapse: collapse;
   font-feature-settings: "kern", "liga", "tnum";
-  margin: 0.75em 0;
+  margin: 0.75rem 0;
   table-layout: fixed;
   width: 100%; }
 
 th {
   border-bottom: 1px solid #a6a6a6;
   font-weight: 600;
-  padding: 0.75em 0;
+  padding: 0.75rem 0;
   text-align: left; }
 
 td {
   border-bottom: 1px solid #ddd;
-  padding: 0.75em 0; }
+  padding: 0.75rem 0; }
 
 tr,
 td,
@@ -96,7 +96,7 @@ hr {
   border-left: 0;
   border-right: 0;
   border-top: 0;
-  margin: 1.5em 0; }
+  margin: 1.5rem 0; }
 
 img,
 picture {
@@ -179,7 +179,7 @@ body {
 }
 
 .header-right p {
-  font-size: 1.6em;
+  font-size: 1.6rem;
   text-align: right;
 }
 
