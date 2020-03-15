@@ -55,6 +55,8 @@ Dark mode is configured via _config.yml
 darkmode: true/false
 ```
 
+Dark mode is only be presented on the client device if they are using a browser that supports this feature and have it enabled.
+
 ##### _data/education.yml
 A list of all your education, each education will follow this format
 ```
