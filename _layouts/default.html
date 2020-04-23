@@ -3,7 +3,7 @@
 
 {%- include head.html -%}
 
-<body class="{% if site.darkmode %}dark{% endif %}">
+<body class="{% if site.darkmode == true and site.darkmode != 'never' %}dark{% endif %}">
 
   {%- include header.html -%}
 
@@ -36,7 +36,9 @@
   </main>
 
   {%- include footer.html -%}
-  <script src="{{ '/assets/js/index.js' | relative_url }}"></script>
+  {% if site.darkmode == false %}
+    <script src="{{ '/assets/js/index.js' | relative_url }}"></script>
+  {% endif %}
 </body>
 
 </html>
