@@ -9,6 +9,7 @@ email: Your email (optional)
 phone: Your phone number (optional)
 website: Your website (eg. https://google.com)(optional)
 
+# Dark Mode (true/false/never)
 darkmode: false
 
 # Social links

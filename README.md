@@ -52,8 +52,11 @@ A full example of the _config.yml can be found [here](https://github.com/sprooge
 ##### Dark Mode
 Dark mode is configured via _config.yml 
 ```
-darkmode: true/false
+darkmode: trye (options: true, false, never)
 ```
+When dark mode is `true` the site will show the dark theme for everyone  
+When dark mode is `false` the site will not show the dark theme, but it will still respect the users device preferences  
+When dark mode is `never` the site will never be shown in the dark theme
 
 ##### _data/education.yml
 A list of all your education, each education will follow this format
