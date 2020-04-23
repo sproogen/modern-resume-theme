@@ -3,7 +3,7 @@
     {{ site.name | escape }} -
     <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a>
     {%- if site.footer_show_references -%}
-      &nbsp;- References on request
+      &nbsp;- {{ site.references_title | default: "References on request" }}
     {%- endif -%}
   </p>
 </div>
