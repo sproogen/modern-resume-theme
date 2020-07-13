@@ -52,7 +52,7 @@ A full example of the _config.yml can be found [here](https://github.com/sprooge
 ##### Dark Mode
 Dark mode is configured via _config.yml 
 ```
-darkmode: trye (options: true, false, never)
+darkmode: true (options: true, false, never)
 ```
 When dark mode is `true` the site will show the dark theme for everyone  
 When dark mode is `false` the site will not show the dark theme, but it will still respect the users device preferences  
