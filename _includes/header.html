@@ -97,6 +97,20 @@
             </a>
           </li>
         {%- endif -%}
+        {%- if site.google_scholar_id -%}
+          <li>
+            <a target="_blank" href="https://scholar.google.com/citations?user={{ site.google_scholar_id | escape }}" class="button button--sacnite button--round-l">
+              <i class="fas fa-graduation-cap" title="Google Scholar"></i>
+            </a>
+          </li>
+        {%- endif -%}
+        {%- if site.email_via_form -%}
+          <li>
+            <a target="_blank" href="{{ site.email_via_form | escape }}" class="button button--sacnite button--round-l">
+              <i class="fas fa-envelope" title="Email Me via Form"></i>
+            </a>
+          </li>
+        {%- endif -%}
         {% for link in site.additional_links %}
           <li>
             {% include a.html href=link.url class="button button--sacnite button--round-l" %}
