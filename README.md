@@ -1,5 +1,7 @@
 # modern-resume-theme [![Gem Version](https://badge.fury.io/rb/modern-resume-theme.svg)](https://badge.fury.io/rb/modern-resume-theme) [![Build Status](https://travis-ci.com/sproogen/modern-resume-theme.svg?branch=master)](https://travis-ci.com/sproogen/modern-resume-theme)
 
+*This is the modified version of the amazing modern-resume-theme from Sproogen. This theme expands the use of icons beyong `font-awesome-brand` making it easier to create custom icons for more flexible usage.*
+
 *A modern simple static resume template and theme. Powered by Jekyll and GitHub pages.*
 *Host your own resume on GitHub for **free!***
 
