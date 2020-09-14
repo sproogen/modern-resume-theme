@@ -54,6 +54,13 @@ about_content: | # this will include new lines to allow paragraphs
     - <a href="google.com">Links</a>
     - Images
 
+# whatsnew Section
+# whatsnew_title: Updates #(Use this to override about whatsnew section title)
+whatsnew_content: | # this will include new lines to allow paragraphs
+  This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+
+  Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+
 # Projects Section
 # projects_title: Projects #(Use this to override about projects section title)
 

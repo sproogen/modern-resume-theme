@@ -16,6 +16,10 @@
 
       {%- include about.html -%}
 
+      {%- if site.whatsnew_content -%}
+        {%- include whatsnew.html -%}
+      {%- endif -%}
+
       {%- if site.data.projects.size > 0 -%}
         {%- include projects.html -%}
       {%- endif -%}
