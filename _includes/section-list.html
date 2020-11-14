@@ -1,0 +1,3 @@
+{% for project in site.data.projects %}
+  {% include {{ project.layout | default: 'left' | append: ".html" }} item=project %}
+{% endfor %}

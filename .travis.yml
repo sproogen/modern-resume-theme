@@ -23,8 +23,10 @@ before_install:
   - ./scripts/bump-version.sh
 
 script:
-  - bundle exec jekyll build --config _test/_config.yml
-  - bundle exec htmlproofer ./_site --disable-external
+  - bundle exec jekyll build --config _test/_config-version-1.yml --destination ./_test-site-1
+  - bundle exec jekyll build --config _test/_config-version-2.yml --destination ./_test-site-2
+  - bundle exec htmlproofer ./_test-site-1 --disable-external
+  - bundle exec htmlproofer ./_test-site-2 --disable-external
 
 after_success:
   - ./scripts/merge-downstream.sh
