@@ -112,7 +112,7 @@ When dark mode is `true` the site will show the dark theme for everyone
 When dark mode is `false` the site will not show the dark theme, but it will still respect the users device preferences  
 When dark mode is `never` the site will never be shown in the dark theme
 
-#### assets/main.scss
+### `assets/main.scss`
 Add any css changes or additions you want to make here after the line `@import 'modern-resume-theme';`
 
 ----

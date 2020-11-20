@@ -9,8 +9,11 @@ version: 2
 name: Your Name
 title: Your job title
 email: Your email (optional)
+# email_title: Email (Email title override)
 phone: Your phone number (optional)
+# phone_title: Phone (Phone title override)
 website: Your website (eg. https://google.com)(optional)
+# website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -108,6 +111,7 @@ content:
 
 # Footer
 footer_show_references: true
+# references_title: References on request (Override references text)
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
