@@ -1,3 +1,3 @@
 module ModernResumeTheme
-  VERSION = "1.8.9"
+  VERSION = "2.0.0"
 end
