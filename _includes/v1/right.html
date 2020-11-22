@@ -1,10 +1,4 @@
 <div class="row clearfix layout layout-right">
-  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
-    {%- if include.item.quote -%}
-      <p class="quote">{{ include.item.quote }}</p>
-    {%- endif -%}
-    {{ include.item.description | strip | markdownify }}
-  </div>
   <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
     {%- if include.item.name -%}<h4>{{ include.item.name }}</h4>{%- endif -%}
     {%- if include.item.company -%}<h4>{{ include.item.company }}</h4>{%- endif -%}
@@ -25,5 +19,11 @@
       </a>
     </p>
     {%- endif -%}
+  </div>
+  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
+    {%- if include.item.quote -%}
+      <p class="quote">{{ include.item.quote }}</p>
+    {%- endif -%}
+    {{ include.item.description | strip | markdownify }}
   </div>
 </div>
