@@ -3,7 +3,7 @@ name: Bump Version
 on:
   workflow_run:
     workflows: [ "Build and Test" ]
-    pull_request: [ master ]
+    branches: [ develop ]
     types:
       - completed
 
