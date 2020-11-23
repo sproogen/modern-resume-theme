@@ -3,13 +3,12 @@ name: Bump Version
 on:
   workflow_run:
     workflows: [ "Build and Test" ]
-    branches: [ "feature/github-actions" ]
     types:
       - completed
 
 jobs:
-  build-test:
-    name: Build and Test
+  bump-version:
+    name: Bump Version
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -20,6 +19,7 @@ jobs:
       with:
         ruby-version: 2.6
     - name: Install gem-release
-      run: |
+      run: gem install gem-release
+    - run: |
         CURRENT_VERSION=v$(gem bump --pretend --no-commit | awk '{ print $3 }');
         echo "$CURRENT_VERSION"
