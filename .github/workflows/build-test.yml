@@ -24,3 +24,19 @@ jobs:
       run: bundle exec jekyll build --config _test/_config-version-2.yml --destination ./_test-site-2
     - name: Run tests
       run: bundle exec htmlproofer ./_test-site-2 --disable-external
+  bump-version:
+    name: Bump Version
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Ruby
+    # To automatically get bug fixes and new Ruby versions for ruby/setup-ruby,
+    # change this to (see https://github.com/ruby/setup-ruby#versioning):
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 2.6
+    - name: Install gem-release
+      run: gem install gem-release
+    - run: |
+        CURRENT_VERSION=v$(gem bump --pretend --no-commit | awk '{ print $3 }');
+        echo "$CURRENT_VERSION"
