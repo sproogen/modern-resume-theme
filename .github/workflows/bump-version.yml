@@ -3,7 +3,7 @@ name: Bump Version
 on:
   workflow_run:
     workflows: [ "Build and Test" ]
-    branches: [ develop ]
+    branches: [ "feature/github-actions" ]
     types:
       - completed
 
