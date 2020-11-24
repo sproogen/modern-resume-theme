@@ -51,7 +51,8 @@ jobs:
         git config user.email github-actions@github.com
     - name: Bump version if not manually bumped
       run: |
-        git tag -l
+        TAGS=v$(git tag -l);
+        echo "$TAGS"
     #     CURRENT_VERSION=v$(gem bump --pretend --no-commit | awk '{ print $3 }');
     #     if [ "$(git tag -l $CURRENT_VERSION)" == "$CURRENT_VERSION" ]; then
     #       gem bump --skip-ci;
