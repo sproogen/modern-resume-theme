@@ -102,7 +102,8 @@ jobs:
         bundle install --jobs 4 --retry 3
     - name: Install gem-release
       run: gem install gem-release
-    - run: |
+    - name: test
+      run: |
         CURRENT_VERSION=$(gem bump --pretend --no-commit | awk '{ print $3 }')
         echo $CURRENT_VERSION
         echo ${{ needs.bump-version.outputs.CURRENT_VERSION }}
