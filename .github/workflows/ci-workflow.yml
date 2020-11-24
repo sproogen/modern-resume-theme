@@ -72,4 +72,4 @@ jobs:
         git commit --amend --no-edit
     - name: Tag latest version
       run: gem tag --no-push
-    - run: git push origin feature/github-actions --tags
+    - run: git push origin HEAD:${{ github.ref }} --tags
