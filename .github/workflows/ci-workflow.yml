@@ -56,12 +56,12 @@ jobs:
       id: vars
       run: |
         CURRENT_VERSION=$(gem bump --pretend --no-commit | awk '{ print $3 }')
-        echo ::set-env name=CURRENT_VERSION::${CURRENT_VERSION}
+        echo ::set-output name=CURRENT_VERSION::${CURRENT_VERSION}
         unset HAS_TAG
         if [ -n "$(git tag -l v$CURRENT_VERSION)" ]; then HAS_TAG='true'; fi
-        echo ::set-env name=HAS_TAG::${HAS_TAG}
+        echo ::set-output name=HAS_TAG::${HAS_TAG}
     - name: Bump version if not manually bumped
-      if: env.HAS_TAG
+      if: steps.vars.outputs.HAS_TAG
       run: |
         echo "WOO HAS TAG"
     #     gem bump --skip-ci
