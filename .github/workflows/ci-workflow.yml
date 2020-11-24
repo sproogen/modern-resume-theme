@@ -1,4 +1,4 @@
-name: Build and Test
+name: modern-resume-theme CI workflow
 
 on:
   push:
@@ -18,8 +18,16 @@ jobs:
       uses: ruby/setup-ruby@v1
       with:
         ruby-version: 2.6
+    - uses: actions/cache@v2
+      with:
+        path: vendor/bundle
+        key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-gems-
     - name: Install dependencies
-      run: bundle install
+      run: |
+        bundle config path vendor/bundle
+        bundle install --jobs 4 --retry 3
     - name: Built test site
       run: bundle exec jekyll build --config _test/_config-version-2.yml --destination ./_test-site-2
     - name: Run tests
@@ -27,6 +35,7 @@ jobs:
   bump-version:
     name: Bump Version
     runs-on: ubuntu-latest
+    needs: build-test
     steps:
     - uses: actions/checkout@v2
     - name: Set up Ruby
