@@ -69,6 +69,6 @@ jobs:
     #     sed -i -e "s/modern-resume-theme (${CURRENT_VERSION})/modern-resume-theme (${NEW_VERSION})/g" ./Gemfile.lock
     #     git add Gemfile.lock
     #     git commit --amend --no-edit
-    # - name: Tag latest version
-    #   run: gem tag --no-push
-    # - run: git push --tags
+    - name: Tag latest version
+      run: gem tag --no-push
+    - run: git push --tags
