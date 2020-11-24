@@ -2,9 +2,10 @@ name: CI workflow
 
 on:
   push:
-    branches: [ master, develop ]
-  pull_request:
-    branches: [ master, develop ]
+    branches: [ feature/github-actions ]
+    # branches: [ master, develop ]
+  # pull_request:
+  #   branches: [ master, develop ]
 
 jobs:
   build-test:
@@ -37,7 +38,9 @@ jobs:
     name: Bump Version
     runs-on: ubuntu-latest
     needs: build-test
-    if: github.ref == 'refs/heads/master'
+    if: github.ref == 'refs/heads/feature/github-actions'
+    outputs:
+      CURRENT_VERSION: ${{ steps.vars.outputs.CURRENT_VERSION }}
     steps:
     - uses: actions/checkout@v2
       with:
@@ -73,3 +76,35 @@ jobs:
     - name: Tag latest version
       run: gem tag --no-push
     - run: git push origin HEAD:${{ github.ref }} --tags
+
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    needs: bump-version
+    if: github.ref == 'refs/heads/feature/github-actions'
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Ruby
+    # To automatically get bug fixes and new Ruby versions for ruby/setup-ruby,
+    # change this to (see https://github.com/ruby/setup-ruby#versioning):
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 2.6
+    - uses: actions/cache@v2
+      with:
+        path: vendor/bundle
+        key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-gems-
+    - name: Install dependencies
+      run: |
+        bundle config path vendor/bundle
+        bundle install --jobs 4 --retry 3
+    - name: Install gem-release
+      run: gem install gem-release
+    - run: |
+        CURRENT_VERSION=$(gem bump --pretend --no-commit | awk '{ print $3 }')
+        echo $CURRENT_VERSION
+        echo ${{ needs.bump-version.outputs.CURRENT_VERSION }}
+    # - name: Build Gem
+    #   run: gem build modern-resume-theme.gemspec
