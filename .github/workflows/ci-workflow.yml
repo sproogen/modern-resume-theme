@@ -63,12 +63,11 @@ jobs:
     - name: Bump version if not manually bumped
       if: steps.vars.outputs.HAS_TAG
       run: |
-        echo "WOO HAS TAG!!!"
-    #     gem bump --skip-ci
-    #     NEW_VERSION=$(gem bump --pretend --no-commit | awk '{ print $3 }')
-    #     sed -i -e "s/modern-resume-theme (${CURRENT_VERSION})/modern-resume-theme (${NEW_VERSION})/g" ./Gemfile.lock
-    #     git add Gemfile.lock
-    #     git commit --amend --no-edit
+        gem bump --skip-ci
+        NEW_VERSION=$(gem bump --pretend --no-commit | awk '{ print $3 }')
+        sed -i -e "s/modern-resume-theme (${steps.vars.outputs.CURRENT_VERSION})/modern-resume-theme (${NEW_VERSION})/g" ./Gemfile.lock
+        git add Gemfile.lock
+        git commit --amend --no-edit
     - name: Tag latest version
       run: gem tag --no-push
     - run: git push --tags
