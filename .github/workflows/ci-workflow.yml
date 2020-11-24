@@ -71,4 +71,5 @@ jobs:
         git commit --amend --no-edit
     - name: Tag latest version
       run: gem tag --no-push
-    - run: git push --tags
+    - run: echo ${{ github.ref }}
+    # - run: git push origin --tags
