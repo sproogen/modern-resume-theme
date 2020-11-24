@@ -2,9 +2,9 @@ name: CI workflow
 
 on:
   push:
-    branches: [ master, develop ]
-  pull_request:
-    branches: [ master, develop ]
+    branches: [ feature/github-actions ]
+  # pull_request:
+    # branches: [ master, develop ]
 
 jobs:
   build-test:
@@ -37,6 +37,7 @@ jobs:
     name: Bump Version
     runs-on: ubuntu-latest
     needs: build-test
+    # if: github.ref == 'refs/heads/master'
     steps:
     - uses: actions/checkout@v2
       with:
@@ -71,5 +72,4 @@ jobs:
         git commit --amend --no-edit
     - name: Tag latest version
       run: gem tag --no-push
-    - run: echo ${{ github.ref }}
-    # - run: git push origin --tags
+    - run: git push --tags
