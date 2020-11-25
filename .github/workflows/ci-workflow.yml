@@ -90,7 +90,7 @@ jobs:
       id: release_version
       run: |
         RELEASE_VERSION=$(gem bump --pretend --no-commit | awk '{ print $3 }')
-        echo ::set-output name=RELEASE_VERSION::${CURRENT_VERSION}
+        echo ::set-output name=RELEASE_VERSION::${RELEASE_VERSION}
     - name: Create Release
       id: create_release
       uses: actions/create-release@v1
