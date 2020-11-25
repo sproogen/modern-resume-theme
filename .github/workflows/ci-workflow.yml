@@ -113,10 +113,19 @@ jobs:
         asset_path: ./modern-resume-theme-${{ steps.release_version.outputs.RELEASE_VERSION }}.gem
         asset_name: modern-resume-theme-${{ steps.release_version.outputs.RELEASE_VERSION }}.gem
         asset_content_type: application/octet-stream
-    - name: Publish Gem to GitHub Packages
+    - name: Create gem credentials
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        RUBYGEMS_API_KEY: ${{ secrets.RUBYGEMS_API_KEY }}
       run: |
-        echo ":github: Bearer ${GITHUB_TOKEN}" >> ~/.gem/credentials
+        cat << EOF > ~/.gem/credentials
+        ---
+        :github: Bearer ${GITHUB_TOKEN}
+        :rubygems_api_key: ${RUBYGEMS_API_KEY}
+        EOF
+
         chmod 0600 ~/.gem/credentials
-        gem push --key github --host https://rubygems.pkg.github.com/sproogen modern-resume-theme-${{ steps.release_version.outputs.RELEASE_VERSION }}.gem
+    - name: Publish Gem to GitHub Packages
+      run: gem push --key github --host https://rubygems.pkg.github.com/sproogen modern-resume-theme-${{ steps.release_version.outputs.RELEASE_VERSION }}.gem
+    - name: Publish Gem to Rubygems
+      run: gem push modern-resume-theme-${{ steps.release_version.outputs.RELEASE_VERSION }}.gem
