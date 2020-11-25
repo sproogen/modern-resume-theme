@@ -1,5 +1,7 @@
 name: CI workflow
 
+# TODO: Set correct branches
+
 on:
   push:
     branches: [ feature/github-actions ]
@@ -38,7 +40,7 @@ jobs:
     name: Bump Version and Deploy
     runs-on: ubuntu-latest
     needs: build-test
-    if: github.ref == 'refs/heads/feature/github-actions'
+    if: github.ref == 'refs/heads/feature/github-actions' && github.repository_owner == 'sproogen'
     steps:
     - uses: actions/checkout@v2
       with:
@@ -111,3 +113,10 @@ jobs:
         asset_path: ./modern-resume-theme-${{ steps.release_version.outputs.RELEASE_VERSION }}.gem
         asset_name: modern-resume-theme-${{ steps.release_version.outputs.RELEASE_VERSION }}.gem
         asset_content_type: application/octet-stream
+    - name: Publish Gem to GitHub Packages
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        echo ":github: Bearer ${GITHUB_TOKEN}" >> ~/.gem/credentials
+        chmod 0600 ~/.gem/credentials
+        gem push --key github --host https://rubygems.pkg.github.com/sproogen modern-resume-theme-${{ steps.release_version.outputs.RELEASE_VERSION }}.gem
