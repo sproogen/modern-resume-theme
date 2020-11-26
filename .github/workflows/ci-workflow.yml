@@ -28,10 +28,14 @@ jobs:
       run: |
         bundle config path vendor/bundle
         bundle install --jobs 4 --retry 3
-    - name: Built test site
-      run: bundle exec jekyll build --config _test/_config-version-2.yml --destination ./_test-site-2
+    - name: Built test sites
+      run: |
+        bundle exec jekyll build --config _test/_config-version-1.yml --destination ./_test-site-1
+        bundle exec jekyll build --config _test/_config-version-2.yml --destination ./_test-site-2
     - name: Run tests
-      run: bundle exec htmlproofer ./_test-site-2 --disable-external
+      run: |
+        bundle exec htmlproofer ./_test-site-1 --disable-external
+        bundle exec htmlproofer ./_test-site-2 --disable-external
 
   bump-version-deploy:
     name: Bump Version and Deploy
