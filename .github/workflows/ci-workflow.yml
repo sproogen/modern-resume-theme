@@ -126,7 +126,7 @@ jobs:
         EOF
 
         chmod 0600 ~/.gem/credentials
-    # - name: Publish Gem to GitHub Packages
-    #   run: gem push --key github --host https://rubygems.pkg.github.com/sproogen modern-resume-theme-${{ steps.release_version.outputs.RELEASE_VERSION }}.gem
+    - name: Publish Gem to GitHub Packages
+      run: gem push --key github --host https://rubygems.pkg.github.com/sproogen modern-resume-theme-${{ steps.release_version.outputs.RELEASE_VERSION }}.gem
     - name: Publish Gem to Rubygems
       run: gem push modern-resume-theme-${{ steps.release_version.outputs.RELEASE_VERSION }}.gem
