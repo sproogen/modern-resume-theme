@@ -27,14 +27,14 @@ orcid_username: 0000-0000-0000-0000
 # Additional icon links
 additional_links:
 - title: Test link
-  icon: fa-ello
+  icon: fab fa-ello
   url: sproogen.github.io/modern-resume-theme
 # - title: another link
-#   icon: font awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
 
 # About Section
-# about_title: About Me (Use this to override about section title)
+about_title: About me title (Use this to override about section title)
 about_profile_image: _test/images/travis.png
 about_content: > # this means to ignore newlines until the next config item.
   Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
@@ -42,13 +42,13 @@ about_content: > # this means to ignore newlines until the next config item.
   You can even add paragraphs by using empty lines like this and add anything else markdown supports.
 
 # Projects Section
-# projects_title: Projects #(Use this to override about projects section title)
+projects_title: Projects title #(Use this to override about projects section title)
 
 # Experience Section
-# experience_title: Experience #(Use this to override about experience section title)
+experience_title: Experience title #(Use this to override about experience section title)
 
 # Education Section
-# educaton_title: Education #(Use this to override about education section title)
+educaton_title: Education title #(Use this to override about education section title)
 
 # More Section
 # more_title: A Little More About Me #(Use this to override about more section title)
