@@ -56,7 +56,6 @@ jobs:
     needs: [ build-test, ci-skip ]
     if: github.ref == 'refs/heads/feature/skip-ci' && github.repository_owner == 'sproogen' && needs.ci-skip.outputs.skip == 'false'
     steps:
-    - run: echo ${{needs.ci-skip.outputs.skip}} ${{ needs.ci-skip.outputs.skip  == 'false' }}
     - uses: actions/checkout@v2
       with:
         fetch-depth: 0
