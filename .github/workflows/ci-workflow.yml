@@ -2,7 +2,7 @@ name: CI workflow
 
 on:
   push:
-    branches: [ master, feature/skip-ci ]
+    branches: [ master ]
   pull_request:
     branches: [ master ]
 
@@ -54,7 +54,7 @@ jobs:
     name: Bump Version and Deploy
     runs-on: ubuntu-latest
     needs: [ build-test, ci-skip ]
-    if: github.ref == 'refs/heads/feature/skip-ci' && github.repository_owner == 'sproogen' && needs.ci-skip.outputs.skip == 'false'
+    if: github.ref == 'refs/heads/master' && github.repository_owner == 'sproogen' && needs.ci-skip.outputs.skip == 'false'
     steps:
     - uses: actions/checkout@v2
       with:
@@ -66,81 +66,81 @@ jobs:
       uses: ruby/setup-ruby@v1
       with:
         ruby-version: 2.6
-    # - uses: actions/cache@v2
-    #   with:
-    #     path: vendor/bundle
-    #     key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
-    #     restore-keys: |
-    #       ${{ runner.os }}-gems-
-    # - name: Install dependencies
-    #   run: |
-    #     bundle config path vendor/bundle
-    #     bundle install --jobs 4 --retry 3
-    # - name: Install gem-release
-    #   run: gem install gem-release
-    # - name: Set git config
-    #   run: |
-    #     git config user.name github-actions
-    #     git config user.email github-actions@github.com
-    # - name: Initialize workflow variables
-    #   id: vars
-    #   run: |
-    #     CURRENT_VERSION=$(gem bump --pretend --no-commit | awk '{ print $3 }')
-    #     echo ::set-output name=CURRENT_VERSION::${CURRENT_VERSION}
-    #     unset HAS_TAG
-    #     if [ -n "$(git tag -l v$CURRENT_VERSION)" ]; then HAS_TAG='true'; fi
-    #     echo ::set-output name=HAS_TAG::${HAS_TAG}
-    # - name: Bump version if not manually bumped
-    #   if: steps.vars.outputs.HAS_TAG
-    #   run: |
-    #     gem bump --skip-ci
-    #     NEW_VERSION=$(gem bump --pretend --no-commit | awk '{ print $3 }')
-    #     sed -i -e "s/modern-resume-theme (${{ steps.vars.outputs.CURRENT_VERSION }})/modern-resume-theme (${NEW_VERSION})/g" ./Gemfile.lock
-    #     git add Gemfile.lock
-    #     git commit --amend --no-edit
-    # - name: Tag latest version
-    #   run: gem tag --no-push
-    # - run: git push origin HEAD:${{ github.ref }} --tags
-    # - name: Build Gem
-    #   run: gem build modern-resume-theme.gemspec
-    # - name: Get Release Version
-    #   id: release_version
-    #   run: |
-    #     RELEASE_VERSION=$(gem bump --pretend --no-commit | awk '{ print $3 }')
-    #     echo ::set-output name=RELEASE_VERSION::${RELEASE_VERSION}
-    # - name: Create Release
-    #   id: create_release
-    #   uses: actions/create-release@v1
-    #   env:
-    #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    #   with:
-    #     tag_name: v${{ steps.release_version.outputs.RELEASE_VERSION }}
-    #     release_name: v${{ steps.release_version.outputs.RELEASE_VERSION }}
-    #     draft: false
-    #     prerelease: false
-    # - name: Upload Release Asset
-    #   id: upload-release-asset
-    #   uses: actions/upload-release-asset@v1
-    #   env:
-    #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    #   with:
-    #     upload_url: ${{ steps.create_release.outputs.upload_url }}
-    #     asset_path: ./modern-resume-theme-${{ steps.release_version.outputs.RELEASE_VERSION }}.gem
-    #     asset_name: modern-resume-theme-${{ steps.release_version.outputs.RELEASE_VERSION }}.gem
-    #     asset_content_type: application/octet-stream
-    # - name: Create gem credentials
-    #   env:
-    #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    #     RUBYGEMS_API_KEY: ${{ secrets.RUBYGEMS_API_KEY }}
-    #   run: |
-    #     cat << EOF > ~/.gem/credentials
-    #     ---
-    #     :github: Bearer ${GITHUB_TOKEN}
-    #     :rubygems_api_key: ${RUBYGEMS_API_KEY}
-    #     EOF
+    - uses: actions/cache@v2
+      with:
+        path: vendor/bundle
+        key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-gems-
+    - name: Install dependencies
+      run: |
+        bundle config path vendor/bundle
+        bundle install --jobs 4 --retry 3
+    - name: Install gem-release
+      run: gem install gem-release
+    - name: Set git config
+      run: |
+        git config user.name github-actions
+        git config user.email github-actions@github.com
+    - name: Initialize workflow variables
+      id: vars
+      run: |
+        CURRENT_VERSION=$(gem bump --pretend --no-commit | awk '{ print $3 }')
+        echo ::set-output name=CURRENT_VERSION::${CURRENT_VERSION}
+        unset HAS_TAG
+        if [ -n "$(git tag -l v$CURRENT_VERSION)" ]; then HAS_TAG='true'; fi
+        echo ::set-output name=HAS_TAG::${HAS_TAG}
+    - name: Bump version if not manually bumped
+      if: steps.vars.outputs.HAS_TAG
+      run: |
+        gem bump --skip-ci
+        NEW_VERSION=$(gem bump --pretend --no-commit | awk '{ print $3 }')
+        sed -i -e "s/modern-resume-theme (${{ steps.vars.outputs.CURRENT_VERSION }})/modern-resume-theme (${NEW_VERSION})/g" ./Gemfile.lock
+        git add Gemfile.lock
+        git commit --amend --no-edit
+    - name: Tag latest version
+      run: gem tag --no-push
+    - run: git push origin HEAD:${{ github.ref }} --tags
+    - name: Build Gem
+      run: gem build modern-resume-theme.gemspec
+    - name: Get Release Version
+      id: release_version
+      run: |
+        RELEASE_VERSION=$(gem bump --pretend --no-commit | awk '{ print $3 }')
+        echo ::set-output name=RELEASE_VERSION::${RELEASE_VERSION}
+    - name: Create Release
+      id: create_release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: v${{ steps.release_version.outputs.RELEASE_VERSION }}
+        release_name: v${{ steps.release_version.outputs.RELEASE_VERSION }}
+        draft: false
+        prerelease: false
+    - name: Upload Release Asset
+      id: upload-release-asset
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: ./modern-resume-theme-${{ steps.release_version.outputs.RELEASE_VERSION }}.gem
+        asset_name: modern-resume-theme-${{ steps.release_version.outputs.RELEASE_VERSION }}.gem
+        asset_content_type: application/octet-stream
+    - name: Create gem credentials
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        RUBYGEMS_API_KEY: ${{ secrets.RUBYGEMS_API_KEY }}
+      run: |
+        cat << EOF > ~/.gem/credentials
+        ---
+        :github: Bearer ${GITHUB_TOKEN}
+        :rubygems_api_key: ${RUBYGEMS_API_KEY}
+        EOF
 
-    #     chmod 0600 ~/.gem/credentials
-    # - name: Publish Gem to GitHub Packages
-    #   run: gem push --key github --host https://rubygems.pkg.github.com/sproogen modern-resume-theme-${{ steps.release_version.outputs.RELEASE_VERSION }}.gem
-    # - name: Publish Gem to Rubygems
-    #   run: gem push modern-resume-theme-${{ steps.release_version.outputs.RELEASE_VERSION }}.gem
+        chmod 0600 ~/.gem/credentials
+    - name: Publish Gem to GitHub Packages
+      run: gem push --key github --host https://rubygems.pkg.github.com/sproogen modern-resume-theme-${{ steps.release_version.outputs.RELEASE_VERSION }}.gem
+    - name: Publish Gem to Rubygems
+      run: gem push modern-resume-theme-${{ steps.release_version.outputs.RELEASE_VERSION }}.gem
