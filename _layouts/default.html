@@ -19,7 +19,11 @@
       {%- if site.version == 2 -%}
         {% for section in site.content %}
           <div class="container {{ section.layout }}-container">
-            <h3>{{ section.title }}</h3>
+            {%- if section.id -%}
+              <h3 id="{{ section.id }}">{{ section.title }}</h3>
+            {% else %}
+              <h3>{{ section.title }}</h3>
+            {%- endif -%}
             {% include {{ section.layout | prepend: "section-" | append: ".html" }} content=section.content %}
           </div>
         {% endfor %}
