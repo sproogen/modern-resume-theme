@@ -83,11 +83,20 @@
             </a>
           </li>
         {%- endif -%}
+        {%- if site.google_scholar_id -%}
+          <li>
+            <a target="_blank" href="https://scholar.google.com/citations?user={{ site.google_scholar_id }}" class="button button--sacnite button--round-l">
+              <i class="fab fa-google" title="Google scholar link"></i>
+            </a>
+          </li>
+        {%- endif -%}
+
+        
       </ul>
 
       {%- if site.email -%}
         <p>
-          Email: <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a>
+          Email: <a target="_blank">{{ site.email | escape }}</a>
         </p>
       {%- endif -%}
       {%- if site.phone -%}

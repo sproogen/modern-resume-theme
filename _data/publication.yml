@@ -1,0 +1,31 @@
+# add two space after author to make a new line
+- title: "Enabling Efficient Cyber Threat Hunting With Cyber Threat Intelligence"
+  pdf: https://arxiv.org/pdf/2010.13637.pdf
+  info: |
+    Peng Gao, Fei Shao, **Xiaoyuan Liu**, Xusheng Xiao, Zheng Qin, Fengyuan Xu, Prateek Mittal, Sanjeev R Kulkarni, Dawn Song  
+    [[In Submission]](#)
+- title: "A System for Efficiently Hunting for Cyber Threats in Computer Systems Using Threat Intelligence"
+  pdf: https://arxiv.org/pdf/2101.06761.pdf
+  video: https://youtu.be/SrcTDQwRF_M
+  info: |
+    Peng Gao, Fei Shao, **Xiaoyuan Liu**, Xusheng Xiao, Haoyuan Liu, Zheng Qin, Fengyuan Xu, Prateek Mittal, Sanjeev R Kulkarni, Dawn Song  
+    [[ICDE 2021]](https://icde2021.gr/)
+- title: "BeeTrace: A Unified Platform for Secure Contact Tracing that Breaks Data Silos"
+  pdf: http://sites.computer.org/debull/A20june/p108.pdf
+  info: |
+    **Xiaoyuan Liu**, Ni Trieu, Evgenios M Kornaropoulos, Dawn Song  
+    [[IEEE Data Engineering Bulletin 2020]](https://tc.computer.org/tcde/data-engineering-bulletin/)
+- title: "Distributed Structured Actor-Critic Reinforcement Learning for Universal Dialogue Management"
+  pdf: https://arxiv.org/pdf/2004.06100.pdf
+  info: |
+    Zhi Chen, Lu Chen, **Xiaoyuan Liu**, Kai Yu  
+    [[IEEE/ACM Transactions on Audio, Speech, and Language Processing]](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6570655)
+- title: "Pretrained Transformers Improve Out-of-Distribution Robustness"
+  pdf: https://arxiv.org/pdf/2004.06100.pdf
+  code: https://github.com/camelop/NLP-Robustness
+  info: |
+    Dan Hendrycks\*, **Xiaoyuan Liu\*** (equal contribution), Eric Wallace, Adam Dziedzic, Rishabh Krishnan, Dawn Song  
+    [[ACL 2020]](https://acl2020.org/)
+- title: "Structured Hierarchical Dialogue Policy with Graph Neural Networks"
+  info: |
+    Zhi Chen, **Xiaoyuan Liu**, Lu Chen, Kai Yu

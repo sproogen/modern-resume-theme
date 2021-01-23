@@ -1,0 +1,35 @@
+<div class="container intro-container">
+  <h3>
+    Publications
+    <a href="https://scholar.google.com/citations?user={{ site.google_scholar_id }}" title="Google scholar">
+      <img src="https://scholar.google.com/citations/images/avatar_scholar_56.png" style="border-radius: 50%; width: 32px; height: 32px;">
+    </a>
+  </h3>
+  <div class="row clearfix">
+    <div class="{{ 'col-xs-16 ' }}">
+      <ul>
+      {% for pub in site.data.publication %}
+        <li>
+          <div>
+            <b>
+              {{ pub.title }}
+              {% if pub.pdf %}
+                <a href="{{pub.pdf}}">[pdf]</a>
+              {% endif%}
+              {% if pub.code %}
+                <a href="{{pub.code}}">[code]</a>
+              {% endif%}
+              {% if pub.video %}
+                <a href="{{pub.video}}">[video]</a>
+              {% endif%}
+            </b> 
+          </div>
+          <div style="font-size: 9px">
+            {{ pub.info | strip | markdownify }}
+          </div>
+        </li>
+      {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>

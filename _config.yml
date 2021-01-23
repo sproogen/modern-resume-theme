@@ -1,14 +1,16 @@
 # Site
 repository: camelop/about
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+favicon: images/favicon.png
 
 # Personal info
 name: Xiaoyuan Liu (刘啸远)
-title: Senior Undergrad, Computer Science
-email: lxy9843 [dot] sjtu [dot] edu [dot] cn
-phone: 132 - 6229 - 0218
+title: Ph.D. Student, EECS, UC Berkeley
+email: xiaoyuanliu [at] berkeley [dot] edu
+phone: +86 132 - 6229 - 0218
 website: littleround.cn
 blog: littleround.cn/main
+google_scholar_id: vbycUZ4AAAAJ
 
 # Social links
 twitter_username: littleRound_cn
@@ -17,20 +19,20 @@ linkedin_username: 啸远-刘-b46033190
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: images/profile.jpg
+about_profile_image: images/profile2.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I am an undergraduate student majoring in <mark>Computer Science</mark> at [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/), [ACM Honors Class](https://acm.sjtu.edu.cn/home), Zhiyuan College.
-  - **ACM Honors Class**: it is an elite CS program at SJTU for top 5% talented students.
-  - **Research Interest**: I am broadly interested in **computer security and systems**, especially building secure systems and use **machine learning** to boost their performance. I also want to explore how to manage and schedule machine learning components at the system level so they can be better applied without violating privacy.
+  I am a <mark>Ph.D. student</mark> in the EECS department, [UC Berkeley](https://www.berkeley.edu/) advised by [Professor Dawn Song](https://people.eecs.berkeley.edu/~dawnsong/). Before joining UC Berkeley, I received my <mark>Bachelor's degree</mark> from [ACM Honors Class](https://acm.sjtu.edu.cn/home), [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/).
+  - **Research Interest**: I am broadly interested in **computer security and systems**, especially building secure and privacy-preserving systems and use **machine learning** to boost their performance.
 
 # Honors Section
 honor_title: Honors and Awards
 honor_content: |
-  - The 32nd China's National Olympiad in Informatics (NOI) Silver Medal [2015]
-  - KoGuan Encouragement Scholarship **(Top 0.3%, SJTU)** [2017]
-  - Zhiyuan Honorary Scholarship [2016, 2017, 2018, 2019]
-  - Academic Excellence Scholarship [2017, 2018, 2019]
+  - Berkeley EECS Department Fellowship [2020]
   - Outstanding Student Cadre **(Top 0.8%, SJTU)** [2018]
+  - Academic Excellence Scholarship [2017, 2018, 2019]
+  - Zhiyuan Honorary Scholarship [2016, 2017, 2018, 2019]
+  - KoGuan Encouragement Scholarship **(Top 0.3%, SJTU)** [2017]
+  - The 32nd China's National Olympiad in Informatics (NOI) Silver Medal [2015]
 
 # Projects Section
 projects_title: Selected Projects #(Use this to override about projects section title)
@@ -45,7 +47,7 @@ experience_title: Research Experience #(Use this to override about experience se
 more_title: Misc #(Use this to override about more section title)
 more_content: | # this will include new lines to allow paragraphs
   **Materials**
-  - [CV](https://littleround.cn/static/personal/cv_xiaoyuanliu_SJTU_2019_12.pdf)
+  - [CV (outdated)](https://littleround.cn/static/personal/cv_xiaoyuanliu_SJTU_2019_12.pdf)
 
   **Teaching Experience**
   - **Lead Teaching Assistant** C++ Programming (A) - Fall 2017

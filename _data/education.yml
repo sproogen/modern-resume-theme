@@ -1,5 +1,9 @@
 # Education Template
 - layout: top-middle
+  name: UC Berkeley
+  dates: 2020 - 2026 (Expected)
+  qualification: Ph.D. Student, EECS
+- layout: top-middle
   name: Shanghai Jiao Tong University
-  dates: 2016 - 2020 (Expected)
-  qualification: Honors Bachelor of Science (B.Sc. Hons) in Computer Science
+  dates: 2016 - 2020
+  qualification: Honors Bachelor of Engineering (B.Eng. Hons) in Computer Science
