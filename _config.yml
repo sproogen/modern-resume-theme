@@ -22,7 +22,7 @@ linkedin_username: 啸远-刘-b46033190
 about_profile_image: images/profile2.jpg
 about_content: | # this will include new lines to allow paragraphs
   I am a <mark>Ph.D. student</mark> in the EECS department, [UC Berkeley](https://www.berkeley.edu/) advised by [Professor Dawn Song](https://people.eecs.berkeley.edu/~dawnsong/). Before joining UC Berkeley, I received my <mark>Bachelor's degree</mark> from [ACM Honors Class](https://acm.sjtu.edu.cn/home), [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/).
-  - **Research Interest**: I am broadly interested in **computer security and systems**, especially building secure and privacy-preserving systems and use **machine learning** to boost their performance.
+  - **Research Interest**: I am broadly interested in **computer security**, **systems** and **machine learning**, especially building secure and privacy-preserving systems that enable secure data processing or solve real-world security problems.
 
 # Honors Section
 honor_title: Honors and Awards
