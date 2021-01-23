@@ -14,13 +14,14 @@
             <b>
               {{ pub.title }}
               {% if pub.pdf %}
-                <a href="{{pub.pdf}}">[pdf]</a>
+                <a href="{{pub.pdf}}" onclick="getOutboundLink('{{pub.pdf}}')">[pdf]</a>
+                
               {% endif%}
               {% if pub.code %}
-                <a href="{{pub.code}}">[code]</a>
+                <a href="{{pub.code}}" onclick="getOutboundLink('{{pub.code}}')">[code]</a>
               {% endif%}
               {% if pub.video %}
-                <a href="{{pub.video}}">[video]</a>
+                <a href="{{pub.video}}" onclick="getOutboundLink('{{pub.video}}')">[video]</a>
               {% endif%}
             </b> 
           </div>
