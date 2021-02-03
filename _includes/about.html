@@ -1,5 +1,5 @@
 <div class="container intro-container">
-  <h3 id="{{ site.about_title }}">{{ site.about_title | default: "About Me" }}</h3>
+  <h3 id="{{ site.about_title | downcase | replace: ' ', '-' }}">{{ site.about_title | default: "About Me" }}</h3>
   <div class="row clearfix">
     {%- if site.about_profile_image -%}
       <div class="col-xs-12 col-sm-4 col-md-3 no-print">
