@@ -23,6 +23,9 @@
               {% if pub.video %}
                 <a href="{{pub.video}}" onclick="getOutboundLink('{{pub.video}}')">[video]</a>
               {% endif%}
+              {% if pub.project_website %}
+                <a href="{{pub.project_website}}" onclick="getOutboundLink('{{pub.project_website}}')">[project website]</a>
+              {% endif%}
             </b> 
           </div>
           <div style="font-size: 9px">
