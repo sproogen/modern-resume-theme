@@ -1,4 +1,9 @@
 # add two space after author to make a new line
+- title: "A System for Automated Open-Source Threat Intelligence Gathering and Management"
+  pdf: https://arxiv.org/pdf/2101.07769.pdf
+  info: |
+    Peng Gao\*, **Xiaoyuan Liu\*** (equal contribution), Edward Choi, Bhavna Soman, Chinmaya Mishra, Kate Farris, Dawn Song  
+    [[SIGMOD 2021 demo]](https://2021.sigmod.org/)
 - title: "Enabling Efficient Cyber Threat Hunting With Cyber Threat Intelligence"
   pdf: https://arxiv.org/pdf/2010.13637.pdf
   project_website: https://sites.google.com/site/effhuntersystem/
