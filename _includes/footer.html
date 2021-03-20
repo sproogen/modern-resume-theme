@@ -7,3 +7,9 @@
     {%- endif -%}
   </p>
 </div>
+
+{% if site.darktoggle == true %}
+<a target="_blank" style="position: fixed; bottom: 20px; right: 20px; " class="button button--sacnite button--round-l text-center" onclick="modifyTheme()">
+    <i id="dark-theme-button" class="fa-lightbulb fa-2x" style="position: sticky; padding-top: 20px;" title="Dark Mode"></i>
+</a>
+{% endif %}
