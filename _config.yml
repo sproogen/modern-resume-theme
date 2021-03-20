@@ -18,6 +18,9 @@ website: Your website (eg. https://google.com)(optional)
 # Dark Mode (true/false/never)
 darkmode: false
 
+# Allow users to enable/disable darkmode on their end (using cookies)
+darktoggle: true
+
 # Social links
 twitter_username: jekyllrb
 github_username:  jekyll
