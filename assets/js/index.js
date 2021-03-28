@@ -26,24 +26,6 @@ function getCurTheme() {
 }
 
 /**
- * Function to modify button being used in the dark theme icon.
- * 
- * @param {boolean} darkThemeEnabled Boolean indicating if dark theme
- * has been switched on or off.
- */
-function toggleButtonIcon(darkThemeEnabled) {
-    let button = document.getElementById("dark-theme-button");
-
-    if (darkThemeEnabled) {
-        button.classList.remove("fas");
-        button.classList.add("far");
-    } else {
-        button.classList.add("fas");
-        button.classList.remove("far");
-    }
-}
-
-/**
  * Initial setup method - will read the value of stored cookies to check 
  * if dark mode is enabled or not.
  * 
@@ -52,8 +34,6 @@ function toggleButtonIcon(darkThemeEnabled) {
  * cookies (if any), and enable dark mode if required.
  */
 function setupTheme() {
-    console.log("value: " + getCurTheme());
-
     // If neither one of the if-else ladder condition is true, do not modify
     // the theme - ensures that if the user is visiting for the first time,
     // the theme defaults to the value of `_config.yml/darkmode`
@@ -64,13 +44,6 @@ function setupTheme() {
         // Note: Intentionally not removing the element from class list. Ensures
         // functionality of `darkmode` variable in _configs.yml doesn't break.
         document.body.classList.remove(dark_mode); // disable dark mode
-
-    // Modify/apply icon for the theme button
-    if (document.body.classList.contains(dark_mode))
-        toggleButtonIcon(true);
-    else
-        toggleButtonIcon(false);
-
 }
 
 /**
@@ -81,12 +54,10 @@ function modifyTheme() {
         // Current mode is dark mode, switch to light
         window.localStorage.setItem(theme, light_mode);
         document.body.classList.remove(dark_mode);
-        toggleButtonIcon(false);
     } else {
         // Assume dark mode is being turned off, enable it
         window.localStorage.setItem(theme, dark_mode);
         document.body.classList.add(dark_mode);
-        toggleButtonIcon(true);
     }
 }
 
