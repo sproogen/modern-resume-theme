@@ -1,5 +1,5 @@
 # Site
-repository: sproogen/resume-theme
+repository: github.com/rachaelssmith
 favicon: images/rachael_profile.jpg
 
 # Content configuration version
@@ -15,17 +15,17 @@ website: rachaelssmith.github.io/rachael_smith_resume/
 darkmode: false
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+#twitter_username: facespics
+github_username:  rachaelssmith
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+#instagram_username: jameswgrant
+linkedin_username: rachael-s-smith
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+#youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
