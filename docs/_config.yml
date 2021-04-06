@@ -75,6 +75,19 @@ content:
          # - Client is utilizing <mark>Sales Forecasting</mark> tool used in business created in <mark>Power BI</mark>.
           #- Led group of students in <mark>Machine Learning</mark> and <mark>Time Series Prediction</mark> utilizing <mark>R</mark> and <mark>Python</mark>.
           #- Increased workflow efficiency by <mark>wrangling data </mark> in<mark>R</mark> & <mark>SQL</mark> from 40GB file sizes to 1 GB, and from 60 files to a single file.
+- title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Brigham Young University - Idaho
+        caption: 2018 - 2022
+        sub_title: BS | Data Science <br> Minor | Business Analytics <br> Certificate: Machine Learning
+        quote: >
+          The BYU-ID learning model encourages students to prepare, teach one another, ponder and prove.  This methodology encourages students to be proactive in their learning and to build up those around them.
+        description: | # this will include new lines to allow paragraphs
+          During my time at BYU-ID, I ignited a spark for machine learning and statistical analysis. I also learned how to navigate such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+
+          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -92,20 +105,7 @@ content:
           - Led group of students in <mark>Machine Learning</mark> and <mark>Time Series Prediction</mark> utilizing <mark>R</mark> and <mark>Python</mark>.
           - Increased workflow efficiency by <mark>wrangling data </mark> in<mark>R</mark> & <mark>SQL</mark> from 40GB file sizes to 1 GB, and from 60 files to a single file.
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Brigham Young University - Idaho
-        caption: 2018 - 2022
-        sub_title: BS | Data Science <br> Minor | Business Analytics <br> Certificate: Machine Learning
-        quote: >
-          The BYU-ID learning model encourages students to prepare, teach one another, ponder and prove.  This methodology encourages students to be proactive in their learning and to build up those around them.
-        description: | # this will include new lines to allow paragraphs
-          During my time at BYU-ID, I ignited a spark for machine learning and statistical analysis. I also learned how to navigate such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-
+  
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
