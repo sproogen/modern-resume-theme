@@ -1,13 +1,13 @@
 # Site
 repository: sproogen/resume-theme
-favicon: images/favicon.ico
+favicon: rachael_headshot.jpg
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
+name: Rachael Smith
+title: Data Scientist
 email: brett.h@email.co.uk
 website: www.github.com/sproogen/resume-theme
 
