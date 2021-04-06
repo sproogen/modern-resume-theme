@@ -50,7 +50,7 @@ about_profile_image: images/profile_rachael.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Rachael and I'm a data science student. My whole life I have loved solving problems of all kinds, whether it’s math problems, building furniture, baking, or helping businesses find ways to use their data or measure their mission and vision, I am all in!  I am passionate about data, so you don't have to be.  I am experienced in statistics, business analytics and machine learning. Prior to studying Data Science, I founded a charter school and served as a Board Vice Chairman for 10 years gaining teamwork and leadership skills.  
 
-  I am most skilled in: <mark>R</mark> and <mark>Python</mark>.  
+  I am most skilled in: <mark>R</mark> and <mark>Python</mark>.  I love math, programming and problem solving.
   
   I also am skilled at <mark>SQL</mark>, <mark>Machine Learning</mark>, <mark>Excel</mark>, <mark>Power BI</mark>, <mark>R</mark>, and <mark>Tableau</mark>.
 
@@ -105,11 +105,25 @@ content:
           - Client is utilizing <mark>Sales Forecasting</mark> tool used in business created in <mark>Power BI</mark>.
           - Led group of students in <mark>Machine Learning</mark> and <mark>Time Series Prediction</mark> utilizing <mark>R</mark> and <mark>Python</mark>.
           - Increased workflow efficiency by <mark>wrangling data </mark> in<mark>R</mark> & <mark>SQL</mark> from 40GB file sizes to 1 GB, and from 60 files to a single file.
+       
+        title: Research & Business Development Center
+        #link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Technical Project Lead
+        caption: January 2021 - April 2021
+        quote: >
+          Working for Good2Go was a pleasure, what impressed me most is their ability to ask great questions and interest in our growth.
+        description: | # this will include new lines to allow paragraphs
+          - Client is utilizing <mark>Sales Forecasting</mark> tool used in business created in <mark>Power BI</mark>.
+          - Led group of students in <mark>Machine Learning</mark> and <mark>Time Series Prediction</mark> utilizing <mark>R</mark> and <mark>Python</mark>.
+          - Increased workflow efficiency by <mark>wrangling data </mark> in<mark>R</mark> & <mark>SQL</mark> from 40GB file sizes to 1 GB, and from 60 files to a single file.
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-    
+    quote: >
+          I love to dream big and am very self driven.  I don't see challenges as limits, I have a track record of going above and beyond to accomplish a goal, and leading a team along the way.
+    description: | 
       - Raising my 5 children has taught me the value of different perspectives, patience, consistency, and having a higher purpose.
       - Founding a charter school taught me the value of <mark>grit</mark> and that it is possible to make big things happen, against all odds, when you have a clear purpose and the right team by your side.
       - Serving on a school board taught me the importance <mark>integrity</mark> in team, the value of using good, accurate data, <mark>data-driven decision making</mark>, and the importance of a unified vision. 
