@@ -31,9 +31,9 @@ linkedin_username: rachael-s-smith
 
 # Additional icon links
 additional_links:
-- title: itsgoingto.be
+#- title: mywebsite
   icon: fas fa-globe
-  url: https://www.itsgoingto.be
+#  url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -63,7 +63,7 @@ content:
       #  link: github.com/sproogen
         # link_text: Project Website
        # additional_links:
-          - title:  Technical Project Lead
+  #        - title:  Technical Project Lead
             #icon: fab fa-github
             #url: github.com/sproogen/modern-resume-theme
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
