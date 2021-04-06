@@ -48,9 +48,9 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile_rachael.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Rachael and I'm a data science student. I am passionate about data, so you don't have to be.  I am experienced in statistics, business analytics and machine learning. I started a charter school and volunteered for 10 years as board member gaining teamwork and leadership skills.
+  Hi, my name's Rachael and I'm a data science student. I am passionate about data, so you don't have to be.  I am experienced in statistics, business analytics and machine learning. Prior to studying Data Science, I founded a charter school and served as a Board Vice Chairman for 10 years gaining teamwork and leadership skills.
 
-  I am most skilled in: <mark>R</mark> and <mark>Python</mark>, I also am skilled at <mark>SQL</mark>, <mark>Machine Learning</mark>, <mark>Excel</mark>, <mark>Power BI</mark>, <mark>R</mark>, and <mark>Tableau</mark>.
+  I am most skilled in: <mark>R</mark> and <mark>Python</mark>.  I also am skilled at <mark>SQL</mark>, <mark>Machine Learning</mark>, <mark>Excel</mark>, <mark>Power BI</mark>, <mark>R</mark>, and <mark>Tableau</mark>.
 
 content:
   - title: Projects # Title for the section
