@@ -9,7 +9,7 @@ version: 2
 name: Rachael Smith
 title: Data Scientist
 email: smith.rachael@gmail.com
-website: rachaelssmith.github.io/rachael_smith_resume/
+#website: rachaelssmith.github.io/rachael_smith_resume/
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -46,11 +46,11 @@ additional_links:
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/rachael_profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  Hi, my name's Rachael and I'm a data science student. I am passionate about data, so you don't have to be.  I am experienced in statistics, business analytics and machine learning. I started a charter school and volunteered for 10 years as board member gaining teamwork and leadership skills.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  I am most skilled in: <mark>R</mark> and <mark>Python</mark>, I also am skilled at <mark>SQL</mark>, <mark>Machine Learning</mark>, <mark>Excel</mark>, <mark>Power BI</mark>, <mark>R</mark>, and <mark>Tableau</mark>.
 
 content:
   - title: Projects # Title for the section
@@ -90,13 +90,13 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
+        title: Brigham Young University - Idaho
+        caption: 2018 - 2022
+        sub_title: BSc Computer Science, Minor Business Analytics
         quote: >
           Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          During my time at BYU-ID, I ignited a spark for machine learning and statistical analysis. I also learned how to navigate such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
 
           I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
 
@@ -104,13 +104,12 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      - Baking
+      - Furniture Building
+      - T-Shirt Design
 
       Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      ![Trees](/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
