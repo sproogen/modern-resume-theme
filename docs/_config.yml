@@ -107,7 +107,7 @@ content:
   - title: Data Science Experience  # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
+      - layout: list
         title: Research & Business Development Center
         #link: boringcompany.com
         # link_text: boringcompany.com
