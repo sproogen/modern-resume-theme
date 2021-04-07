@@ -90,6 +90,20 @@ content:
 
           I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
 
+- title: Experience  # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Research & Business Development Center
+        caption: January 2021 - April 2021
+        sub_title: Technicale Project Lead
+        quote: >
+          Working for Good2Go was a pleasure, what impressed me most is their ability to ask great questions and interest in our growth.
+        description: | # this will include new lines to allow paragraphs
+          - Client is utilizing <mark>Sales Forecasting</mark> tool used in business created in <mark>Power BI</mark>.
+          - Led group of students in <mark>Machine Learning</mark> and <mark>Time Series Prediction</mark> utilizing <mark>R</mark> and <mark>Python</mark>.
+          - Increased workflow efficiency by <mark>wrangling data </mark> in<mark>R</mark> & <mark>SQL</mark> from 40GB file sizes to 1 GB, and from 60 files to a single file.
+          
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -119,10 +133,22 @@ content:
           - Client is utilizing <mark>Sales Forecasting</mark> tool used in business created in <mark>Power BI</mark>.
           - Led group of students in <mark>Machine Learning</mark> and <mark>Time Series Prediction</mark> utilizing <mark>R</mark> and <mark>Python</mark>.
           - Increased workflow efficiency by <mark>wrangling data </mark> in<mark>R</mark> & <mark>SQL</mark> from 40GB file sizes to 1 GB, and from 60 files to a single file.
+    
+        title: Research & Business Development Center
+        #link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Consultant
+        caption: September 2020 - December 2020
+        quote: >
+          Working for Good2Go was a pleasure, what impressed me most is their ability to ask great questions and interest in our growth.
+        description: | # this will include new lines to allow paragraphs
+          - Client is utilizing <mark>Sales Forecasting</mark> tool used in business created in <mark>Power BI</mark>.
+          - Led group of students in <mark>Machine Learning</mark> and <mark>Time Series Prediction</mark> utilizing <mark>R</mark> and <mark>Python</mark>.
+          - Increased workflow efficiency by <mark>wrangling data </mark> in<mark>R</mark> & <mark>SQL</mark> from 40GB file sizes to 1 GB, and from 60 files to a single file.
   
   - title: A Little More About Me # Title for the section
     layout: list # Type of content section (list/text)
-    layout: text
+    layout: left
     content: | # this will include new lines to allow paragraphs
     quote: >
           I love to dream big and am very self driven.  I don't see challenges as limits, I have a track record of going above and beyond to accomplish a goal, and leading a team along the way. 
