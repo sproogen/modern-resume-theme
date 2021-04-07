@@ -86,11 +86,9 @@ content:
         quote: >
           The BYU-ID learning model encourages students to prepare, teach one another, ponder and prove.  This methodology encourages students to be proactive in their learning and to build up those around them.
         description: | # this will include new lines to allow paragraphs
-          During my time at BYU-ID, I ignited a spark for machine learning and statistical analysis. I also learned how to navigate such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          During my time at BYU-ID, I ignited a spark for machine learning and statistical analysis. I also learned how to navigate such as teamwork and working to tight deadlines. 
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-
-  - title: Lead Data Science Experience  # Title for the section
+  - title: Data Science Lead Experience  # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -98,32 +96,31 @@ content:
         caption: January 2021 - April 2021
         sub_title: Technicale Project Lead
         quote: >
-          Working for Good2Go was a pleasure, what impressed me most is their ability to ask great questions and interest in our growth.
+          Leading students to use their skills helped me better understand the value of collaboration and good communication.
         description: | # this will include new lines to allow paragraphs
           - Client is utilizing <mark>Sales Forecasting</mark> tool used in business created in <mark>Power BI</mark>.
           - Led group of students in <mark>Machine Learning</mark> and <mark>Time Series Prediction</mark> utilizing <mark>R</mark> and <mark>Python</mark>.
           - Increased workflow efficiency by <mark>wrangling data </mark> in<mark>R</mark> & <mark>SQL</mark> from 40GB file sizes to 1 GB, and from 60 files to a single file.
 
       - layout: left
-        title: Research & Business Development Center
-        caption: January 2021 - April 2021
-        sub_title: Technicale Project Lead
+        title: Brigham Young University Idaho | Rexburg
+        caption: September 2020 - December 2020
+        sub_title: Intermediate Statistics <br> Teacher's Assistant & Tutor
         quote: >
-          Working for Good2Go was a pleasure, what impressed me most is their ability to ask great questions and interest in our growth.
+          I loved helping students succeed and bring their ideas to life!
         description: | # this will include new lines to allow paragraphs
-          - Client is utilizing <mark>Sales Forecasting</mark> tool used in business created in <mark>Power BI</mark>.
-          - Led group of students in <mark>Machine Learning</mark> and <mark>Time Series Prediction</mark> utilizing <mark>R</mark> and <mark>Python</mark>.
-          - Increased workflow efficiency by <mark>wrangling data </mark> in<mark>R</mark> & <mark>SQL</mark> from 40GB file sizes to 1 GB, and from 60 files to a single file.
+          - Supported students in understanding statistical testing and analysis.
+          - Provided expertise in statistical modeling and data wrangling & data visualization using ggplot and tidyverse. 
 
-  - title: Data Science Experience  # Title for the section
+  - title: Projects  # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: list
         title: Research & Business Development Center
         #link: boringcompany.com
         # link_text: boringcompany.com
-        sub_title: Technical Project Lead
-        caption: January 2021 - April 2021
+        sub_title: Student Consultant for Good2Go Project
+        caption: September 2020 - December 2020
         quote: >
           Working for Good2Go was a pleasure, what impressed me most is their ability to ask great questions and interest in our growth.
         description: | # this will include new lines to allow paragraphs
@@ -134,7 +131,7 @@ content:
   - title: A Little More About Me
     layout: text 
     content: | # this will include new lines to allow paragraphs
-      My whole life I have loved solving problems of all kinds, whether it’s math problems, building furniture, baking, or helping businesses find ways to use their data or measure their mission and vision, I am all in!
+      *My whole life I have loved solving problems of all kinds, whether it’s math problems, building furniture, baking, or helping businesses find ways to use their data or measure their mission and vision, I am all in!*
       - Raising my 5 children has taught me the value of different perspectives, patience, consistency, and having a higher purpose.
       - Founding a charter school taught me the value of <mark>grit</mark> and that it is possible to make big things happen, against all odds, when you have a clear purpose and the right team by your side.
       - Serving on a school board taught me the importance <mark>integrity</mark> in team, the value of using good, accurate data, <mark>data-driven decision making</mark>, and the importance of a unified vision. 
