@@ -95,7 +95,7 @@ content:
           *GPA | 3.88* <br>
           As a data science student, My time at BYU-ID has ignited a spark for machine learning and statistical analysis. I also learned how to navigate personal goals, collaborate on team projects, and work with tight deadlines. 
  
-  - title: Data Science Lead Experience  # Title for the section
+  - title: Data Science Lead  # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -119,7 +119,7 @@ content:
           - Supported students in understanding statistical testing, analysis, and R Markdowns.
           - Provided expertise in statistical modeling and data wrangling & data visualization using ggplot & tidyverse. 
 
-  - title: Projects  # Title for the section
+  - title: Data Science Projects  # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
