@@ -131,7 +131,7 @@ content:
         quote: >
           I was impressed by our client's ability to ask great questions & their interest in our growth.
         description: | # this will include new lines to allow paragraphs
-          - Created visualization that showed client effect of sales from business closures due to Covid-19.
+          - Created interactive visualization in R and a Power BI dashboard that showed client effect of sales from business closures due to Covid-19.
           - Solved challenges as a team including good data visualization, working with large datasets, and collaborating to find the best visual solution to a client's questions.
 
   - title: A Little More About Me
