@@ -49,7 +49,7 @@ additional_links:
 about_profile_image: images/profile_rachael.jpg
 about_content: | # this will include new lines to allow paragraphs
   
-  Hi, my name's Rachael and I am experienced in statistics, business analytics and machine learning.  I love to dream big and am very self driven.  I don't see challenges as limits, I have a track record of going above and beyond to accomplish a goal, and leading a team along the way.  
+  Hi, my name's Rachael and I am experienced in statistics, business analytics and machine learning.  I love to dream big and am very self driven.  I see challenges as opportunities and I have a track record of going above and beyond to accomplish a goal and leading a team along the way.  
  
   Prior to studying Data Science, I founded a charter school and served as a Board Vice Chairman for 10 years gaining teamwork and leadership skills. 
   As a board member, I valued access to transparent and accurate data to make good decisions, I understand how blind you can feel as a decision maker when you don't have access to good data.  
@@ -92,7 +92,7 @@ content:
         quote: >
           The BYU-ID methodology encourages students to be proactive in their learning, become highly skilled, and to build up those around them.
         description: | # this will include new lines to allow paragraphs
-          *GPA | 3.88*
+          *GPA | 3.88* <br>
           As a data science student, My time at BYU-ID has ignited a spark for machine learning and statistical analysis. I also learned how to navigate personal goals, team projects, and working with tight deadlines. 
  
   - title: Data Science Lead Experience  # Title for the section
@@ -101,13 +101,13 @@ content:
       - layout: left
         title: Research & Business Development Center
         caption: January 2021 - April 2021
-        sub_title: Technicale Project Lead | Good2Go Forecasting
+        sub_title: Technicale Project Lead <br> Good2Go Forecasting
         quote: >
           Working to understand the client's needs while leading a team of students helped me better understand the value of collaboration, good communication, in meeting a deadline.
         description: | # this will include new lines to allow paragraphs
-          - Client is utilizing <mark>Sales Forecasting</mark> tool used in business created in <mark>Power BI</mark>.
-          - Led group of students in <mark>Machine Learning</mark> and <mark>Time Series Prediction</mark> utilizing <mark>R</mark> and <mark>Python</mark>.
-          - Increased workflow efficiency by <mark>wrangling data </mark> in<mark>R</mark> & <mark>SQL</mark> from 40GB file sizes to 1 GB, and from 60 files to a single file.
+          - Client is utilizing sales forecasting tool used in business created in Power BI, using R scripts.
+          - Led group of students in machine learning and Time Series Prediction utilizing R and Python, including scikit-learn, holt winters, and ARIMA.
+          - Increased workflow efficiency by wrangling data in R & SQL from 40GB file sizes to 1 GB, and from 60 files to a single file.
 
       - layout: left
         title: Brigham Young University Idaho | Rexburg
@@ -116,8 +116,8 @@ content:
         quote: >
           I loved helping students succeed and bring their ideas to life!
         description: | # this will include new lines to allow paragraphs
-          - Supported students in understanding statistical testing and analysis.
-          - Provided expertise in statistical modeling and data wrangling & data visualization using ggplot and tidyverse. 
+          - Supported students in understanding statistical testing, analysis, and R Markdowns.
+          - Provided expertise in statistical modeling and data wrangling & data visualization using ggplot & tidyverse. 
 
   - title: Projects  # Title for the section
     layout: list # Type of content section (list/text)
@@ -126,24 +126,22 @@ content:
         title: Research & Business Development Center
         #link: boringcompany.com
         # link_text: boringcompany.com
-        sub_title: Student Consultant | Good2Go & Pinnacle
+        sub_title: Student Consultant <br> Good2Go & Pinnacle
         caption: September 2020 - December 2020
         quote: >
           Working for Good2Go was a pleasure, what impressed me most is their ability to ask great questions and interest in our growth.
         description: | # this will include new lines to allow paragraphs
           - Created visualization that showed client effect of sales from business closures due to Covid-19.
-          - Increased workflow efficiency by <mark>wrangling data </mark> in<mark>R</mark> & <mark>SQL</mark> from 40GB file sizes to 1 GB, and from 60 files to a single file.
+          - Solved challenges as a team including good data visualization, working with large datasets, and collaborating to find the best visual solution to a client's questions.
 
   - title: A Little More About Me
     layout: text 
     content: | # this will include new lines to allow paragraphs
       *My whole life I have loved solving problems of all kinds, whether it’s math problems, building furniture, baking, or helping businesses find ways to use their data or measure their mission and vision, I am all in!* 
-      - Raising my 5 children has taught me the value of different perspectives, patience, consistency, and having a higher purpose.
+      - Raising 5 children is teaching me the value of different perspectives, patience, consistency, and having a higher purpose.
       - Founding a charter school taught me the value of grit and that it is possible to make big things happen, against all odds, when you have a clear purpose and the right team by your side.
       - Serving on a school board taught me the importance integrity in teams, the value of using good, accurate data, data-driven decision making, and the importance of a unified vision. 
-   
-      #![Trees](images/landscape-trees.jpg "Trees")
-
+      - Going back to college has taught me that it is never too late to pursue your dreams.
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
