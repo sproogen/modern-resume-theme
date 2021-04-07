@@ -90,7 +90,7 @@ content:
 
           I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
 
-- title: Experience  # Title for the section
+  - title: Experience  # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
