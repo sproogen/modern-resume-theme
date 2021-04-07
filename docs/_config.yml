@@ -82,11 +82,11 @@ content:
       - layout: left
         title: Brigham Young University - Idaho
         caption: 2018 - 2022
-        sub_title: BS | Data Science <br> Minor | Business Analytics <br> Certificate | Machine Learning
+        sub_title: BS | Data Science <br> Minor | Business Analytics <br> Certificate | Machine Learning <br> GPA: 3.88
         quote: >
-          The BYU-ID learning model encourages students to prepare, teach one another, ponder and prove.  This methodology encourages students to be proactive in their learning and to build up those around them.
+          The BYU-ID methodology encourages students to be proactive in their learning, become highly skilled, and to build up those around them.
         description: | # this will include new lines to allow paragraphs
-          During my time at BYU-ID, I ignited a spark for machine learning and statistical analysis. I also learned how to navigate such as teamwork and working to tight deadlines. 
+          My time at BYU-ID, has ignited a spark for machine learning and statistical analysis. I also learned how to navigate personal goals, team projects, and working with tight deadlines. 
 
   - title: Data Science Lead Experience  # Title for the section
     layout: list # Type of content section (list/text)
@@ -94,9 +94,9 @@ content:
       - layout: left
         title: Research & Business Development Center
         caption: January 2021 - April 2021
-        sub_title: Technicale Project Lead
+        sub_title: Technicale Project Lead | Good2Go Forecasting
         quote: >
-          Leading students to use their skills helped me better understand the value of collaboration and good communication.
+          Working to understand the client's needs while leading a team of students helped me better understand the value of collaboration, good communication, in meeting a deadline.
         description: | # this will include new lines to allow paragraphs
           - Client is utilizing <mark>Sales Forecasting</mark> tool used in business created in <mark>Power BI</mark>.
           - Led group of students in <mark>Machine Learning</mark> and <mark>Time Series Prediction</mark> utilizing <mark>R</mark> and <mark>Python</mark>.
@@ -119,7 +119,7 @@ content:
         title: Research & Business Development Center
         #link: boringcompany.com
         # link_text: boringcompany.com
-        sub_title: Student Consultant for Good2Go Project
+        sub_title: Student Consultant | Good2Go Covid Data
         caption: September 2020 - December 2020
         quote: >
           Working for Good2Go was a pleasure, what impressed me most is their ability to ask great questions and interest in our growth.
