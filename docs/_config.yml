@@ -134,6 +134,29 @@ content:
           - Created interactive visualization in R and a Power BI dashboard that showed client effect of sales from business closures due to Covid-19.
           - Solved challenges as a team including good data visualization, working with large datasets, and collaborating to find the best visual solution to a client's questions.
 
+
+  - title: Service & Experience  # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: The Village Charter School
+        link: thevillagecharter.org
+        link_text: thevillagecharter.org
+        sub_title: Founder <br> Board Vice Chairman
+        caption: May 2009 - June 2020
+        quote: >
+          I didn't know I had a passion for education until I realized that a child's teacher can ignite the love of learning, or distinguish it. 
+        description: | # this will include new lines to allow paragraphs
+          Vice Chairman 
+          - Achieved Lighthouse Recognition as a Leader in Me Lighthouse School with Franklin Covey.
+          - Oversaw board development, open meeting law and school policies, managed relationship with bondholders and authorizer.  
+          - Bonded, and renovated permanent facilityrenovated 32,000 square foot facility.
+          - Recruited 3 exceptional administrators, grew enrollment from 300-500 students, graduated nine 8th grade classes, served 1000s of K-8 students in Idaho. 
+         Founder
+          - Designed, Implemented and Secured Authorization for a Leadership Charter School, focused on Hands-on Learning, Challenging and Engaging all Students, Whole Child Education and the 7 Habits of Highly Effective People.  
+          - Awarded and monitored use of over $600K in charter-start grants. 
+          - Hired staff, recruited students, Held public meetings and events, monitored budget and grant funding, established policies and protocols for startup.
+
   - title: A Little More About Me
     layout: text 
     content: | # this will include new lines to allow paragraphs
