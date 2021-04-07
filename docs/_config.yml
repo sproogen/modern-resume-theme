@@ -104,38 +104,11 @@ content:
           - Led group of students in <mark>Machine Learning</mark> and <mark>Time Series Prediction</mark> utilizing <mark>R</mark> and <mark>Python</mark>.
           - Increased workflow efficiency by <mark>wrangling data </mark> in<mark>R</mark> & <mark>SQL</mark> from 40GB file sizes to 1 GB, and from 60 files to a single file.
           
-    content:
-      - layout: left
         title: Research & Business Development Center
         #link: boringcompany.com
         # link_text: boringcompany.com
         sub_title: Technical Project Lead
         caption: January 2021 - April 2021
-        quote: >
-          Working for Good2Go was a pleasure, what impressed me most is their ability to ask great questions and interest in our growth.
-        description: | # this will include new lines to allow paragraphs
-          - Client is utilizing <mark>Sales Forecasting</mark> tool used in business created in <mark>Power BI</mark>.
-          - Led group of students in <mark>Machine Learning</mark> and <mark>Time Series Prediction</mark> utilizing <mark>R</mark> and <mark>Python</mark>.
-          - Increased workflow efficiency by <mark>wrangling data </mark> in<mark>R</mark> & <mark>SQL</mark> from 40GB file sizes to 1 GB, and from 60 files to a single file.
-  
-    content:
-        title: Research & Business Development Center
-        #link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Technical Project Lead
-        caption: January 2021 - April 2021
-        quote: >
-          Working for Good2Go was a pleasure, what impressed me most is their ability to ask great questions and interest in our growth.
-        description: | # this will include new lines to allow paragraphs
-          - Client is utilizing <mark>Sales Forecasting</mark> tool used in business created in <mark>Power BI</mark>.
-          - Led group of students in <mark>Machine Learning</mark> and <mark>Time Series Prediction</mark> utilizing <mark>R</mark> and <mark>Python</mark>.
-          - Increased workflow efficiency by <mark>wrangling data </mark> in<mark>R</mark> & <mark>SQL</mark> from 40GB file sizes to 1 GB, and from 60 files to a single file.
-
-        title: Research & Business Development Center
-        #link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Consultant
-        caption: September 2020 - December 2020
         quote: >
           Working for Good2Go was a pleasure, what impressed me most is their ability to ask great questions and interest in our growth.
         description: | # this will include new lines to allow paragraphs
