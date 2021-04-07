@@ -56,9 +56,9 @@ about_content: | # this will include new lines to allow paragraphs
   
   I am passionate about understanding my client's challenges and finding the story within the data that can drive businesses to make informed decisions.
 
-  I am most skilled in: <mark>R</mark> and <mark>Python</mark>.  I love math, programming and problem solving. 
+  I am most skilled in: <mark>R</mark> and <mark>Python</mark>.  I love math, programming & problem solving. 
   
-  I also am skilled at <mark>SQL</mark>, <mark>Machine Learning</mark>, <mark>Excel</mark>, <mark>Power BI</mark>, <mark>R</mark>, and <mark>Tableau</mark>.
+  I also am skilled at <mark>SQL</mark>, <mark>Machine Learning</mark>, <mark>Excel</mark>, <mark>Power BI</mark>, <mark>R</mark>, & <mark>Tableau</mark>.
 
 content:
  # - title: Projects # Title for the section
@@ -90,10 +90,10 @@ content:
         caption: 2018 - 2022
         sub_title: BS | Data Science <br> Minor | Business Analytics <br> Certificate | Machine Learning
         quote: >
-          The BYU-ID methodology encourages students to be proactive in their learning, become highly skilled, and to build up those around them.
+          The BYU-ID methodology encourages students to be proactive in learning, become highly skilled, & build up those around them.
         description: | # this will include new lines to allow paragraphs
           *GPA | 3.88* <br>
-          As a data science student, My time at BYU-ID has ignited a spark for machine learning and statistical analysis. I also learned how to navigate personal goals, team projects, and working with tight deadlines. 
+          As a data science student, My time at BYU-ID has ignited a spark for machine learning and statistical analysis. I also learned how to navigate personal goals, collaborate on team projects, and work with tight deadlines. 
  
   - title: Data Science Lead Experience  # Title for the section
     layout: list # Type of content section (list/text)
@@ -103,7 +103,7 @@ content:
         caption: January 2021 - April 2021
         sub_title: Technicale Project Lead <br> Good2Go Forecasting
         quote: >
-          Working to understand the client's needs while leading a team of students helped me better understand the value of collaboration, good communication, in meeting a deadline.
+          Working to understand the client's needs while leading a team of peers helped me better understand the value of collaboration and good communication in meeting a deadline.
         description: | # this will include new lines to allow paragraphs
           - Client is utilizing sales forecasting tool used in business created in Power BI, using R scripts.
           - Led group of students in machine learning and Time Series Prediction utilizing R and Python, including scikit-learn, holt winters, and ARIMA.
@@ -114,7 +114,7 @@ content:
         caption: September 2020 - December 2020
         sub_title: Intermediate Statistics <br> Teacher's Assistant & Tutor
         quote: >
-          I loved helping students succeed and bring their ideas to life!
+          Tutoring students helped me become a better student. I loved helping students succeed, bring their ideas to life!
         description: | # this will include new lines to allow paragraphs
           - Supported students in understanding statistical testing, analysis, and R Markdowns.
           - Provided expertise in statistical modeling and data wrangling & data visualization using ggplot & tidyverse. 
