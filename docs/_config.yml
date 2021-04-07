@@ -122,7 +122,7 @@ content:
 
   - title: A Little More About Me # Title for the section
     layout: left
-    content: | # this will include new lines to allow paragraphs
+    content:  # this will include new lines to allow paragraphs
     quote: >
           I love to dream big and am very self driven.  I don't see challenges as limits, I have a track record of going above and beyond to accomplish a goal, and leading a team along the way. 
     description: | # this will include new lines to allow paragraphs
