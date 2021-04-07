@@ -90,7 +90,7 @@ content:
         caption: 2018 - 2022
         sub_title: BS | Data Science <br> Minor | Business Analytics <br> Certificate | Machine Learning
         quote: >
-          The BYU-ID methodology encourages students to be proactive in learning, become highly skilled, & build up those around them.
+          BYU-ID encourages students to be proactive learners, become highly skilled, & lift others.
         description: | # this will include new lines to allow paragraphs
           *GPA | 3.88* <br>
           As a data science student, My time at BYU-ID has ignited a spark for machine learning and statistical analysis. I also learned how to navigate personal goals, collaborate on team projects, and work with tight deadlines. 
@@ -103,7 +103,7 @@ content:
         caption: January 2021 - April 2021
         sub_title: Technicale Project Lead <br> Good2Go Forecasting
         quote: >
-          Working to understand the client's needs while leading a team of peers helped me better understand the value of collaboration and good communication in meeting a deadline.
+          Understanding the client's needs while leading a team showed me the value of collaboration and good communication.
         description: | # this will include new lines to allow paragraphs
           - Client is utilizing sales forecasting tool used in business created in Power BI, using R scripts.
           - Led group of students in machine learning and Time Series Prediction utilizing R and Python, including scikit-learn, holt winters, and ARIMA.
@@ -114,7 +114,7 @@ content:
         caption: September 2020 - December 2020
         sub_title: Intermediate Statistics <br> Teacher's Assistant & Tutor
         quote: >
-          Tutoring students helped me become a better student. I loved helping students succeed, bring their ideas to life!
+          Tutoring students helped me become a better student, I loved helping others succeed!
         description: | # this will include new lines to allow paragraphs
           - Supported students in understanding statistical testing, analysis, and R Markdowns.
           - Provided expertise in statistical modeling and data wrangling & data visualization using ggplot & tidyverse. 
@@ -129,7 +129,7 @@ content:
         sub_title: Student Consultant <br> Good2Go & Pinnacle
         caption: September 2020 - December 2020
         quote: >
-          Working for Good2Go was a pleasure, what impressed me most is their ability to ask great questions and interest in our growth.
+          I was impressed by our client's ability to ask great questions & their interest in our growth.
         description: | # this will include new lines to allow paragraphs
           - Created visualization that showed client effect of sales from business closures due to Covid-19.
           - Solved challenges as a team including good data visualization, working with large datasets, and collaborating to find the best visual solution to a client's questions.
@@ -137,11 +137,11 @@ content:
   - title: A Little More About Me
     layout: text 
     content: | # this will include new lines to allow paragraphs
-      *My whole life I have loved solving problems of all kinds, whether it’s math problems, building furniture, baking, or helping businesses find ways to use their data or measure their mission and vision, I am all in!* 
       - Raising 5 children is teaching me the value of different perspectives, patience, consistency, and having a higher purpose.
       - Founding a charter school taught me the value of grit and that it is possible to make big things happen, against all odds, when you have a clear purpose and the right team by your side.
       - Serving on a school board taught me the importance integrity in teams, the value of using good, accurate data, data-driven decision making, and the importance of a unified vision. 
       - Going back to college has taught me that it is never too late to pursue your dreams.
+      *My whole life I have loved solving problems of all kinds, whether it’s math problems, building furniture, baking, or helping businesses find ways to use their data or measure their mission and vision, I am all in!* 
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
