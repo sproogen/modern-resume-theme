@@ -9,7 +9,7 @@ version: 2
 name: Rachael Smith
 title: Data Scientist
 email: smith.rachael@gmail.com
-#website: rachaelssmith.github.io/rachael_smith_resume/
+website: *I am passionate about understanding my client's challenges and finding the story within the data that can drive businesses to make informed decisions.*
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -50,9 +50,9 @@ about_profile_image: images/profile_rachael.jpg
 about_content: | # this will include new lines to allow paragraphs
   *I am passionate about understanding my client's challenges and finding the story within the data that can drive businesses to make informed decisions.*
   
-  Hi, my name's Rachael and I'm a data science student, I love math, programming and problem solving.  I love to dream big and am very self driven.  I don't see challenges as limits, I have a track record of going above and beyond to accomplish a goal, and leading a team along the way.  I am passionate about data, so you don't have to be.  I am experienced in statistics, business analytics and machine learning. Prior to studying Data Science, I founded a charter school and served as a Board Vice Chairman for 10 years gaining teamwork and leadership skills.  
+  Hi, my name's Rachael and I love to dream big and am very self driven.  I don't see challenges as limits, I have a track record of going above and beyond to accomplish a goal, and leading a team along the way.  I am passionate about data, so you don't have to be.  I am experienced in statistics, business analytics and machine learning. Prior to studying Data Science, I founded a charter school and served as a Board Vice Chairman for 10 years gaining teamwork and leadership skills.  
 
-  I am most skilled in: <mark>R</mark> and <mark>Python</mark>.  
+  I am most skilled in: <mark>R</mark> and <mark>Python</mark>.  I love math, programming and problem solving. 
   
   I also am skilled at <mark>SQL</mark>, <mark>Machine Learning</mark>, <mark>Excel</mark>, <mark>Power BI</mark>, <mark>R</mark>, and <mark>Tableau</mark>.
 
@@ -84,12 +84,13 @@ content:
       - layout: left
         title: Brigham Young University - Idaho
         caption: 2018 - 2022
-        sub_title: BS | Data Science <br> Minor | Business Analytics <br> Certificate | Machine Learning <br> GPA: 3.88
+        sub_title: BS | Data Science <br> Minor | Business Analytics <br> Certificate | Machine Learning
         quote: >
           The BYU-ID methodology encourages students to be proactive in their learning, become highly skilled, and to build up those around them.
         description: | # this will include new lines to allow paragraphs
-          My time at BYU-ID, has ignited a spark for machine learning and statistical analysis. I also learned how to navigate personal goals, team projects, and working with tight deadlines. 
-
+          *GPA | 3.88*
+          As a data science student, My time at BYU-ID has ignited a spark for machine learning and statistical analysis. I also learned how to navigate personal goals, team projects, and working with tight deadlines. 
+ 
   - title: Data Science Lead Experience  # Title for the section
     layout: list # Type of content section (list/text)
     content:
