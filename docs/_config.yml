@@ -104,8 +104,6 @@ content:
           - Led group of students in <mark>Machine Learning</mark> and <mark>Time Series Prediction</mark> utilizing <mark>R</mark> and <mark>Python</mark>.
           - Increased workflow efficiency by <mark>wrangling data </mark> in<mark>R</mark> & <mark>SQL</mark> from 40GB file sizes to 1 GB, and from 60 files to a single file.
           
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
     content:
       - layout: left
         title: Research & Business Development Center
@@ -119,8 +117,7 @@ content:
           - Client is utilizing <mark>Sales Forecasting</mark> tool used in business created in <mark>Power BI</mark>.
           - Led group of students in <mark>Machine Learning</mark> and <mark>Time Series Prediction</mark> utilizing <mark>R</mark> and <mark>Python</mark>.
           - Increased workflow efficiency by <mark>wrangling data </mark> in<mark>R</mark> & <mark>SQL</mark> from 40GB file sizes to 1 GB, and from 60 files to a single file.
-    
-    layout: list # Type of content section (list/text)
+  
     content:
         title: Research & Business Development Center
         #link: boringcompany.com
@@ -133,7 +130,7 @@ content:
           - Client is utilizing <mark>Sales Forecasting</mark> tool used in business created in <mark>Power BI</mark>.
           - Led group of students in <mark>Machine Learning</mark> and <mark>Time Series Prediction</mark> utilizing <mark>R</mark> and <mark>Python</mark>.
           - Increased workflow efficiency by <mark>wrangling data </mark> in<mark>R</mark> & <mark>SQL</mark> from 40GB file sizes to 1 GB, and from 60 files to a single file.
-    
+
         title: Research & Business Development Center
         #link: boringcompany.com
         # link_text: boringcompany.com
