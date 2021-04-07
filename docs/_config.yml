@@ -104,7 +104,7 @@ content:
           - Led group of students in <mark>Machine Learning</mark> and <mark>Time Series Prediction</mark> utilizing <mark>R</mark> and <mark>Python</mark>.
           - Increased workflow efficiency by <mark>wrangling data </mark> in<mark>R</mark> & <mark>SQL</mark> from 40GB file sizes to 1 GB, and from 60 files to a single file.
 
-    - layout: left
+      - layout: left
         title: Research & Business Development Center
         caption: January 2021 - April 2021
         sub_title: Technicale Project Lead
