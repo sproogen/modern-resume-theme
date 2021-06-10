@@ -29,6 +29,7 @@ about_content: | # this will include new lines to allow paragraphs
 # Service Section
 
 service_content: |
+  - Program Committee - [EMNLP 2021](https://2021.emnlp.org/)
   - Coordination Committee - [Responsible Data Summit 2020](https://responsibledata.ai/)
 
 # Honors Section
