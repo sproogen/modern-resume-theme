@@ -1,6 +1,8 @@
 # add two space after author to make a new line
 - title: "A System for Automated Open-Source Threat Intelligence Gathering and Management"
   pdf: https://arxiv.org/pdf/2101.07769.pdf
+  video: https://www.youtube.com/watch?v=McTZps5tJ44&list=PL3xUNnH4TdbsfndCMn02BqAAgGB0z7cwq
+  video_bilibili: https://www.bilibili.com/video/BV1gv41157oc?p=91
   info: |
     Peng Gao\*, **Xiaoyuan Liu\*** (equal contribution), Edward Choi, Bhavna Soman, Chinmaya Mishra, Kate Farris, Dawn Song  
     [[SIGMOD 2021 demo]](https://2021.sigmod.org/)
