@@ -65,6 +65,10 @@ footer_show_references: true
 
 data_dir: _test/_data
 
+# Slider Settings
+slider_settings:
+  enabled: true
+
 include:
  - _test
 

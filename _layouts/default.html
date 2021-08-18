@@ -16,6 +16,10 @@
 
       {%- include about.html -%}
 
+      {%- if site.slider_settings.enabled -%}
+        {%- include slider.html -%}
+      {%- endif -%}
+
       {%- if site.version == 2 -%}
         {% for section in site.content %}
           <div class="container {{ section.layout }}-container">
@@ -32,6 +36,36 @@
   {%- include footer.html -%}
   {% if site.darkmode == false %}
     <script src="{{ '/assets/js/index.js' | relative_url }}"></script>
+  {% endif %}
+
+  {% if site.slider_settings.enabled %}
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $("#lightSlider").lightSlider({
+          gallery: false,
+          "loop": {{ site.slider_settings.loop | default: false }},
+          "auto": {{ site.slider_settings.auto | default: false }},
+          "pager": false,
+          "slideMargin": 6,
+          "speed": {{ site.slider_settings.speed | default: 400 }},
+          "pause": {{ site.slider_settings.pause | default: 2000 }},
+          "thumbItem": 0,
+          "onSliderLoad": function() {
+            $('#lightSlider').removeClass('cS-hidden');
+          },
+          "item":3,
+          "responsive" : [
+            {
+              breakpoint: 700,
+              settings: {
+                item: 1,
+                slideMove: 1
+              }
+            }
+          ]
+        });
+      });
+    </script>
   {% endif %}
 </body>
 

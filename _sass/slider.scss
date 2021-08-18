@@ -1,0 +1,52 @@
+.projects-slider-container {
+
+  ul {
+    list-style: none outside none;
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+
+  li {
+    display: block;
+    float: left;
+    margin-right: 6px;
+    cursor: pointer;
+  }
+
+}
+
+.slider-details {
+
+  margin-top: 7px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+  .title {
+    margin-top: 5px;
+    padding-left: 0;
+
+    h5 {
+      font-size: 15px;
+    }
+  }
+
+  .links {
+    text-align: right;
+    padding-right: 0;
+  }
+
+  .description {
+    padding-right: 0;
+    padding-left: 0;
+
+    p {
+      text-align: justify;
+    }
+  }
+
+  a {
+    color: inherit;
+    font-style: italic;
+    font-weight: 300;
+  }
+}

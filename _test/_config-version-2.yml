@@ -127,6 +127,14 @@ references_title: References on request
 
 data_dir: _test/_data
 
+# Slider Settings
+slider_settings:
+  enabled: true
+  loop: true
+  auto: true
+  pause: 4000
+  speed: 1000
+
 include:
  - _test
 

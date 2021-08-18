@@ -3,18 +3,19 @@
 @import "type";
 @import "dark";
 @import "icons";
+@import "slider";
 
 .header-right p {
   margin-bottom: 3px;
 }
 
-.header-right a{
-  color:inherit;
-  font-weight:500;
+.header-right a {
+  color: inherit;
+  font-weight: 500;
 }
 
 @media screen and (max-width: 768px) {
-  .header-contianer div{
+  .header-contianer div {
     text-align: center;
   }
 
@@ -46,7 +47,7 @@
   margin-top: 30px;
 }
 
-@media only screen and (max-width : 992px) {
+@media only screen and (max-width: 992px) {
   .into-text-1 {
     margin-top: 20px;
   }
@@ -78,10 +79,10 @@
     }
 
     @media screen and (max-width: 768px) {
-      text-align: center!important;
+      text-align: center !important;
 
       p {
-        text-align: center!important;
+        text-align: center !important;
       }
     }
 
@@ -145,7 +146,7 @@
 }
 
 .footer-container {
-  margin-top:100px;
+  margin-top: 100px;
 }
 
 .footer-container p {

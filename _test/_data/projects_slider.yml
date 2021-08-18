@@ -1,0 +1,31 @@
+# Project template
+- image: images/pictures/pic1.jpg
+  title: Project 1
+  github: test/test1
+  website: http://google.pt
+  description:  | # this will include new lines to allow paragraphs
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+- image: images/pictures/pic2.jpg
+  title: Project 2
+  github: test/test1
+  website: http://google.pt
+  description:  | # this will include new lines to allow paragraphs
+    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
+    Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+
+- image: images/pictures/pic3.jpg
+  title: Project 3
+  website: http://google.pt
+  description: | # this will include new lines to allow paragraphs
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+- title: Project 4
+  description: | # this will include new lines to allow paragraphs
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.

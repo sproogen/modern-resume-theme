@@ -1,0 +1,30 @@
+<div class="container projects-slider-container">
+    <h3>{{ site.projects_title | default: "Projects" }}</h3>
+    <ul id="lightSlider" class="cs-hidden">
+        {% for project in site.data.projects_slider %}
+        <li data-thumb="{{ project.image }}">
+            <img src="{{ project.image | default: '/assets/default-slider.png' | relative_url }}"/>
+            <div class="slider-details">
+                <div class="col-xs-6 col-print-6 title">
+                    <h5>{{ project.title }}</h5>
+                </div>
+                <div class="col-xs-6 col-print-6 links">
+                    {%- if project.github -%}
+                    <a href="https://github.com/{{ project.github }}" target="_blank">
+                        <i class="fa fa-github" title="{{ project.title }} Github"></i>
+                    </a>
+                    {%- endif -%}
+                    {%- if project.website -%}
+                    <a href="{{ project.website }}" target="_blank">
+                        <i class="fa fa-globe" title="{{ project.title }} Website"></i>
+                    </a>
+                    {%- endif -%}
+                </div>
+                <div class="col-xs-12 col-print-12 description">
+                    {{ project.description | strip | markdownify }}
+                </div>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
