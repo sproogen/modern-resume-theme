@@ -58,6 +58,11 @@
   }
 }
 
+.border-weak  {
+  padding-bottom: 8px;
+  border-bottom: dashed 1px #CCCCCC;
+}
+
 .layout {
   margin-top: 3rem;
   display: flex;
