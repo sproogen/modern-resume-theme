@@ -73,6 +73,7 @@ content:
           Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
           Description about the work on/with the project
+
   - title: Experience
     layout: list
     content:
@@ -85,6 +86,7 @@ content:
           Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
           Description of role
+
   - title: Education
     layout: list
     content:
@@ -95,6 +97,29 @@ content:
         description: | # this will include new lines to allow paragraphs
           At SCU, I am going through a rigorous courseload to learn more about the field of Computer Science. Some relevant coursework includes Data Structures, Object Oriented Programming, and Algorithms. 
           Next quarter, I am planning on taking Operating Systems, and I currently hold a 3.43 cumulative GPA.
+          
+  - title: Leadership
+    layout: list
+    content:
+    - layout: left
+      title: President 
+      sub_title: Ka Mana'o O Hawai'i
+      caption: June 2021 - Present
+      #quote: >
+      #    Outside of the classroom, I am pretty involved in campus life...
+      description: | 
+        I am the President of Ka Manaʻo O Hawaiʻi, the Hawaiʻi club on campus at SCU. I am responsible for overseeing our club's executive board and provide strategic leadership at our weekly board meetings. 
+        I work to coordinate weekly club meetings and events for our 70+ member club, and collaborated with our club treasurer to establish and maintain our $8,000+ club budget. I am also in charge of planning our club's Spring Luau, our club's culture show and largest event.
+      
+    - layout: left
+      title: President/Captain 
+      sub_title: Men's Club Volleyball Team
+      caption: June 2021 - Present
+      #quote: >
+      #    Outside of the classroom, I am pretty involved in campus life...
+      description: | 
+        I am also the President and Captain of the SCU Men's Club Volleyball Team. I cooperatively work with the SCU Club Sports administration to our club's $19,000+ club budget. I also collaborate with other team leadership to lead team practices and competitions. 
+        Santa Clara is a Division 1 member of the Northern California Collegiate Volleyball League (NCCVL), the highest level for collegiate club volleyball, and compete against schools such as UC Berkeley, Stanford, Cal Poly SLO, and Fresno State.
 
   - title: A Little More About Me
     layout: text
