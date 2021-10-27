@@ -88,14 +88,14 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
+      - layout: left
+        title: Santa Clara University
+        sub_title: B.S. Computer Science & Engineering
+        caption: September 2019 - June 2023
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
+          At SCU, I am going through a rigorous courseload to learn more about the field of Computer Science. Some relevant coursework includes Data Structures, Object Oriented Programming, and Algorithms. 
+          Next quarter, I am planning on taking Operating Systems, and I currently hold a 3.43 cumulative GPA.
+
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
