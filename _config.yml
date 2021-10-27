@@ -74,16 +74,46 @@ content:
         description: | # this will include new lines to allow paragraphs
           Description about the work on/with the project
 
-  - title: Experience
+  - title: Work Experience
     layout: list
     content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
+      - layout: left
+        title: Servco Pacific Inc.
+        sub_title: Software Development Intern
+        caption: June 2021 - August 2021
+        link: https://www.servco.com
+        #quote: >
+        #  Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description of role
+
+      - layout: left
+        title: ʻIolani School
+        sub_title: Alumni Tour Guide
+        caption: November 2020 - January 2021
+        link: https://www.iolani.org
+        #quote: >
+        #  Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description of role
+
+        - layout: left
+        title: Diamond Head Memorial Park
+        sub_title: Summer Assistant
         caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
+        link: http://www.dhmp.com/index.html
+        #quote: >
+        #  Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description of role
+
+        - layout: left
+        title: ʻIolani School
+        sub_title: Teaching Assistant
+        caption: June 2019 - July 2019
+        link: https://www.iolani.org
+        #quote: >
+        #  Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
           Description of role
 
