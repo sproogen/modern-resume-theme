@@ -6,17 +6,17 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Wenwen
-title: Graduate student at University of British Columbia 
+name: Wenwen Zhang
+title: Graduate Student at University of British Columbia 
 email: Wenwenzhang@ece.ubc.ca
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+phone: 6729914724
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
+website: my resume (eg. https://google.com)
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 
 # Additional icon links
@@ -43,8 +43,8 @@ about_content: | # this will include new lines to allow paragraphs
   You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
     - Lists
     - Tables
-    #- <a href="google.com">Links</a>
-    #- Images ![alt text](/images/landscape-trees.jpg "Trees")
+#    #- <a href="google.com">Links</a>
+#    #- Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
   - title: Projects # Title for the section
