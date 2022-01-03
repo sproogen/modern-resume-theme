@@ -6,38 +6,25 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: Nima Manafzadeh Dizbin
+title: Postdoctoral Research Associate
+email: nima.manaf8@gmail.com
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
-# phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
+website: nimaman.github.io
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-googleplus_username: +jekyll
-orcid_username: 0000-0000-0000-0000
+twitter_username: nima_mnf
+github_username:  NimaMan
+instagram_username: nima_manaf
+linkedin_username: nima-manafzadeh-dizbin-02174b74
+googlescholar_username: citations?user=oE_9bDkAAAAJ&hl=en
 
 # Additional icon links
 additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -50,22 +37,18 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/ben2_3.png
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  I am detail-oriented person with the ability to look into the bigger picture of the problems that I am tackling.
+  My passion is to take the mathematical and machine learning models, combine it with the data, computation power, and intuition, and deploy it in improving the practical
+  processes with the aim of building autonomous decisions making systems.
 
 content:
-  - title: Projects # Title for the section
+  - title: Recent Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Project name
+        title: BET
         link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         link_text: Link Text
         additional_links:
@@ -79,12 +62,55 @@ content:
           Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
           Description about the work on/with the project
-  - title: Experience
+
+      - layout: left
+        title: InvMan
+        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: Link Text
+        additional_links:
+          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            icon: fab fa-github
+            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            icon: fab fa-github
+            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          Short overview of the project (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description about the work on/with the project
+      
+      - layout: left
+        title: RGA
+        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: Link Text
+        additional_links:
+          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            icon: fab fa-github
+            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            icon: fab fa-github
+            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          Short overview of the project (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description about the work on/with the project
+  
+
+  - title: Working Experience
     layout: list
     content:
       - layout: right
-        title: Company name
+        title: Eindhoven University of Technology
         sub_title: Job title
+        caption: Date Range (eg. November 2016 - present)
+        link: Link to company (optional)
+        quote: >
+          Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description of role
+      - layout: right
+        title: Bosch Center for Artificial Intelligence
+        sub_title: PhD Industrial Sabbatical
         caption: Date Range (eg. November 2016 - present)
         link: Link to company (optional)
         quote: >
