@@ -10,9 +10,9 @@ name: Wenwen Zhang
 title: Graduate Student at University of British Columbia 
 email: Wenwenzhang@ece.ubc.ca
 # email_title: Email (Email title override)
-phone: 6729914724
+# phone: 6729914724
 # phone_title: Phone (Phone title override)
-website: my resume
+resume: about me
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
@@ -54,9 +54,9 @@ about_content: | # this will include new lines to allow paragraphs
 #  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 Wenwen is a research assistant in Flexible Electronics and Energy Lab (FEEL) at the University of British Columbia, Canada. Her research focuses on wearable devices and federated learning method considering large proportion of no-label data with huge data heterogeneity at different device end.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
+#  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
+#    - Lists
+#    - Tables
 #    #- <a href="google.com">Links</a>
 #    #- Images ![alt text](/images/landscape-trees.jpg "Trees")
 
@@ -65,20 +65,20 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        title: Personalized Semi-supervised Federated Learning for Embedded Intelligence
+        link: Link to project (eg. https://feel.ece.ubc.ca/)(optional)
+        link_text: FEEL LAB
+        #additional_links:
+        #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #    icon: fab fa-github
+        #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #    icon: fab fa-github
+        #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          Short overview of the project (optional)
+         Flexible Electronics and Energy Lab (FEEL)
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          Federated learning method considering large proportion of no-label data with huge data heterogeneity at different device end.
   - title: Experience
     layout: list
     content:
