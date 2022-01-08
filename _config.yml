@@ -62,11 +62,11 @@ about_content: | # this will include new lines to allow paragraphs
 
 content:
   - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+    layout: text # Type of content section (list/text)
     content:
-      - layout: center
-        title: Flexible Electronics and Energy Lab
-        link: https://feel.ece.ubc.ca/#Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+      - layout: left
+        title: Personalized Semi-supervised Federated Learning for Embedded Intelligence
+        link: https://feel.ece.ubc.ca/ #Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         link_text: LAB
         #additional_links:
         #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
@@ -76,7 +76,7 @@ content:
         #    icon: fab fa-github
         #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          Personalized Semi-supervised Federated Learning for Embedded Intelligence	
+          	Flexible Electronics and Energy Lab
         description: | # this will include new lines to allow paragraphs
           Federated learning method considering large proportion of no-label data with huge data heterogeneity at different device end. 
   - title: Experience
