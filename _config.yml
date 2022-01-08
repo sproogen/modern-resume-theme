@@ -62,7 +62,7 @@ about_content: | # this will include new lines to allow paragraphs
 
 content:
   - title: Projects # Title for the section
-    layout: text # Type of content section (list/text)
+    layout: list # Type of content section (list/text)
     content:
       - layout: left
         title: Personalized Semi-supervised Federated Learning for Embedded Intelligence
