@@ -7,30 +7,31 @@ version: 2
 
 # Personal info
 name: Wenwen Zhang
-title: Graduate Student at University of British Columbia 
+title: Graduate Student at University of British Columbia
 email: Wenwenzhang@ece.ubc.ca
 # email_title: Email (Email title override)
-# phone: 6729914724
+#phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
-resume: about me
+resume: Resume
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-#twitter_username: facespics
+#twitter_username: jekyllrb
 github_username:  Zhang-Wenwen
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-#instagram_username: jameswgrant
+#stackoverflow_username: "00000001"
+#dribbble_username: jekyll
+#facebook_username: jekyll
+#flickr_username: jekyll
+#instagram_username: jekyll
 linkedin_username: Wenwen Zhang
-# xing_username: jekyll
-# pinterest_username: jekyll
-#youtube_username: globalmtb
-# googleplus_username: +jekyll
+#xing_username: jekyll
+#pinterest_username: jekyll
+#youtube_username: jekyll
+#googleplus_username: +jekyll
+#orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
 additional_links:
@@ -48,17 +49,16 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: Biography (Use this to override about section title)
-about_profile_image: images/profile.jpg (eg. images/profile.jpg)
+# about_title: About Me (Use this to override about section title)
+about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-#  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-Wenwen is a research assistant in Flexible Electronics and Energy Lab (FEEL) at the University of British Columbia, Canada. Her research focuses on wearable devices and federated learning method considering large proportion of no-label data with huge data heterogeneity at different device end.
-
-#  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-#    - Lists
-#    - Tables
-#    #- <a href="google.com">Links</a>
-#    #- Images ![alt text](/images/landscape-trees.jpg "Trees")
+  Wenwen is a research assistant in Flexible Electronics and Energy Lab (FEEL) at the University of British Columbia, Canada. Her research focuses on wearable devices and federated learning method considering large proportion of no-label data with huge data heterogeneity at different device end.
+  
+  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
+    - Lists
+    - Tables
+    - <a href="google.com">Links</a>
+    - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
   - title: Projects # Title for the section
@@ -66,19 +66,19 @@ content:
     content:
       - layout: left
         title: Personalized Semi-supervised Federated Learning for Embedded Intelligence
-        link: Link to project (eg. https://feel.ece.ubc.ca/)(optional)
-        link_text: FEEL LAB
-        #additional_links:
-        #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
-        #    icon: fab fa-github
-        #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
-        #    icon: fab fa-github
-        #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link: https://feel.ece.ubc.ca/#Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: LAB
+        additional_links:
+          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            icon: fab fa-github
+            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            icon: fab fa-github
+            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-         Flexible Electronics and Energy Lab (FEEL)
+          Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
-          Federated learning method considering large proportion of no-label data with huge data heterogeneity at different device end.
+          Description about the work on/with the project
   - title: Experience
     layout: list
     content:
