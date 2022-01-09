@@ -74,8 +74,9 @@ content:
           Flexible Electronics and Energy Lab in Electronic and Computer Engineering Department
         description: | # this will include new lines to allow paragraphs
           This project explores federated learning method considering large proportion of non-labeled data with significant data heterogeneity at different device end. 
-          With the development of wearable sensors, people are able to collect enormous data volume from huge amount of indviduals. These data always come with huge
-          diversity and complexity due to differences in personal habits. And it also takes expensive energy and high cost tp label these data. To address these concerns, federated learning is proposed to deal with the unlabeled data and data heterogeneity.
+          With the development of wearable sensors, people are able to collect enormous data volume from huge number of individuals. These data always come with huge
+          diversity and complexity due to differences in personal habits. And it also takes expensive energy and high cost to label these data. To address these concerns, 
+          federated learning is proposed to deal with the unlabeled data and data heterogeneity.
         
       - layout: top-middle
         title: Smart Knee Sleeves Based on Flexible Sensors 	
@@ -91,7 +92,9 @@ content:
         quote: >
           Texavie Technologies, Inc. & Flexible Electronics and Energy Lab
         description: | # this will include new lines to allow paragraphs
-          This project works on lower extremity estimation & movement tracking & muscle condition monitoring by data from flexible sensors (stress, temperature, ect.) integrated on knee braces.
+          This project works on lower extremity estimation & movement tracking & muscle condition monitoring by data collected from flexible sensors (stress, temperature, ect.) 
+          integrated on knee braces. The emergence of these wearable devices enable the possibility to monitor personal health status by daily activities. What's more, 
+          this kind of flexible sensors free people from lab environment with more comprehensive feedback on healthy detection and achieve significant cost savings.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
