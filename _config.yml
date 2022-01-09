@@ -77,6 +77,7 @@ content:
           With the development of wearable sensors, people are able to collect enormous data volume from huge amount of indviduals. These data always come with huge
           diversity and complexity due to differences in personal habits. And it also takes expensive energy and high cost tp label these data. To address these concerns, federated learning is proposed to deal with the unlabeled data and data heterogeneity.
         
+      - layout: top-middle
         title: Smart Knee Sleeves Based on Flexible Sensors 	
         link: https://texavie.com/
         # link_text: Project Website
