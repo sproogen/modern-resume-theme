@@ -61,12 +61,12 @@ content:
     content:
       - layout: top-middle
         title: Personalized Semi-supervised Federated Learning for Embedded Intelligence
-        link: https://feel.ece.ubc.ca/
+        # link: https://feel.ece.ubc.ca/
         # link_text: Project Website
         # additional_links:
-        #   - title:  sproogen/modern-resume-theme
-        #     icon: fab fa-github
-        #     url: github.com/sproogen/modern-resume-theme
+           - title:  LAB
+             icon: fab fa-github
+             url: https://feel.ece.ubc.ca/
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
