@@ -1,138 +1,77 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+repository: sproogen/jameswgrant
+favicon: images/favicon.ico
 
-# Content configuration version
-version: 2
+version: 1
 
 # Personal info
 name: Wenwen Zhang
 title: Graduate Student at University of British Columbia
 email: Wenwenzhang@ece.ubc.ca
-# email_title: Email (Email title override)
-#phone: Your phone number (optional)
-# phone_title: Phone (Phone title override)
-resume: Resume
-# website_title: Web (Website title override)
-
-# Dark Mode (true/false/never)
-darkmode: false
 
 # Social links
-#twitter_username: jekyllrb
+#twitter_username: sproogen
 github_username:  Zhang-Wenwen
-#stackoverflow_username: "00000001"
-#dribbble_username: jekyll
-#facebook_username: jekyll
-#flickr_username: jekyll
-#instagram_username: jekyll
+# dribbble_username:
+# facebook_username:
+# flickr_username:
+#instagram_username: jameswgrant
 linkedin_username: wenw-zhang
-#xing_username: jekyll
-#pinterest_username: jekyll
-#youtube_username: jekyll
-#googleplus_username: +jekyll
-#orcid_username: 0000-0000-0000-0000
-
-# Additional icon links
-#additional_links:
-#- title: Link name
-#  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#  url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+# pinterest_username:
+# youtube_username:
+# googleplus_username:
 
 # About Section
-# about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
-about_content: | # this will include new lines to allow paragraphs
-  Wenwen is a research assistant in Flexible Electronics and Energy Lab (FEEL) at the University of British Columbia, Canada. Her research focuses on wearable devices and federated learning method considering large proportion of no-label data with huge data heterogeneity at different device end.
-  
-#  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-#    - Lists
-#    - Tables
-#    - <a href="google.com">Links</a>
-#    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: |
+  Hi, my name is Wenwen Zhang, I'm a master student at the University of British Columbia, Canada. 
+  I am now working as a research assistant in Flexible Electronics and Energy Lab (FEEL).
+  My research focuses on wearable devices and federated learning method considering large proportion of no-label data with huge data heterogeneity at different device end.
+  I am very optimistic about the future of wearable devices. I believe the interdisciplinary field which connects the popular machine learning and end devices will be promising. 
 
-content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Personalized Semi-supervised Federated Learning for Embedded Intelligence
-        link: https://feel.ece.ubc.ca/ #Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: LAB
-        #additional_links:
-        #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
-        #    icon: fab fa-github
-        #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
-        #    icon: fab fa-github
-        #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          	Flexible Electronics and Energy Lab
-        description: | # this will include new lines to allow paragraphs
-          Federated learning method considering large proportion of no-label data with huge data heterogeneity at different device end. 
-  - title: Experience
-    layout: list
-    content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
-  - title: Education
-    layout: list
-    content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+  I have worked with a range of different languages (python, MATLAB, C, C++), tried different fields in Electrical Engineering field (microwave components, image process, machie learning), 
+  and I am always looking forward to opportunities to work with something new. #The things that I currently have the most experience working with are:
+  #<mark>ES6 Javascript</mark>,
+  #<mark>React &amp; Redux</mark>,
+  #<mark>Node.js</mark>,
+  #<mark>Java</mark>,
+  #<mark>PHP</mark>,
+  #<mark>MySQL</mark>,
+  #<mark>Symfony</mark>,
+  #<mark>SASS</mark>,
+  #<mark>git</mark> and
+  #<mark>AWS</mark> services.
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+# Projects Section
+# projects_title: Projects
+
+# Experience Section
+# experience_title: Experience
+
+# Education Section
+# educaton_title: Education
+
+# More Section
+more_title: When I'm Not Programming
+more_content: |
+  When I'm not sat at my desk I am very active and spend most of my time outdoors. I do a lot a sports such as
+  mountain biking, road cycling, kitesuring and horse riding as well as trying to make time for things like
+  rock climbing and playing some rugby. Since my time at university I have become a very keen Kitesurfer and freestyle
+  Landboarder. In 2014 I competed and won the amateur landboard British powerkite tour.
+
+  I'm interested in photography and videography as I like to be creative, this is mainly through sport but
+  I enjoy landscape and abstract photography too. I like to showcase my work on instagram if
+  you would like to take a look - [jameswgrant](https://www.instagram.com/jameswgrant/).
+
+  Finally during the rest of my free time you will either find me working on my bikes, rock climbing at one of
+  Bristol's indoor climbing centres or down the Rec supporting Bath Rugby.
 
 # Footer
-footer_show_references: true
-# references_title: References on request (Override references text)
+footer_show_references: false
 
 # Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+remote_theme: sproogen/resume-theme
 
-sass:
-  sass_dir: _sass
-  style: compressed
-
-plugins:
- - jekyll-seo-tag
-
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
-  ]
+# sass:
+#   style: compressed
