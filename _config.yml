@@ -62,14 +62,6 @@ content:
       - layout: top-middle
         title: Personalized Semi-supervised Federated Learning for Embedded Intelligence
         link: https://feel.ece.ubc.ca/
-        # link_text: Project Website
-        # additional_links:
-        #    - title:  LAB
-        #      icon: fab fa-github
-        #      url: https://feel.ece.ubc.ca/
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
           Flexible Electronics and Energy Lab in Electronic and Computer Engineering Department
         description: | # this will include new lines to allow paragraphs
@@ -81,14 +73,6 @@ content:
       - layout: top-middle
         title: Smart Knee Sleeves Based on Flexible Sensors 	
         link: https://texavie.com/
-        # link_text: Project Website
-        # additional_links:
-        #    - title:  LAB
-        #      icon: fab fa-github
-        #      url: https://feel.ece.ubc.ca/
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
           Texavie Technologies, Inc. & Flexible Electronics and Energy Lab
         description: | # this will include new lines to allow paragraphs
@@ -96,6 +80,16 @@ content:
           integrated on knee braces. The emergence of these wearable devices enable the possibility to monitor personal health status by daily activities. What's more, 
           this kind of flexible sensors free people from lab environment with more comprehensive feedback on healthy detection and achieve significant cost savings.
 
+      - layout: top-middle
+        title:Wearable Sensor System for Gait Disorder Patients	
+        link: http://humbl.bme.ubc.ca/
+        quote: >
+          Human Motion Biomechanics Lab & Flexible Electronics and Energy Lab
+        description: | # this will include new lines to allow paragraphs
+          This project develops real-time algorithms to predict gait parameters of patients with disorders (Parkinson, stroke & geriatric). People with impairment of injury or 
+          senior age often suffer from gait disorders which may cause falls or other serious consequences during walk. To control such risks, gait parameters should be to utilized
+          and tracked in daily activities to assess the severity of disease. 
+          
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
