@@ -75,8 +75,22 @@ content:
         description: | # this will include new lines to allow paragraphs
           This project explores federated learning method considering large proportion of non-labeled data with significant data heterogeneity at different device end. 
           With the development of wearable sensors, people are able to collect enormous data volume from huge amount of indviduals. These data always come with huge
-          diversity and complexity due to differences in personal habits. And it also takes expensive energy and high cost tp label these data. To address these concerns,  
-          federated learning is proposed to deal with the unlabeled data and data heterogeneity.
+          diversity and complexity due to differences in personal habits. And it also takes expensive energy and high cost tp label these data. To address these concerns, federated learning is proposed to deal with the unlabeled data and data heterogeneity.
+        
+        title: Smart Knee Sleeves Based on Flexible Sensors 	
+        link: https://texavie.com/
+        # link_text: Project Website
+        # additional_links:
+        #    - title:  LAB
+        #      icon: fab fa-github
+        #      url: https://feel.ece.ubc.ca/
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Texavie Technologies, Inc. & Flexible Electronics and Energy Lab
+        description: | # this will include new lines to allow paragraphs
+          This project works on lower extremity estimation & movement tracking & muscle condition monitoring by data from flexible sensors (stress, temperature, ect.) integrated on knee braces.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
