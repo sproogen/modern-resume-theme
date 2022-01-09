@@ -61,19 +61,22 @@ content:
     content:
       - layout: top-middle
         title: Personalized Semi-supervised Federated Learning for Embedded Intelligence
-        # link: https://feel.ece.ubc.ca/
+        link: https://feel.ece.ubc.ca/
         # link_text: Project Website
         # additional_links:
-           - title:  LAB
-             icon: fab fa-github
-             url: https://feel.ece.ubc.ca/
+        #    - title:  LAB
+        #      icon: fab fa-github
+        #      url: https://feel.ece.ubc.ca/
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          Flexible Electronics and Energy Lab.
+          Flexible Electronics and Energy Lab in Electronic and Computer Engineering Department
         description: | # this will include new lines to allow paragraphs
-          Federated learning method considering large proportion of no-label data with huge data heterogeneity at different device end.
+          This project explores federated learning method considering large proportion of non-labeled data with significant data heterogeneity at different device end. 
+          With the development of wearable sensors, people are able to collect enormous data volume from huge amount of indviduals. These data always come with huge
+          diversity and complexity due to differences in personal habits. And it also takes expensive energy and high cost tp label these data. To address these concerns,  
+          federated learning is proposed to deal with the unlabeled data and data heterogeneity.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
