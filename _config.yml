@@ -31,20 +31,31 @@ about_content: |
   I am very optimistic about the future of wearable devices. I believe the interdisciplinary field which connects the popular machine learning and end devices will be promising. 
 
   I have worked with a range of different languages (python, MATLAB, C, C++), tried different fields in Electrical Engineering field (microwave components, image process, machie learning), 
-  and I am always looking forward to opportunities to work with something new. #The things that I currently have the most experience working with are:
-  #<mark>ES6 Javascript</mark>,
-  #<mark>React &amp; Redux</mark>,
-  #<mark>Node.js</mark>,
-  #<mark>Java</mark>,
-  #<mark>PHP</mark>,
-  #<mark>MySQL</mark>,
-  #<mark>Symfony</mark>,
-  #<mark>SASS</mark>,
-  #<mark>git</mark> and
-  #<mark>AWS</mark> services.
+  and I am always looking forward to opportunities to work with something new.
+
 
 # Projects Section
 # projects_title: Projects
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Personalized Semi-supervised Federated Learning for Embedded Intelligence
+        link: https://feel.ece.ubc.ca/
+        # link_text: FEEL
+        #additional_links:
+        #  - title:  sproogen/modern-resume-theme
+        #    icon: fab fa-github
+        #    url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Flexible Electronics and Energy Lab
+        description: | # this will include new lines to allow paragraphs
+          Federated learning method considering large proportion of no-label data with huge data heterogeneity at different device end.
+
 
 # Experience Section
 # experience_title: Experience
