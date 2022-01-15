@@ -60,6 +60,7 @@ content:
     layout: list
     content:
       - layout: top-middle
+        border: weak
         title: Project 1
         link: https://sproogen.github.io/modern-resume-theme
         additional_links:
@@ -78,6 +79,7 @@ content:
     layout: list
     content:
       - layout: right
+        border: weak
         title: Company 1
         link: https://google.com
         sub_title: Job title 1
@@ -97,6 +99,7 @@ content:
     layout: list
     content:
       - title: Institution 1
+        border: weak
         sub_title: 2016 - 2019
         caption: Degree
         quote: >
