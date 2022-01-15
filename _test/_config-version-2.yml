@@ -30,7 +30,6 @@ linkedin_username: jekyll
 xing_username: jekyll
 pinterest_username: jekyll
 youtube_username: jekyll
-googleplus_username: +jekyll
 orcid_username: 0000-0000-0000-0000
 googlescholar_username: D847cGsAAAAJ
 
@@ -128,8 +127,6 @@ references_title: References on request
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
 # remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
-
-data_dir: _test/_data
 
 include:
  - _test
