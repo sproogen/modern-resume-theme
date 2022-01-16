@@ -14,7 +14,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .header-contianer div{
+  .header-container div{
     text-align: center;
   }
 
@@ -56,6 +56,11 @@
   h3 {
     margin-bottom: 0;
   }
+}
+
+.border-weak  {
+  padding-bottom: 8px;
+  border-bottom: dashed 1px #CCCCCC;
 }
 
 .layout {

@@ -30,8 +30,8 @@ linkedin_username: jekyll
 xing_username: jekyll
 pinterest_username: jekyll
 youtube_username: jekyll
-googleplus_username: +jekyll
 orcid_username: 0000-0000-0000-0000
+googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
 additional_links:
@@ -59,6 +59,7 @@ content:
     layout: list
     content:
       - layout: top-middle
+        border: weak
         title: Project 1
         link: https://sproogen.github.io/modern-resume-theme
         additional_links:
@@ -77,6 +78,7 @@ content:
     layout: list
     content:
       - layout: right
+        border: weak
         title: Company 1
         link: https://google.com
         sub_title: Job title 1
@@ -96,6 +98,7 @@ content:
     layout: list
     content:
       - title: Institution 1
+        border: weak
         sub_title: 2016 - 2019
         caption: Degree
         quote: >
@@ -124,8 +127,6 @@ references_title: References on request
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
 # remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
-
-data_dir: _test/_data
 
 include:
  - _test

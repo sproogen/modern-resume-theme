@@ -30,8 +30,8 @@ linkedin_username: jekyll
 xing_username: jekyll
 pinterest_username: jekyll
 youtube_username: jekyll
-googleplus_username: +jekyll
 orcid_username: 0000-0000-0000-0000
+googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
 additional_links:
@@ -65,6 +65,8 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
         title: Project name
         link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         link_text: Link Text

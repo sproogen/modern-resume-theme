@@ -1,4 +1,4 @@
-<div class="container header-contianer">
+<div class="container header-container">
   <div class="row">
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-left">
       <h1>{{ site.name | escape }}</h1>
@@ -83,17 +83,17 @@
             </a>
           </li>
         {%- endif -%}
-        {%- if site.googleplus_username -%}
-          <li>
-            <a target="_blank" href="https://plus.google.com/{{ site.googleplus_username| escape }}" class="button button--sacnite button--round-l">
-              <i class="fab fa-google-plus" title="Google plus link"></i>
-            </a>
-          </li>
-        {%- endif -%}
         {%- if site.orcid_username -%}
           <li>
             <a target="_blank" href="https://orcid.org/{{ site.orcid_username | escape }}" class="button button--sacnite button--round-l">
               <i class="fab fa-orcid" title="ORCiD link"></i>
+            </a>
+          </li>
+        {%- endif -%}
+        {%- if site.googlescholar_username -%}
+          <li>
+            <a target="_blank" href="https://scholar.google.com/citations?user={{ site.googlescholar_username| escape }}" class="button button--sacnite button--round-l">
+              <i class="fab fa-google" title="Google scholar link"></i>
             </a>
           </li>
         {%- endif -%}
