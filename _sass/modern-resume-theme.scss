@@ -69,7 +69,11 @@
   flex-direction: row;
 
   .details {
+    display: flex;
+    flex-direction: column;
     text-align: left;
+    justify-content: center;
+    vertical-align: middle;
 
     p {
       margin-bottom: 3px;
@@ -132,6 +136,10 @@
 .layout-left, .layout-right {
   @media screen and (max-width: 768px) {
     flex-direction: column;
+  }
+
+  .details {
+    margin-bottom: 2rem;
   }
 }
 
