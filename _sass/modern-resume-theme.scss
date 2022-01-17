@@ -13,7 +13,7 @@
   font-weight:500;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .header-container div{
     text-align: center;
   }
@@ -40,16 +40,6 @@
   -moz-box-shadow: inset 0 0 20px #636161;
   -webkit-box-shadow: inset 0 0 20px #636161;
   box-shadow: inset 0 0 20px #636161;
-}
-
-.into-text-1 {
-  margin-top: 30px;
-}
-
-@media only screen and (max-width : 992px) {
-  .into-text-1 {
-    margin-top: 20px;
-  }
 }
 
 .list-container {
@@ -86,7 +76,7 @@
       }
     }
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 767px) {
       text-align: center!important;
 
       p {
@@ -134,7 +124,7 @@
 }
 
 .layout-left, .layout-right {
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 767px) {
     flex-direction: column;
   }
 
