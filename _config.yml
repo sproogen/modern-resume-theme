@@ -10,28 +10,17 @@ name: Withanalage Veruni Apsara
 title: Biotechnologist
 email: deeshasalshin@gmail.com
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+phone: +94 78 757 3789
 # phone_title: Phone (Phone title override)
-website: https://github.com/Veruni01/Veruni01.github.io
+website: https://veruni01.github.io
 # website_title: Venuri's Portfolio
 
 # Dark Mode (true/false/never)
 darkmode: true
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+instagram_username: apsaraveruni
+youtube_username: Veruni apsara
 
 # Additional icon links
 additional_links:
@@ -52,12 +41,12 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
+  A highly motivated and goal-oriented graduate with a strong desire to work in a scientific environment. 
+Works collaboratively with cross-functional teams and effectively communicates ideas and results while 
+adapting to rapidly changing needs. Capable of working in complex and high-demand environments 
+while managing challenging research schedules. Always seeks opportunities to continue learning and 
+maintains a thorough grasp of industry trends and research innovations
+  
     - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
