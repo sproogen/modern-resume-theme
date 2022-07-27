@@ -151,7 +151,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           - Tutored intermediate-level statistical students in modeling and analysis in R
 
-- layout: left
+      - layout: left
         title: Research & Business Development Center
         caption: September 2020 - December 2020
         sub_title: Consultant
