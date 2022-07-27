@@ -99,12 +99,12 @@ content:
     layout: list # Type of content section (list/text)
     content:
     
-          - layout: left
+      - layout: left
         title: Micron
         caption: May 2022 - August 2022
         sub_title: Smart Manufacturing and AI Data Science Intern <br> Good2Go Forecasting
         quote: >
-          Understanding the client's needs while leading a team showed me the value of collaboration and good communication.
+          Working in the semiconductor industry taught me a lot about working with complex tool data.
         description: | # this will include new lines to allow paragraphs
           - Supported data science team to move existing ML models from internal servers into Google Cloud Platform using best practices for loading, modeling, & saving models
           - Presented training on KNN imputers, created notebook to train, evaluate and save imputers that improved time to run imputers & visualized the variation in data being imputed
@@ -115,7 +115,7 @@ content:
         caption: February 2022 - May 2022
         sub_title: Analytics Engineer Intern <br> Good2Go Forecasting
         quote: >
-          Understanding the client's needs while leading a team showed me the value of collaboration and good communication.
+          Company culture is not just a buzz word here, it shows at every level and in every meeting.
         description: | # this will include new lines to allow paragraphs
           -	Predicted patient’s likelihood to respond to outreach with 89% accuracy using machine learning tools in R & international healthcare data, ensuring ethical practices & patient privacy
           - Feature engineered dataset across 20+ tables with custom SQL functions to join and aggregate data that can be applied across multiple countries and healthcare systems
