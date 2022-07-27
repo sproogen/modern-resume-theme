@@ -125,7 +125,7 @@ content:
         caption: May 2021 - October 2021
         sub_title: Data Science Finance Intern <br> Good2Go Forecasting
         quote: >
-          Understanding the client's needs while leading a team showed me the value of collaboration and good communication.
+          Asking good questions will help you build a better result for the client.
         description: | # this will include new lines to allow paragraphs
           - Built an exponential smoothing time series forecasting interactive Power BI tool to predict   unique fuel volume and retail sales for 60 locations across 8 states
           - Solved time series challenges using SQL and R code caused by multiple locations, differing start & end dates, partial months, traditional calendar & 454 retail calendar dates 
