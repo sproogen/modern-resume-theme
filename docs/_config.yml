@@ -92,12 +92,44 @@ content:
         quote: >
           BYU-ID encourages students to be proactive learners, become highly skilled, & lift others.
         description: | # this will include new lines to allow paragraphs
-          GPA: 3.89 <br>
+          GPA: 3.9 <br>
           My time at BYU-ID has ignited a spark for machine learning & statistical analysis.  I also learned how to navigate personal goals, collaborate on team projects, and work with tight deadlines. 
  
-  - title: Data Science Lead  # Title for the section
+  - title: Experience  # Title for the section
     layout: list # Type of content section (list/text)
     content:
+    
+          - layout: left
+        title: Micron
+        caption: May 2022 - August 2022
+        sub_title: Smart Manufacturing and AI Data Science Intern <br> Good2Go Forecasting
+        quote: >
+          Understanding the client's needs while leading a team showed me the value of collaboration and good communication.
+        description: | # this will include new lines to allow paragraphs
+          - Supported data science team to move existing ML models from internal servers into Google Cloud Platform using best practices for loading, modeling, & saving models
+          - Presented training on KNN imputers, created notebook to train, evaluate and save imputers that improved time to run imputers & visualized the variation in data being imputed
+          - Created functions to pull data from multiple complex data systems into training data and actual data to help with real time model monitoring
+
+      - layout: left
+        title: Health Catalyst
+        caption: February 2022 - May 2022
+        sub_title: Analytics Engineer Intern <br> Good2Go Forecasting
+        quote: >
+          Understanding the client's needs while leading a team showed me the value of collaboration and good communication.
+        description: | # this will include new lines to allow paragraphs
+          -	Predicted patient’s likelihood to respond to outreach with 89% accuracy using machine learning tools in R & international healthcare data, ensuring ethical practices & patient privacy
+          - Feature engineered dataset across 20+ tables with custom SQL functions to join and aggregate data that can be applied across multiple countries and healthcare systems
+
+      - layout: left
+        title: Good 2 Go
+        caption: May 2021 - October 2021
+        sub_title: Data Science Finance Intern <br> Good2Go Forecasting
+        quote: >
+          Understanding the client's needs while leading a team showed me the value of collaboration and good communication.
+        description: | # this will include new lines to allow paragraphs
+          - Built an exponential smoothing time series forecasting interactive Power BI tool to predict   unique fuel volume and retail sales for 60 locations across 8 states
+          - Solved time series challenges using SQL and R code caused by multiple locations, differing start & end dates, partial months, traditional calendar & 454 retail calendar dates 
+
       - layout: left
         title: Research & Business Development Center
         caption: January 2021 - April 2021
@@ -105,9 +137,10 @@ content:
         quote: >
           Understanding the client's needs while leading a team showed me the value of collaboration and good communication.
         description: | # this will include new lines to allow paragraphs
-          - Client is utilizing sales forecasting tool used in business created in Power BI, using R scripts.
-          - Led group of students in machine learning and Time Series Prediction utilizing R and Python, including scikit-learn, holt winters, and ARIMA.
-          - Increased workflow efficiency by wrangling data in R & SQL from 40GB file sizes to 1 GB, and from 60 files to a single file.
+          - Led 2 projects/teams of 6 associates; managed deadlines, articulated and set clear goals, collaborated between client & team, proposed additional steps, presented final products
+          - Showed significant linear correlation of cell phone location data & client sales
+          - Engineered features leveraging diverse data to perform statistical analysis of 25K locations comparing client metrics to competitors, used distance matrices to find nearest competitors
+
 
       - layout: left
         title: Brigham Young University Idaho
@@ -116,25 +149,18 @@ content:
         quote: >
           Tutoring students helped me become a better student, I loved helping others succeed!
         description: | # this will include new lines to allow paragraphs
-          - Supported students in understanding statistical testing, analysis, and R Markdowns.
-          - Provided expertise in statistical modeling and data wrangling & data visualization using ggplot & tidyverse. 
+          - Tutored intermediate-level statistical students in modeling and analysis in R
 
-  - title: Data Science Projects  # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
+- layout: left
         title: Research & Business Development Center
-        #link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Student Consultant <br> Good2Go & Pinnacle
         caption: September 2020 - December 2020
+        sub_title: Consultant
         quote: >
           I was impressed by our client's ability to ask great questions & their interest in our growth.
         description: | # this will include new lines to allow paragraphs
-          - Created interactive visualization in R and a Power BI dashboard that showed client effect of sales from business closures due to Covid-19.
-          - Solved challenges as a team including good data visualization, working with large datasets, and collaborating to find the best visual solution to a client's questions.
-
-  - title: Service & Experience # Title for the section
+          - Wrangled 60 GB raw data using SQL and R to visualize the effect of Covid-19 on sales.
+          
+  - title: Volunteer # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
