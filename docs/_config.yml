@@ -106,7 +106,7 @@ content:
         caption: May 2022 - August 2022
         sub_title: Smart Manufacturing and AI <br> Data Science Intern  
         quote: >
-          Success is found when you find good mentors, collaborate, and focus on your unique skills; sometimes small and simple changes are enough.
+          Teams are best when there are strong mentors, collaboration, and trust; sometimes small and simple changes are enough.
         description: | # this will include new lines to allow paragraphs
           - Supported data science team to move existing ML models from internal servers into Google Cloud Platform using best practices for loading, modeling, & saving models in GCP
           - Evaluated, suggested improvements, & presented training on imputers that improved training time & created visualizations showing variations of imputed data to find best K value
@@ -117,7 +117,7 @@ content:
         caption: February 2022 - May 2022
         sub_title: Analytics Engineer Intern <br> 
         quote: >
-          Understanding how to navigate databases, join tables, and engineer features helps me to create stronger training data for machine learning.
+          Navigating databases, joining tables and engineering features creates stronger data for machine learning.
         description: | # this will include new lines to allow paragraphs
           - Predicted patient’s likelihood to respond to outreach with 89% accuracy using machine learning tools in R & international healthcare data, ensuring ethical practices & patient privacy
           - Feature engineered dataset across 20+ tables with custom SQL functions to join and aggregate data that can be applied across multiple countries and healthcare systems
@@ -128,7 +128,7 @@ content:
         caption: May 2021 - October 2021
         sub_title: Data Science Finance Intern
         quote: >
-          Working Remotely and independently is effective when you have clear expectations, strong communication and a google search bar.
+          Working Remotely is effective when you have clear expectations, strong communication and a google search bar.
         description: | # this will include new lines to allow paragraphs
           - Built an exponential smoothing time series forecasting interactive Power BI tool to predict   next quarter’s unique fuel volume and retail sales for 60 locations across 8 states
           - Solved complex time series challenges using SQL and R code caused by multiple locations, differing start & end dates, partial months, traditional calendar & 454 retail calendar dates
@@ -149,7 +149,7 @@ content:
         caption: September 2020 - December 2020
         sub_title: Intermediate Statistics <br> Teacher's Assistant & Tutor
         quote: >
-          #Tutoring students helped me become a better student, I loved helping others succeed!
+          Tutoring students helped me become a better student, I loved helping others succeed!
         description: | # this will include new lines to allow paragraphs
           - Tutored intermediate-level statistical students in modeling and analysis in R
 
@@ -158,7 +158,7 @@ content:
         caption: September 2020 - December 2020
         sub_title: Consultant
         quote: >
-          #I was impressed by our client's ability to ask great questions & their interest in our growth.
+          I was impressed by our client's ability to ask great questions & their interest in our growth.
         description: | # this will include new lines to allow paragraphs
           - Wrangled 60 GB raw data using SQL and R to visualize the effect of Covid-19 on sales.
           
