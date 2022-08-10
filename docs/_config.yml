@@ -94,8 +94,8 @@ content:
         quote: >
           BYU-ID encourages students to be proactive learners, become highly skilled, & lift others.
         description: | # this will include new lines to allow paragraphs
-          GPA: 3.9 <br>
-          Relevant Courses: Deep Learning | U of I, Machine Learning, Big Data Analytics, Applied Linear Regression, Data Wrangling & Visualization, Database Design, Linear Algebra & Discrete Math 
+          GPA: 3.9 <br><br>
+          Relevant Courses:<br>Deep Learning | U of I, Machine Learning, Big Data Analytics, Applied Linear Regression, Data Wrangling & Visualization, Database Design, Linear Algebra & Discrete Math 
  
   - title: Experience  # Title for the section
     layout: list # Type of content section (list/text)
