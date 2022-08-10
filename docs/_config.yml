@@ -58,7 +58,9 @@ about_content: | # this will include new lines to allow paragraphs
 
   I am most skilled in: <mark>R</mark> & <mark>Python</mark>.  I love math, programming & problem solving. 
   
-  I also am skilled at <mark>SQL</mark>, <mark>Machine Learning</mark>, <mark>Google Clout Platform</mark>, <mark>Excel</mark>, <mark>Power BI</mark>, & <mark>Tableau</mark>.
+  I also am skilled at <mark>SQL</mark>, <mark>Machine Learning</mark>, <mark>Google Cloud Platform</mark>, <mark>Excel</mark>, <mark>Power BI</mark>, & <mark>Tableau</mark>.
+
+  Ask me about wake surfing, baking, building furniture, or remodeling.  
 
 content:
  # - title: Projects # Title for the section
@@ -88,7 +90,7 @@ content:
       - layout: left
         title: Brigham Young University - Idaho
         caption: 2018 - 2022
-        sub_title: BS | Data Science <br> Minor | Business Analytics <br> Certificate | Machine Learning
+        sub_title: BS | Data Science <br>Minor | Business Analytics<br>Minor | Statistics <br>Certificate | Machine Learning
         quote: >
           BYU-ID encourages students to be proactive learners, become highly skilled, & lift others.
         description: | # this will include new lines to allow paragraphs
@@ -100,47 +102,47 @@ content:
     content:
     
       - layout: left
-        title: Micron
+        title: Micron Technology, Inc.
         caption: May 2022 - August 2022
-        sub_title: Smart Manufacturing and AI Data Science Intern <br> Good2Go Forecasting
+        sub_title: Smart Manufacturing and AI <br> Data Science Intern  
         quote: >
-          Working in the semiconductor industry taught me a lot about working with complex tool data.
+          Working in the semiconductor industry taught me a lot about working with complex tool data and missing values.
         description: | # this will include new lines to allow paragraphs
-          - Supported data science team to move existing ML models from internal servers into Google Cloud Platform using best practices for loading, modeling, & saving models
-          - Presented training on KNN imputers, created notebook to train, evaluate and save imputers that improved time to run imputers & visualized the variation in data being imputed
-          - Created functions to pull data from multiple complex data systems into training data and actual data to help with real time model monitoring
+          - Supported data science team to move existing ML models from internal servers into Google Cloud Platform using best practices for loading, modeling, & saving models in GCP
+          - Evaluated, suggested improvements, & presented training on imputers that improved training time & created visualizations showing variations of imputed data to find best K value
+          - Created functions to pull data from multiple complex data systems into training data and actual data to help data science team with real time model monitoring for accuracy & drift
 
       - layout: left
         title: Health Catalyst
         caption: February 2022 - May 2022
-        sub_title: Analytics Engineer Intern <br> Good2Go Forecasting
+        sub_title: Analytics Engineer Intern <br> 
         quote: >
           Company culture is not just a buzz word here, it shows at every level and in every meeting.
         description: | # this will include new lines to allow paragraphs
-          -	Predicted patient’s likelihood to respond to outreach with 89% accuracy using machine learning tools in R & international healthcare data, ensuring ethical practices & patient privacy
+          - Predicted patient’s likelihood to respond to outreach with 89% accuracy using machine learning tools in R & international healthcare data, ensuring ethical practices & patient privacy
           - Feature engineered dataset across 20+ tables with custom SQL functions to join and aggregate data that can be applied across multiple countries and healthcare systems
+          - Revenue attributed to the process exceeded $1M over 3 months in directly attributable revenue, results helped to secure a multi-year, multi-million-dollar engagement
 
       - layout: left
         title: Good 2 Go
         caption: May 2021 - October 2021
-        sub_title: Data Science Finance Intern <br> Good2Go Forecasting
+        sub_title: Data Science Finance Intern
         quote: >
           Asking good questions will help you build a better result for the client.
         description: | # this will include new lines to allow paragraphs
-          - Built an exponential smoothing time series forecasting interactive Power BI tool to predict   unique fuel volume and retail sales for 60 locations across 8 states
-          - Solved time series challenges using SQL and R code caused by multiple locations, differing start & end dates, partial months, traditional calendar & 454 retail calendar dates 
+          - Built an exponential smoothing time series forecasting interactive Power BI tool to predict   next quarter’s unique fuel volume and retail sales for 60 locations across 8 states
+          - Solved complex time series challenges using SQL and R code caused by multiple locations, differing start & end dates, partial months, traditional calendar & 454 retail calendar dates
 
       - layout: left
         title: Research & Business Development Center
         caption: January 2021 - April 2021
-        sub_title: Technical Project Lead <br> Good2Go Forecasting
+        sub_title: Technical Project Lead 
         quote: >
           Understanding the client's needs while leading a team showed me the value of collaboration and good communication.
         description: | # this will include new lines to allow paragraphs
-          - Led 2 projects/teams of 6 associates; managed deadlines, articulated and set clear goals, collaborated between client & team, proposed additional steps, presented final products
-          - Showed significant linear correlation of cell phone location data & client sales
+          - Led 2 projects/teams of 6 associates; managed deadlines, articulated and set clear goals, collaborated between client & team, proposed additional steps, & presented final analysis
           - Engineered features leveraging diverse data to perform statistical analysis of 25K locations comparing client metrics to competitors, used distance matrices to find nearest competitors
-
+          - Showed significant linear correlation of cell phone location data & client sales
 
       - layout: left
         title: Brigham Young University Idaho
@@ -188,7 +190,7 @@ content:
       <br>
       <br>*My whole life I have loved solving problems of all kinds, whether it’s math problems, building furniture, baking, or helping businesses find ways to use their data or measure their mission and vision, I am all in! I am always looking to connect with clients who feel I can add value to their business.* 
 # Footer
-footer_show_references: true
+footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
