@@ -6,8 +6,8 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: 위성구
-title: Your job title
+name: weseonggu
+title: 한림대학교 콘텐츠IT전공
 email: fkskdldh@naver.com
 # email_title: Email (Email title override)
 phone: Your phone number (optional)
