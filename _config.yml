@@ -6,32 +6,15 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: 위성구
+title: 한림대학교 콘텐츠IT전공
+email: fkskdldh@naver.com
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
-# phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
-# website_title: Web (Website title override)
+
 
 # Dark Mode (true/false/never)
 darkmode: false
 
-# Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
 additional_links:
