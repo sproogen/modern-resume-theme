@@ -18,6 +18,12 @@
 
       {%- if site.version == 2 -%}
         {% for section in site.content %}
+
+          {%- if section.layout == 'list-expand' -%}
+          <div class="list-expander">
+            <a href="#">{{section.link_text}}</a>
+          </div>
+          {%- endif -%}
           <div class="container {{ section.layout }}-container">
             <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
             {% include {{ section.layout | prepend: "section-" | append: ".html" }} content=section.content %}

@@ -192,3 +192,7 @@ p.quote {
     margin-top: 1rem;
   }
 }
+
+.list-expander.hide-following ~ div {
+  display: none;
+}
