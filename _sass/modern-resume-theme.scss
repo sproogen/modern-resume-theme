@@ -58,6 +58,12 @@
   display: flex;
   flex-direction: row;
 
+  .toggle-link {
+    font-weight: 500;
+    font-size: 1.6rem;
+    text-align: right;
+  }
+
   .details {
     display: flex;
     flex-direction: column;
@@ -136,7 +142,7 @@
 .layout-top-middle, .layout-top, .layout-top-right {
   flex-direction: column;
 
-  .details, .content {
+  .details, .content, .show-more, .show-less {
     width: 100%;
   }
 }
@@ -193,6 +199,23 @@ p.quote {
   }
 }
 
-.list-expander.hide-following ~ div {
-  display: none;
+div.section-list {
+  div.row.expandable {
+    display: none;
+  }
+  .show-less {
+    display: none;
+  }
+}
+
+div.section-list.expanded {
+  div.row.expandable {
+    display: block;
+  }
+  .show-more {
+    display: none;
+  }
+  .show-less {
+    display: block;
+  }
 }

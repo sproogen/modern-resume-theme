@@ -1,29 +1,53 @@
-{% for item in include.content %}
-  <div class="row clearfix layout layout-{{item.layout | default: 'left'}} border-{{item.border | default: 'no'}}">
-    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
-      <h4 id="{{ item.title | slugify }}">{{ item.title }}</h4>
-      {%- if item.sub_title -%}<p><b>{{ item.sub_title }}</b></p>{%- endif -%}
-      {%- if item.caption -%}<p>{{ item.caption }}</p>{%- endif -%}
+<div class="section-list">
+  {% for item in include.content %}
 
-      {%- if item.link -%}
-        {% include a.html href=item.link class="link" %}
-          {%- if item.link_text -%}{{ item.link_text }}{%- else -%}{{ item.link }}{%- endif -%}
-        </a>
-      {%- endif -%}
+    {%- if forloop.index0 == include.show-first %}
+      <div class="section-list-expander row clearfix layout layout-{{item.layout | default: 'left'}} show-more">
+        <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+        </div>
+        <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 toggle-link">
+          <a onclick="handeShowMore(event)">Show more...</a>
+        </div>
+      </div>
+    {%- endif -%}
 
-      <p class="no-print aditional-links">
-        {% for link in item.additional_links %}
-          {% include a.html href=link.url class="" %}
-            <i class="{{ link.icon }}" title="{{ link.title | escape }}"></i>
+    <div class="row clearfix layout layout-{{item.layout | default: 'left'}} border-{{item.border | default: 'no'}} {% if forloop.index0 >= include.show-first %}expandable{% endif %}">
+      <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+        <h4 id="{{ item.title | slugify }}">{{ item.title }}</h4>
+        {%- if item.sub_title -%}<p><b>{{ item.sub_title }}</b></p>{%- endif -%}
+        {%- if item.caption -%}<p>{{ item.caption }}</p>{%- endif -%}
+
+        {%- if item.link -%}
+          {% include a.html href=item.link class="link" %}
+            {%- if item.link_text -%}{{ item.link_text }}{%- else -%}{{ item.link }}{%- endif -%}
           </a>
-        {% endfor %}
-      </p>
+        {%- endif -%}
+
+        <p class="no-print aditional-links">
+          {% for link in item.additional_links %}
+            {% include a.html href=link.url class="" %}
+              <i class="{{ link.icon }}" title="{{ link.title | escape }}"></i>
+            </a>
+          {% endfor %}
+        </p>
+      </div>
+      <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
+        {{ item.description | strip | markdownify }}
+        {%- if item.quote -%}
+          <p class="quote">{{ item.quote }}</p>
+        {%- endif -%}
+      </div>
     </div>
-    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
-      {{ item.description | strip | markdownify }}
-      {%- if item.quote -%}
-        <p class="quote">{{ item.quote }}</p>
-      {%- endif -%}
-    </div>
-  </div>
-{% endfor %}
+
+    {%- if forloop.last %}
+      <div class="section-list-expander row clearfix layout layout-{{item.layout | default: 'left'}} show-less">
+        <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+        </div>
+        <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 toggle-link">
+          <a onclick="handeShowMore(event)">Show less...</a>
+        </div>
+      </div>
+    {%- endif -%}
+
+  {% endfor %}
+</div>
