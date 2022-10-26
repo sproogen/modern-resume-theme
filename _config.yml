@@ -6,38 +6,25 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: Odonkhuu Zolboo
+title: Student
+email: zolboo.oz@gmail.com
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
-# website_title: Web (Website title override)
+website: http://35.200.74.5:8000/
+website_title: Smart IoT
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+github_username:  zolboo21
+instagram_username: smartfamilyiot
+linkedin_username: Odonkhuu-Zolboo-
 
 # Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -50,14 +37,19 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: https://scontent-ssn1-1.xx.fbcdn.net/v/t39.30808-6/311565750_1656513684798855_8778272613488972849_n.jpg?stp=cp6_dst-jpg&_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=-a9m-MrGiuoAX-R_5l7&_nc_ht=scontent-ssn1-1.xx&oh=00_AT_Y8-sQEpOD23H8KxcZm-0zHaKPYU2uke36Qvkn8WUA2g&oe=635E2558
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
+<h1 align="center">Hi 👋, I'm Zolboo</h1>
+<h3 align="center">A passionate Smart IoT student from Mongolia</h3>
+
+- 🔭 I’m currently working on Capstone Design **Parking lot information system using Image recognition Recon**
+
+- 🌱 I’m currently learning **GCP, Embedded system, Flutter**
+
+- 📫 How to reach me **zolboo.oz@gmail.com**
+
+<h3 align="left">Connect with me:</h3>
     - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
