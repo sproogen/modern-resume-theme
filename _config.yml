@@ -10,10 +10,9 @@ name: 이승행
 title: 빅데이터학과 이승행입니다.
 email: tmdgodtmdgod@naver.com
 # email_title:  (Email title override)
-phone: 010-35xx-84xx (optional)
+phone: 010-35xx-84xx 
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
-# website_title: Web (Website title override)
+
 
 # Dark Mode (true/false/never)
 darkmode: false
