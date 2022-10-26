@@ -6,8 +6,8 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
+name: 이승행
+title: 빅데이터학과 이승행입니다.
 email: Your email (optional)
 # email_title: Email (Email title override)
 phone: Your phone number (optional)
