@@ -38,9 +38,8 @@ additional_links:
 
 # About Section
 # about_title: About Me. (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. C:\Users\zz\Desktop.jpg)
+about_profile_image: Directory of profile image (eg. https://seunghang.github.io/images/landscape-trees.jpg.jpg)
 about_content: | # this will include new lines to allow paragraphs
- 저는 한림대학교를 재학중인 17학번 빅데이터학과 이승행입니다.
  
 
   You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
