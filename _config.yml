@@ -41,9 +41,12 @@ additional_links:
 about_profile_image: Directory of profile image (eg. images/profile.jpg.jpg)
 about_content: | # this will include new lines to allow paragraphs
   저는 빅데이터학과 17학번 이승행입니다.
-  
-  열정적입니다
-  # 열정
+  # 저를 소개합니다.
+  저는 서울 강북구에서 살고 있습니다. 
+  또한 서울 강북구에서 통학을 하고 있으며 
+  # 유재석!이 나온 용문고등학교를 졸업하고 
+  한림대학교에 재학중입니다.
+  아직 부족하지만 # 열정 만큼은 가지고 임하고 있습니다.
  
 
 content:
