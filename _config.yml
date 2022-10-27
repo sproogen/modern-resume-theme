@@ -37,10 +37,10 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me. (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. https://seunghang.github.io/images/landscape-trees.jpg.jpg)
+# about_title: About Me(Use this to override about section title)
+about_profile_image: Directory of profile image (eg. images/profile.jpg.jpg)
 about_content: | # this will include new lines to allow paragraphs
- 
+  저는 빅데이터학과 17학번 이승행입니다.
 
   You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
     - Lists
