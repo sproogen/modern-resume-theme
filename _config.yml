@@ -6,38 +6,38 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: Yoon Tae Park
+title: MS in Data Science @ NYU (Expected Graduation - May, 2023)
+email: yp2201@nyu.edu
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+phone: (551) 280-6244
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
+Linkedin: https://www.linkedin.com/in/yoontaepark
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+# twitter_username: jekyllrb
+github_username:  yoontaepark
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+linkedin_username: yoontaepark
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# orcid_username: 0000-0000-0000-0000
+# googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+# additional_links:
+# - title: Link name
+#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -50,15 +50,28 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: /images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  Hi, my name is Yoon and I'm a 2nd year MS student studying Data Science at NYU.
+  My expected graduation is in May 2023, and I am actively looking for Data Scientist opportunities after graduation.
+  If you are interested, contact me via email or linkedin.  
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  My current skill set includes:
+  Language: Python, SQL, PySpark
+  Tools: GCP, MS office, Tableau, Git/Github
+
+  Briefly about myself, 
+  I've started my Data Science career by leading a machine learning project in Samsung as a finance manager.
+  As I wanted to learn more about data science, I am now pursuing a master's degree in Data Science at NYU.
+  For this summer, I did a data science internship as Walmart Global Tech, and built a m/l pipeline that solved problems in e-commerce. 
+
+  At NYU, I've learned basic math/stats/coding knowledge, and worked on lots of data science projects. 
+  Especially, my current interest is NLP/NLU, and currently working on two projects (one with World Bank, and one with Faculty fellow at NYU)
+
+  Also, I enjoy working on side projects/Datathon. I was recently placed 1st place at Citadel Regional Datathon. 
+  I am very much motivated to participate in any data challenges (inclduing Kaggle). Let me know if you are interested in data challenges as well! 
+
+  Outside of data science works, I enjoy traveling overseas and drinking coffee.
 
 content:
   - title: Projects # Title for the section
