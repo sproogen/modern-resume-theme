@@ -22,7 +22,7 @@ linkedin_username: yoontaepark
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: /images/profile.jpg 
+about_profile_image: /images/14014507.jpg 
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Yoon and I'm a 2nd year MS student studying Data Science at NYU. 
   My expected graduation is in May 2023, and I'm actively looking for Data Scientist opportunities after graduation.
@@ -51,20 +51,40 @@ content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        title: A Toxicity Detection Dataset with r/WallStreetBet Comments
+        link: https://github.com/yoontaepark/portfolio/blob/main/projects/Reddit_Toxicity_Dectection_Dataset.pdf
+        link_text: Toxicity Detection Dataset 
+        # additional_links:
+        #   - title:  Github page for project 
+        #     icon: fab fa-github
+        #     url: https://github.com/yoontaepark/portfolio/blob/main/projects/Reddit_Toxicity_Dectection_Dataset.pdf
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          Short overview of the project (optional)
+          Creating a toxicity dataset from Reddit that can be used for any NLP/NLU research
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          - Created a new toxicity detection dataset using comments from r/WallStreetBets and toxicity labels from Perspective API
+          - Evaluated the dataset by comparing human baseline to current SOTA models: GPT-3, BERT, RoBERTa, and DeBERTa
+
+      # - layout: left
+      #   border: weak  # Value of `weak` will display a weak border below this item. # Any 
+      #                 # other value (or no value) means no border will be displayed
+      #   title: A Toxicity Detection Dataset with r/WallStreetBet Comments
+      #   link: https://github.com/yoontaepark/portfolio/blob/main/projects/Reddit_Toxicity_Dectection_Dataset.pdf
+      #   link_text: Toxicity Detection Dataset 
+      #   # additional_links:
+      #   #   - title:  Github page for project 
+      #   #     icon: fab fa-github
+      #   #     url: https://github.com/yoontaepark/portfolio/blob/main/projects/Reddit_Toxicity_Dectection_Dataset.pdf
+      #     # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+      #     #   icon: fab fa-github
+      #     #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+      #   quote: >
+      #     Creating a toxicity dataset from Reddit that can be used for any NLP/NLU research
+      #   description: | # this will include new lines to allow paragraphs
+      #     - Created a new toxicity detection dataset using comments from r/WallStreetBets and toxicity labels from Perspective API
+      #     - Evaluated the dataset by comparing human baseline to current SOTA models: GPT-3, BERT, RoBERTa, and DeBERTa          
 
   - title: Experience
     layout: list
@@ -134,9 +154,7 @@ content:
 
           - Learned my key skills such as teamwork and working on a tight deadlines. 
 
-          - A committee member of the SNU Finance Club taking a Team leader role
-
-          - A committee member of the SNU Mentoring Club taking a Vice President role
+          - A committee member of the SNU Finance Club (Team Leader) and SNU Mentoring Club (Vice President)
 
 
   - title: A Little More About Me
