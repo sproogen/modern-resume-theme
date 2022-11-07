@@ -227,7 +227,7 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      I enjoy working on side projects/Datathon. I was recently placed <a href="https://drive.google.com/file/d/1Sdd6nYqAdtbQro4tvyHICAKGzm4m2q52/view?usp=share_link">1st place at Citadel Regional Datathon.</a>
+      I enjoy working on side projects/Datathon. I was recently placed <a href="https://drive.google.com/file/d/1Sdd6nYqAdtbQro4tvyHICAKGzm4m2q52/view?usp=share_link">1st place</a> at Citadel Regional Datathon.
       I am constantly participating on data challenges(including Kaggle), so contact me if you are interested in those challenges! 
 
       Outside of data science works, I enjoy traveling overseas and drinking coffee.
