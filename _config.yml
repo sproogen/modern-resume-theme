@@ -12,14 +12,6 @@ email: yp2201@nyu.edu
 # email_title: Email (Email title override)
 phone: (551) 280-6244
 # phone_title: Phone (Phone title override)
-# website: - 
-# website_title: Resume
-
-# Linkedin: https://www.linkedin.com/in/yoontaepark
-# Resume: /assets/Resume_YoonTaePark.pdf
-
-
-# website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: true
@@ -27,24 +19,6 @@ darkmode: true
 # Social links
 github_username:  yoontaepark
 linkedin_username: yoontaepark
-# additional_links:
-# - title: Resume
-  # icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  # url: /assets/Resume_YoonTaePark.pdf
-# Additional icon links
-# additional_links:
-# - title: Link name
-#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
 
 # About Section
 # about_title: About Me (Use this to override about section title)
@@ -55,7 +29,7 @@ about_content: | # this will include new lines to allow paragraphs
 
   I've started my Data Science career by leading a machine learning project in Samsung as a finance manager.
   As I wanted to learn more about data science, I'm now pursuing a master's degree in Data Science at NYU.
-  For this summer, I did a data science internship as Walmart Global Tech, and built a m/l pipeline that solved problems in e-commerce. 
+  For this summer, I did a data science internship at Walmart Global Tech, and built a m/l pipeline that solved problems in e-commerce. 
 
   My interests, broadly, are solving real world problems with data science, and I'm especially interested in NLP/NLU.
   Please refer to Project section to find out more. 
@@ -69,11 +43,6 @@ about_content: | # this will include new lines to allow paragraphs
   If you are interested, please contact me via email or linkedin.  
 
   Resume: <a href="https://drive.google.com/file/d/1ER9AcqIBm2BMRebrr6im8Osv_Wxez4-r/view?usp=share_link">Resume_YoonTaePark.pdf</a>
-
-# Also, I enjoy working on side projects/Datathon. I was recently placed 1st place at Citadel Regional Datathon. 
-# I am very much motivated to participate in any data challenges (inclduing Kaggle). Let me know if you are interested in data challenges as well! 
-
-# Outside of data science works, I enjoy traveling overseas and drinking coffee.
 
 content:
   - title: Projects # Title for the section
@@ -102,76 +71,86 @@ content:
     content:
       - layout: left
         title: Walmart Global Tech
-        sub_title: |
-          (Sunnyvale, CA)
-
-
-          Data Science Intern
+        sub_title: Data Science Intern
         caption: May.2022 - Aug.2022
         # link: Link to company (optional)
         quote: >
           Worked in e-commerce team, leveraging rest of market data source to improve Walmart e-commerce platform
         description: | # this will include new lines to allow paragraphs
-          • Created a benchmark dataset using rest of market and Walmart item information that enriched the team’s research
+          - Created a benchmark dataset using rest of market and Walmart item information that enriched the team’s research
 
-          • Proposed a boosting model to train the benchmark dataset that improved current category mapping performance by 35%
+          - Proposed a boosting model to train the benchmark dataset that improved current category mapping performance by 35%
 
-          • Built a machine learning pipeline that replaced the team’s deliverable which is to predict category for new items
+          - Built a machine learning pipeline that replaced the team’s deliverable which is to predict category for new items
 
       - layout: left
         title: UNDP
-        sub_title: |
-          (New York, NY)
-
-
-          Research Assistant
+        sub_title: Research Assistant
         caption: Dec. 2021 - Mar.2022
         # link: Link to company (optional)
         quote: >
           Worked as a research assistant in SDG(Sustainable Development Goals) AI Lab, contributing on Disaster Risk Reduction project.
         description: | # this will include new lines to allow paragraphs
-          • Developed an earthquake response model with Bilkent University to safely route people after an earthquake
+          - Developed an earthquake response model with Bilkent University to safely route people after an earthquake
 
-          • Evaluated a reference risk of streets, and suggested the safetest path by calculating total risk score
+          - Evaluated a reference risk of streets, and suggested the safetest path by calculating total risk score
 
       - layout: left
-        title: SAMSUNG ELECTRONICS
-        sub_title: |
-          (Suwon, Korea)
-
-
-          Finance Manager 
+        title: Samsung Electronics
+        sub_title: Finance Manager 
         caption: Feb. 2014 - Jun.2021
         # link: Link to company (optional)
         quote: >
           Worked as a finance manager in Mobile division. Elected as chair of automation projects for finance division that applies machine learning solutions.
         description: | # this will include new lines to allow paragraphs
-          • Applied Decision Tree and Naive Bayesian method that enhanced the accuracy of the tasks from 60% to 95%
+          - Applied Decision Tree and Naive Bayesian method that enhanced the accuracy of the tasks from 60% to 95%
 
-          • Completed a prototype production of a chatbot that provides information on expense management and reimbursement      
+          - Completed a prototype production of a chatbot that provides information on expense management and reimbursement      
 
   - title: Education
     layout: list
     content:
       - layout: left
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+        title: New York University
+        sub_title: Master of Science in Data Science (GPA 3.95)
+        caption: Expected Graduation) May 2023
         quote: >
-          Short institution or course description (optional)
+          Studying foundation of data science, with the focus on NLP/NLU
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
+          - Studying relevant courseworks such as Machine Learning, Big Data, Natural Language Understanding, and Time Series Forecasting
+
+          - Working on various project that uses data science to solve real world problems. 
+          
+          - Currently working on two NLP/NLU projects. (One with World Bank, and one with Faculty Fellow)
+
+      - layout: left
+        title: Seoul National University
+        sub_title: Bachelor of Arts in Business Administration
+        caption: Graduated Feb. 2014
+        quote: >
+          Studied business administration, with the focus on finance 
+        description: | # this will include new lines to allow paragraphs
+          - Studied finance, marketing, accounting and calculus that had lots of team projects
+
+          - Learned my key skills such as teamwork and working on a tight deadlines. 
+
+          - A committee member of the SNU Finance Club taking a Team leader role
+
+          - A committee member of the SNU Mentoring Club taking a Vice President role
+
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+      I enjoy working on side projects/Datathon. I was recently placed 1st place at Citadel Regional Datathon.
+      
+      I am constantly participating on data challenges(including Kaggle), so contact me if you are interested in those challenges! 
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      Outside of data science works, I enjoy traveling overseas and drinking coffee.
 
 # Footer
-footer_show_references: true
-references_title: 
+footer_show_references: false
+# references_title: 
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
