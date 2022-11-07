@@ -12,6 +12,9 @@ email: yp2201@nyu.edu
 # email_title: Email (Email title override)
 phone: (551) 280-6244
 # phone_title: Phone (Phone title override)
+website: - <a href="Resume_YoonTaePark.pdf">https://drive.google.com/file/d/1ER9AcqIBm2BMRebrr6im8Osv_Wxez4-r/view?usp=share_link</a>
+website_title: Resume
+
 # Linkedin: https://www.linkedin.com/in/yoontaepark
 # Resume: /assets/Resume_YoonTaePark.pdf
 
@@ -24,10 +27,10 @@ darkmode: true
 # Social links
 github_username:  yoontaepark
 linkedin_username: yoontaepark
-additional_links:
-- title: Resume
+# additional_links:
+# - title: Resume
   # icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: /assets/Resume_YoonTaePark.pdf
+  # url: /assets/Resume_YoonTaePark.pdf
 # Additional icon links
 # additional_links:
 # - title: Link name
@@ -46,7 +49,7 @@ additional_links:
 # About Section
 # about_title: About Me (Use this to override about section title)
 about_profile_image: /images/profile.jpg 
-about_resume: /assets/Resume_YoonTaePark.pdf
+about_profile_image: /assets/Resume_YoonTaePark.pdf
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Yoon and I'm a 2nd year MS student studying Data Science at NYU. 
   My expected graduation is in May 2023, and I'm actively looking for Data Scientist opportunities after graduation.
@@ -100,6 +103,7 @@ content:
         title: Walmart Global Tech
         sub_title: |
           (Sunnyvale, CA)
+          
           Data Science Intern
         caption: May.2022 - Aug.2022
         # link: Link to company (optional)
