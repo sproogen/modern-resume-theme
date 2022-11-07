@@ -49,7 +49,6 @@ linkedin_username: yoontaepark
 # About Section
 # about_title: About Me (Use this to override about section title)
 about_profile_image: /images/profile.jpg 
-about_profile_image: /assets/Resume_YoonTaePark.pdf
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Yoon and I'm a 2nd year MS student studying Data Science at NYU. 
   My expected graduation is in May 2023, and I'm actively looking for Data Scientist opportunities after graduation.
@@ -118,6 +117,22 @@ content:
 
           • Built a machine learning pipeline that replaced the team’s deliverable which is to predict category for new items
 
+      - layout: left
+        title: UNDP(United Nations Development Programme)
+        sub_title: |
+          (New York, NY)
+
+          Research Assistant
+        caption: Dec. 2021 - Mar.2022
+        # link: Link to company (optional)
+        quote: >
+          Worked as a research assistant in SDG(Sustainable Development Goals) AI Lab, contributing on Disaster Risk Reduction project.
+        description: | # this will include new lines to allow paragraphs
+          • Developed an earthquake response model with Bilkent University to safely route people after an earthquake
+
+          • Evaluated a reference risk of streets, and suggested the safetest path by calculating total risk score
+        
+
   - title: Education
     layout: list
     content:
@@ -129,6 +144,7 @@ content:
           Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
           Description of qualification
+
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
