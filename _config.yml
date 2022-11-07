@@ -12,8 +12,8 @@ email: yp2201@nyu.edu
 # email_title: Email (Email title override)
 phone: (551) 280-6244
 # phone_title: Phone (Phone title override)
-website: - <a href="https://drive.google.com/file/d/1ER9AcqIBm2BMRebrr6im8Osv_Wxez4-r/view?usp=share_link">Resume_YoonTaePark.pdf</a>
-website_title: Resume
+# website: - 
+# website_title: Resume
 
 # Linkedin: https://www.linkedin.com/in/yoontaepark
 # Resume: /assets/Resume_YoonTaePark.pdf
@@ -68,6 +68,8 @@ about_content: | # this will include new lines to allow paragraphs
   - Tools: GCP, MS office, Tableau, Git/Github
 
   If you are interested, please contact me via email or linkedin.  
+
+  Resume: <a href="https://drive.google.com/file/d/1ER9AcqIBm2BMRebrr6im8Osv_Wxez4-r/view?usp=share_link">Resume_YoonTaePark.pdf</a>
 
 # Also, I enjoy working on side projects/Datathon. I was recently placed 1st place at Citadel Regional Datathon. 
 # I am very much motivated to participate in any data challenges (inclduing Kaggle). Let me know if you are interested in data challenges as well! 
