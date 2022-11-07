@@ -44,48 +44,98 @@ about_content: | # this will include new lines to allow paragraphs
 
   Resume: <a href="https://drive.google.com/file/d/1ER9AcqIBm2BMRebrr6im8Osv_Wxez4-r/view?usp=share_link">Resume_YoonTaePark.pdf</a>
 
+### content section 
 content:
+
+  ### project section
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title:  Automated Judicial Case Briefing (mentored by World Bank)
+        link: https://github.com/yoontaepark/portfolio/blob/main/projects/Group41_Capstone_Midterm_Presentation.pdf
+        link_text: Link) Automated Judicial Case Breifing 
+        quote: >
+          Creating a model that extracts relevant information from extremely long legal documents
+        description: | # this will include new lines to allow paragraphs
+          - Web scrapped US Supreme Court dataset and applied transformer models: BART, T5, and Pegasus
+
+          - Evaluated the dataset by RougeL score and got the baseline score of 0.3
+
+          - Currently working on fine-tuning dataset and applying data processing methods on long input 
+
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Dissecting Compositional Generalization (mentored by Faculty Fellow)
+        link: https://github.com/yoontaepark/portfolio/blob/main/projects/Dissecting_Compositional_Generalization.pdf
+        link_text: Dissecting Compositional Generalization
+        quote: >
+          Correlation Analysis on Generalization Capacities of Different Compositional Problems
+        description: | # this will include new lines to allow paragraphs
+          - Identified a set of compositional generalization datasets and models to test, and organized the different datasets into a single unified format 
+
+          - Bulit a codebase for training evaluation pipeline
+
+          - Currently working on different settings, such as different architectures, different sets of hyperparameters, and different random seeds
+
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: A Toxicity Detection Dataset with r/WallStreetBet Comments
         link: https://github.com/yoontaepark/portfolio/blob/main/projects/Reddit_Toxicity_Dectection_Dataset.pdf
-        link_text: Toxicity Detection Dataset 
-        # additional_links:
-        #   - title:  Github page for project 
-        #     icon: fab fa-github
-        #     url: https://github.com/yoontaepark/portfolio/blob/main/projects/Reddit_Toxicity_Dectection_Dataset.pdf
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: Link) Toxicity Detection Dataset 
         quote: >
-          Creating a toxicity dataset from Reddit that can be used for any NLP/NLU research
+          Created a toxicity dataset from Reddit that can be used for any NLP/NLU research
         description: | # this will include new lines to allow paragraphs
           - Created a new toxicity detection dataset using comments from r/WallStreetBets and toxicity labels from Perspective API
+
           - Evaluated the dataset by comparing human baseline to current SOTA models: GPT-3, BERT, RoBERTa, and DeBERTa
+ 
 
-      # - layout: left
-      #   border: weak  # Value of `weak` will display a weak border below this item. # Any 
-      #                 # other value (or no value) means no border will be displayed
-      #   title: A Toxicity Detection Dataset with r/WallStreetBet Comments
-      #   link: https://github.com/yoontaepark/portfolio/blob/main/projects/Reddit_Toxicity_Dectection_Dataset.pdf
-      #   link_text: Toxicity Detection Dataset 
-      #   # additional_links:
-      #   #   - title:  Github page for project 
-      #   #     icon: fab fa-github
-      #   #     url: https://github.com/yoontaepark/portfolio/blob/main/projects/Reddit_Toxicity_Dectection_Dataset.pdf
-      #     # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-      #     #   icon: fab fa-github
-      #     #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-      #   quote: >
-      #     Creating a toxicity dataset from Reddit that can be used for any NLP/NLU research
-      #   description: | # this will include new lines to allow paragraphs
-      #     - Created a new toxicity detection dataset using comments from r/WallStreetBets and toxicity labels from Perspective API
-      #     - Evaluated the dataset by comparing human baseline to current SOTA models: GPT-3, BERT, RoBERTa, and DeBERTa          
+       - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Collaborative-Filter Based Modeling for Movie Recommendation
+        link: https://github.com/yoontaepark/portfolio/blob/main/projects/Movie_Recommendation_System.pdf
+        link_text: Link) Movie Recommendation Model  
+        quote: >
+          Created a movie recommender model that suggests top 100 movies for each users
+        description: | # this will include new lines to allow paragraphs
+          - Created a recommender system using PySpark’s ALS method that provides top 100 movies for each user
+          - Evaluated the model on Normalized Discounted Cumulative Gain (NDCG), and created a comparison to a single-machine implementation using LensKit
+ 
+       - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Citadel Fall 2021 Central Regional Datathon (1st place) - Tobacco usage data analysis
+        link: https://github.com/yoontaepark/portfolio/blob/main/projects/Citadel_Fall_2021_Datation.pdf
+        link_text: Link) Tobacco usage data analysis 
+        quote: >
+          Created a comprehensive analysis of Tobacco usage that improved MPOWER Effectiveness 
+        description: | # this will include new lines to allow paragraphs
+          - Generated geographic data visualizations that shows the pattern of tobacco usage in relation to MPOWER (WHO Framework Convention on Tobacco Control)
+          - Built a regression model on tobacco usage using MPOWER and Geographic location
 
+
+       - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: NYU Center for Data Science - Graduate Student Analysis and Visualization
+        link: https://github.com/yoontaepark/portfolio/blob/main/projects/Graduate_Student_Analysis.pdf
+        link_text: Link) Graduate Student Analysis
+        quote: >
+          Created a comprehensive analysis of Graduate Students in NYU Data Science department 
+        description: | # this will include new lines to allow paragraphs
+          - Analyzed NYU data science past graduate students’ academic data to uncover distinct correlations
+          - Visualized student academic performances and career outcomes by tableau that will assist prospective incoming students
+
+
+
+  ### experience section
   - title: Experience
     layout: list
     content:
@@ -127,6 +177,8 @@ content:
 
           - Completed a prototype production of a chatbot that provides information on expense management and reimbursement      
 
+
+  ### education section
   - title: Education
     layout: list
     content:
@@ -157,6 +209,7 @@ content:
           - A committee member of the SNU Finance Club (Team Leader) and SNU Mentoring Club (Vice President)
 
 
+  ### others section
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
