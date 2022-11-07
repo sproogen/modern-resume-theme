@@ -12,7 +12,7 @@ email: yp2201@nyu.edu
 # email_title: Email (Email title override)
 phone: (551) 280-6244
 # phone_title: Phone (Phone title override)
-website: - <a href="Resume_YoonTaePark.pdf">https://drive.google.com/file/d/1ER9AcqIBm2BMRebrr6im8Osv_Wxez4-r/view?usp=share_link</a>
+website: - <a href="https://drive.google.com/file/d/1ER9AcqIBm2BMRebrr6im8Osv_Wxez4-r/view?usp=share_link">Resume_YoonTaePark.pdf</a>
 website_title: Resume
 
 # Linkedin: https://www.linkedin.com/in/yoontaepark
@@ -103,7 +103,7 @@ content:
         title: Walmart Global Tech
         sub_title: |
           (Sunnyvale, CA)
-          
+
           Data Science Intern
         caption: May.2022 - Aug.2022
         # link: Link to company (optional)
