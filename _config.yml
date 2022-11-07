@@ -13,26 +13,17 @@ email: yp2201@nyu.edu
 phone: (551) 280-6244
 # phone_title: Phone (Phone title override)
 Linkedin: https://www.linkedin.com/in/yoontaepark
+Resume: /assets/Resume_YoonTaePark.pdf
+
+
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: true
 
 # Social links
-# twitter_username: jekyllrb
 github_username:  yoontaepark
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-# instagram_username: jekyll
 linkedin_username: yoontaepark
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: jekyll
-# orcid_username: 0000-0000-0000-0000
-# googlescholar_username: D847cGsAAAAJ
-
 # Additional icon links
 # additional_links:
 # - title: Link name
@@ -53,25 +44,24 @@ linkedin_username: yoontaepark
 about_profile_image: /images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Yoon and I'm a 2nd year MS student studying Data Science at NYU.
-  My expected graduation is in May 2023, and I am actively looking for Data Scientist opportunities after graduation.
-  If you are interested, contact me via email or linkedin.  
+  My expected graduation is in May 2023, and I'm actively looking for Data Scientist opportunities after graduation.
+  If you are interested, please contact me via email or linkedin.  
 
-  My current skill set includes:
-  Language: Python, SQL, PySpark
-  Tools: GCP, MS office, Tableau, Git/Github
-
-  Briefly about myself, 
   I've started my Data Science career by leading a machine learning project in Samsung as a finance manager.
-  As I wanted to learn more about data science, I am now pursuing a master's degree in Data Science at NYU.
+  As I wanted to learn more about data science, I'm now pursuing a master's degree in Data Science at NYU.
   For this summer, I did a data science internship as Walmart Global Tech, and built a m/l pipeline that solved problems in e-commerce. 
 
-  At NYU, I've learned basic math/stats/coding knowledge, and worked on lots of data science projects. 
-  Especially, my current interest is NLP/NLU, and currently working on two projects (one with World Bank, and one with Faculty fellow at NYU)
+  My interests, broadly, are solving real world problems with data science, and I'm especially interested in NLP/NLU.
+  Please refer to Project section to find out more. 
 
-  Also, I enjoy working on side projects/Datathon. I was recently placed 1st place at Citadel Regional Datathon. 
-  I am very much motivated to participate in any data challenges (inclduing Kaggle). Let me know if you are interested in data challenges as well! 
+  My current skill set includes:
+    Language: Python, SQL, PySpark
+    Tools: GCP, MS office, Tableau, Git/Github
 
-  Outside of data science works, I enjoy traveling overseas and drinking coffee.
+# Also, I enjoy working on side projects/Datathon. I was recently placed 1st place at Citadel Regional Datathon. 
+# I am very much motivated to participate in any data challenges (inclduing Kaggle). Let me know if you are interested in data challenges as well! 
+
+# Outside of data science works, I enjoy traveling overseas and drinking coffee.
 
 content:
   - title: Projects # Title for the section
@@ -94,18 +84,23 @@ content:
           Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
           Description about the work on/with the project
+
   - title: Experience
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+        title: Walmart Global Tech
+        sub_title: Data Science Intern
+        location: Sunnyvale, CA
+        caption: May.2022 - Aug.2022
+        # link: Link to company (optional)
         quote: >
-          Short description of the company (optional)
+          Worked in e-commerce team, leveraging rest of market data source to improve Walmart e-commerce platform
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          • Created a benchmark dataset using rest of market and Walmart item information that enriched the team’s research
+          • Proposed a boosting model to train the benchmark dataset that improved current category mapping performance by 35%
+          • Built a machine learning pipeline that replaced the team’s deliverable which is to predict category for new items
+
   - title: Education
     layout: list
     content:
