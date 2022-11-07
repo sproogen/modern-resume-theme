@@ -51,7 +51,6 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
@@ -96,7 +95,7 @@ content:
           - Evaluated the dataset by comparing human baseline to current SOTA models: GPT-3, BERT, RoBERTa, and DeBERTa
  
 
-       - layout: left
+      - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: Collaborative-Filter Based Modeling for Movie Recommendation
@@ -108,7 +107,7 @@ content:
           - Created a recommender system using PySpark’s ALS method that provides top 100 movies for each user
           - Evaluated the model on Normalized Discounted Cumulative Gain (NDCG), and created a comparison to a single-machine implementation using LensKit
  
-       - layout: left
+      - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: Citadel Fall 2021 Central Regional Datathon (1st place) - Tobacco usage data analysis
@@ -121,7 +120,7 @@ content:
           - Built a regression model on tobacco usage using MPOWER and Geographic location
 
 
-       - layout: left
+      - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: NYU Center for Data Science - Graduate Student Analysis and Visualization
