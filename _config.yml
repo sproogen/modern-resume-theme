@@ -41,21 +41,30 @@ linkedin_username: yoontaepark
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: /images/profile.jpg
+about_profile_image: |
+  /images/profile.jpg 
+
+  /assets/Resume_YoonTaePark.pdf
+
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Yoon and I'm a 2nd year MS student studying Data Science at NYU.
   My expected graduation is in May 2023, and I'm actively looking for Data Scientist opportunities after graduation.
   If you are interested, please contact me via email or linkedin.  
 
+
   I've started my Data Science career by leading a machine learning project in Samsung as a finance manager.
   As I wanted to learn more about data science, I'm now pursuing a master's degree in Data Science at NYU.
   For this summer, I did a data science internship as Walmart Global Tech, and built a m/l pipeline that solved problems in e-commerce. 
 
+
   My interests, broadly, are solving real world problems with data science, and I'm especially interested in NLP/NLU.
   Please refer to Project section to find out more. 
 
+
   My current skill set includes:
+
     Language: Python, SQL, PySpark
+
     Tools: GCP, MS office, Tableau, Git/Github
 
 # Also, I enjoy working on side projects/Datathon. I was recently placed 1st place at Citadel Regional Datathon. 
@@ -88,17 +97,21 @@ content:
   - title: Experience
     layout: list
     content:
-      - layout: right
-        title: Walmart Global Tech
+      - layout: left
+        title: |
+          Walmart Global Tech
+
+          Sunnyvale, CA
         sub_title: Data Science Intern
-        location: Sunnyvale, CA
         caption: May.2022 - Aug.2022
         # link: Link to company (optional)
         quote: >
           Worked in e-commerce team, leveraging rest of market data source to improve Walmart e-commerce platform
         description: | # this will include new lines to allow paragraphs
           • Created a benchmark dataset using rest of market and Walmart item information that enriched the team’s research
+
           • Proposed a boosting model to train the benchmark dataset that improved current category mapping performance by 35%
+
           • Built a machine learning pipeline that replaced the team’s deliverable which is to predict category for new items
 
   - title: Education
