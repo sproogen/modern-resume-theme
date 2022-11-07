@@ -36,7 +36,7 @@ about_content: | # this will include new lines to allow paragraphs
 
   My current skill set includes:
 
-  - Language: Python, SQL, PySpark
+  - Language: Python(including <a href="https://drive.google.com/file/d/1DdJniS3SKU--ZVSEezWZWgYtUx1QzdoM/view?usp=share_link">tensorflow</a>/pytorch), SQL, PySpark
 
   - Tools: GCP, MS office, Tableau, Git/Github
 
@@ -55,7 +55,7 @@ content:
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title:  Automated Judicial Case Briefing (mentored by World Bank)
-        link: https://github.com/yoontaepark/portfolio/blob/main/projects/Group41_Capstone_Midterm_Presentation.pdf
+        link: https://github.com/yoontaepark/portfolio/blob/main/projects/Automated_Judicial_Case_Briefing.pdf
         link_text: Link) Automated Judicial Case Breifing 
         quote: >
           Creating a model that extracts relevant information from extremely long legal documents
@@ -71,7 +71,7 @@ content:
                       # other value (or no value) means no border will be displayed
         title: Dissecting Compositional Generalization (mentored by Faculty Fellow)
         link: https://github.com/yoontaepark/portfolio/blob/main/projects/Dissecting_Compositional_Generalization.pdf
-        link_text: Dissecting Compositional Generalization
+        link_text: Link) Dissecting Compositional Generalization
         quote: >
           Correlation Analysis on Generalization Capacities of Different Compositional Problems
         description: | # this will include new lines to allow paragraphs
@@ -80,6 +80,21 @@ content:
           - Bulit a codebase for training evaluation pipeline
 
           - Currently working on different settings, such as different architectures, different sets of hyperparameters, and different random seeds
+
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: 2022 HUMANA/MAYS Healthcare Analytics Case Competition (top 10)
+        link: https://github.com/yoontaepark/portfolio/blob/main/projects/Healthcare_analytics_case_competition.pdf
+        link_text: Link) Healthcare Analytics Case Competition
+        quote: >
+          Identification of medicare members facing housing insecurity through predictive modeling and recommendations on how to help achieve there best health
+        description: | # this will include new lines to allow paragraphs
+          - Conducted EDA of medicare members facing housing insecuiry and segmented by three factors: Age, Region and Medical enviromnet
+
+          - Bulit a model using lightGBM that showed 0.7573 ROC-AUC score in classifing medicare members facing insecurity issues
+
+          - Suggested recommendations based on segmentations such as direct support on younger generations and government support on older generations        
 
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
@@ -212,8 +227,7 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      I enjoy working on side projects/Datathon. I was recently placed 1st place at Citadel Regional Datathon.
-      
+      I enjoy working on side projects/Datathon. I was recently placed <a href="https://drive.google.com/file/d/1Sdd6nYqAdtbQro4tvyHICAKGzm4m2q52/view?usp=share_link">1st place at Citadel Regional Datathon.</a>
       I am constantly participating on data challenges(including Kaggle), so contact me if you are interested in those challenges! 
 
       Outside of data science works, I enjoy traveling overseas and drinking coffee.
