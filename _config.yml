@@ -20,6 +20,13 @@ darkmode: true
 github_username:  yoontaepark
 linkedin_username: yoontaepark
 
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+gtag: "G-GJ4Z3SDN77"
+# google_analytics: "UA-00000000-0"
+
+
 # About Section
 # about_title: About Me (Use this to override about section title)
 about_profile_image: /images/14014507.jpg 
