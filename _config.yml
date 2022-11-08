@@ -22,9 +22,17 @@ linkedin_username: yoontaepark
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-gtag: "G-GJ4Z3SDN77"
-# google_analytics: "UA-00000000-0"
+# # gtm: "GTM-0000000"
+# gtag: "G-GJ4Z3SDN77"
+# # google_analytics: "UA-00000000-0"
+
+# Analytics
+analytics:
+  provider               : "google-gtag" 
+                          # false (default), "google", "google-universal", "google-gtag", "custom"
+  google:
+    tracking_id          : "G-GJ4Z3SDN77"
+    anonymize_ip         : # true, false (default)
 
 
 # About Section
