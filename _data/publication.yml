@@ -1,4 +1,9 @@
 # add two space after author to make a new line
+- title: "Lessons Learned: Surveying the Practicality of Differential Privacy in the Industry"
+  pdf: https://arxiv.org/pdf/2211.03898.pdf
+  info: |
+    Gonzalo Munilla Garrido, **Xiaoyuan Liu**, Florian Matthes, Dawn Song  
+    [[PETS 2023]](https://petsymposium.org/2023/)
 - title: "A System for Automated Open-Source Threat Intelligence Gathering and Management"
   pdf: https://arxiv.org/pdf/2101.07769.pdf
   video: https://www.youtube.com/watch?v=McTZps5tJ44&list=PL3xUNnH4TdbsfndCMn02BqAAgGB0z7cwq
