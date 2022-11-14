@@ -39,9 +39,9 @@ analytics:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: /images/14014507.jpg 
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Yoon and I'm a 2nd year MS student studying Data Science at NYU. 
-  My expected graduation is in May 2023, and I'm actively looking for Data Scientist opportunities after graduation.
-
+  Hi my name is yoon. I'm a 2nd year MS student studying Data Science at NYU, and expected to graduate in May 2023.
+  I'm actively looking for Data Scientist opportunities after graduation.
+  
   I've started my Data Science career by leading a machine learning project in Samsung as a finance manager.
   As I wanted to learn more about data science, I'm now pursuing a master's degree in Data Science at NYU.
   For this summer, I did a data science internship at Walmart Global Tech, and built a m/l pipeline that solved problems in e-commerce. 
