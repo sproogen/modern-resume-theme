@@ -25,9 +25,9 @@ about_profile_image: images/profile2.jpg
 about_content: | # this will include new lines to allow paragraphs
   I am a <mark>Ph.D. student</mark> in the EECS department at [UC Berkeley](https://www.berkeley.edu/) advised by [Professor Dawn Song](https://people.eecs.berkeley.edu/~dawnsong/). Before joining UC Berkeley, I received my <mark>Bachelor's degree</mark> from [ACM Honors Class](https://acm.sjtu.edu.cn/home), [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/). I am a member of [Berkeley Center for Responsible, Decentralized Intelligence (RDI)](https://rdi.berkeley.edu/), [Initiative for Cryptocurrencies & Contracts Lab (IC3)](https://www.initc3.org/), and [Berkeley Artificial Intelligence Research (BAIR) Lab](https://bair.berkeley.edu/).
   - **Research Interest**: I am broadly interested in **computer security**, **systems**, and **machine learning**, especially building systems that enable secure and privacy-preserving data processing or solve real-world security problems.
-  - **News**:  
-    - Nov 2022: *"The practical use of differential privacy across the enterprise is within striking distance."* Check out [our paper](https://arxiv.org/abs/2211.03898) accepted to PETS 2022.  
-    - Oct 2022: [CoLink](https://colink.app/), a new project focusing on creating decentralized programming abstraction, released.  
+  **News**
+  - Nov 2022: *"The practical use of differential privacy across the enterprise is within striking distance."* Check out [our paper](https://arxiv.org/abs/2211.03898) accepted to PETS 2022.  
+  - Oct 2022: [CoLink](https://colink.app/), a new project focusing on creating decentralized programming abstraction, released.  
 
 # Service Section
 
