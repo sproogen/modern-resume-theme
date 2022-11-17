@@ -23,8 +23,11 @@ linkedin_username: 啸远-刘-b46033190
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile2.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I am a <mark>Ph.D. student</mark> in the EECS department at [UC Berkeley](https://www.berkeley.edu/) advised by [Professor Dawn Song](https://people.eecs.berkeley.edu/~dawnsong/). Before joining UC Berkeley, I received my <mark>Bachelor's degree</mark> from [ACM Honors Class](https://acm.sjtu.edu.cn/home), [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/).
+  I am a <mark>Ph.D. student</mark> in the EECS department at [UC Berkeley](https://www.berkeley.edu/) advised by [Professor Dawn Song](https://people.eecs.berkeley.edu/~dawnsong/). Before joining UC Berkeley, I received my <mark>Bachelor's degree</mark> from [ACM Honors Class](https://acm.sjtu.edu.cn/home), [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/). I am a member of [Berkeley Center for Responsible, Decentralized Intelligence (RDI)](https://rdi.berkeley.edu/), [Initiative for Cryptocurrencies & Contracts Lab (IC3)](https://www.initc3.org/), and [Berkeley Artificial Intelligence Research (BAIR) Lab](https://bair.berkeley.edu/).
   - **Research Interest**: I am broadly interested in **computer security**, **systems**, and **machine learning**, especially building systems that enable secure and privacy-preserving data processing or solve real-world security problems.
+  - **News**:  
+    - Nov 2022: *"The practical use of differential privacy across the enterprise is within striking distance."* Check out [our paper](https://arxiv.org/abs/2211.03898) accepted to PETS 2022.  
+    - Oct 2022: [CoLink](https://colink.app/), a new project focusing on creating decentralized programming abstraction, released.  
 
 # Service Section
 
@@ -57,10 +60,11 @@ experience_title: Research Experiences #(Use this to override about experience s
 more_title: Misc #(Use this to override about more section title)
 more_content: | # this will include new lines to allow paragraphs
   **Materials**
-  - [CV (outdated)](https://littleround.cn/static/personal/cv_xiaoyuanliu_SJTU_2019_12.pdf)
+  - [CV (2019, outdated)](https://littleround.cn/static/personal/cv_xiaoyuanliu_SJTU_2019_12.pdf)
 
   **Teaching Experience**
-  - **Teaching Assistant** [Decentralized Finance - Fall 2021](https://berkeley-defi.github.io/f21)
+  - **Teaching Assistant** [Entrepreneurship In Web3 - Fall 2022](https://rdi.berkeley.edu/course/entrepreneurship-in-web3)
+  - **Teaching Assistant** [Decentralized Finance - Fall 2021](https://rdi.berkeley.edu/berkeley-defi/f21)
   - **Student Instructor** [Principle and Practice of Computer Algorithms - Summer 2018](https://acm.sjtu.edu.cn/wiki/PPCA_2018)
   - **Lead Teaching Assistant** [Data Structures - Spring 2018](https://acm.sjtu.edu.cn/wiki/Data_Structures_2018)
   - **Lead Teaching Assistant** [C++ Programming (A) - Fall 2017](https://acm.sjtu.edu.cn/wiki/Programming_2017)
