@@ -13,7 +13,7 @@
     [[SIGMOD 2021 demo]](https://2021.sigmod.org/)
 - title: "Enabling Efficient Cyber Threat Hunting With Cyber Threat Intelligence"
   pdf: https://arxiv.org/pdf/2010.13637.pdf
-  project_website: https://sites.google.com/site/effhuntersystem/
+#   project_website: https://sites.google.com/site/effhuntersystem/
   info: |
     Peng Gao, Fei Shao, **Xiaoyuan Liu**, Xusheng Xiao, Zheng Qin, Fengyuan Xu, Prateek Mittal, Sanjeev R Kulkarni, Dawn Song  
     [[ICDE 2021]](https://icde2021.gr/)
