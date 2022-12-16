@@ -1,0 +1,28 @@
+name: Last Updated Time
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  update-last-time:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout 🛎️
+      uses: actions/checkout@v3
+    
+    - name: Get current time
+      uses: josStorer/get-current-time@v2.0.2
+      id: current-time
+      with:
+        format: Do MMM YYYY
+    
+    - name: Update _config.yml
+      uses: fjogeleit/yaml-update-action@v0.12.3
+      with:
+        valueFile: '_config.yml'
+        propertyPath: 'last_updated_time'
+        value: ${{ steps.current-time.outputs.formattedTime }}
+        commitChange: true
+        message: 'Last Time Updated.'

@@ -8,6 +8,9 @@
       </div>
     {%- endif -%}
     <div class="{{ 'col-xs-12 ' }}{%- if site.about_profile_image -%}col-sm-8 col-md-9 col-print-12{%- endif -%}">
+      {%- if site.last_updated_time != null -%}
+        <i style="font-size: 12px;">(Last Updated: {{ site.last_updated_time }})</i>
+      {%- endif -%}
       {{ site.about_content | strip | markdownify }}
     </div>
   </div>

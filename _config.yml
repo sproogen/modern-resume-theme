@@ -48,6 +48,9 @@ additional_links:
 # gtag: "UA-00000000-0"
 # google_analytics: "UA-00000000-0"
 
+# Last time the website has been updated: This variable automatically updates after each push in master branch by 'update_lasttime.yml' workflow
+last_updated_time: null
+
 # About Section
 # about_title: About Me (Use this to override about section title)
 about_profile_image: Directory of profile image (eg. images/profile.jpg)
