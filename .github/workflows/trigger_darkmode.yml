@@ -1,0 +1,80 @@
+name: Automatic Dark Mode Triggering
+
+on:
+  schedule:
+    - cron: '* 3,6,17,20 * * *'
+  
+  workflow_dispatch:
+
+jobs:
+  init:
+    runs-on: ubuntu-latest
+
+    outputs:
+      trigger_darkmode: ${{ steps.trigger-darkmode.outputs.data }}
+
+    steps:
+    - name: Checkout 🛎️
+      uses: actions/checkout@v3
+    
+    - name: Get trigger darkmode variable
+      uses: jbutcher5/read-yaml@1.6
+      id: trigger-darkmode
+      with:
+        file: '_config.yml'
+        key-path: '["trigger_darkmode"]'
+
+  trigger-darkmode:
+    runs-on: ubuntu-latest
+    needs: init
+
+    # first, let's make sure user wants to automatically triggers the dark mode
+    if: ${{ needs.init.outputs.trigger_darkmode != null }}
+   
+    steps:
+    - name: Checkout 🛎️
+      uses: actions/checkout@v3
+    
+    - name: Get current date
+      id: current-date
+      run: echo "::set-output name=hour::$(date +'%H')"
+    
+    - name: Get light mode start time
+      uses: jbutcher5/read-yaml@1.6
+      id: lightmode-time
+      with:
+        file: '_config.yml'
+        key-path: '["trigger_darkmode", "start_light"]'
+    
+    - name: Get dark mode start time
+      uses: jbutcher5/read-yaml@1.6
+      id: darkmode-time
+      with:
+        file: '_config.yml'
+        key-path: '["trigger_darkmode", "start_dark"]'
+
+    - name: Set light and dark start time env variables
+      run: |
+        echo "START_LIGHT=${{ steps.lightmode-time.outputs.data }}" >> $GITHUB_ENV
+        echo "START_DARK=${{ steps.darkmode-time.outputs.data }}" >> $GITHUB_ENV
+        echo "HOUR=${{ steps.current-date.outputs.hour }}" >> $GITHUB_ENV
+        
+    - name: Disable dark mode
+      if: ${{ env.HOUR >= env.START_LIGHT && env.HOUR <= env.START_DARK }} 
+      uses: fjogeleit/yaml-update-action@main
+      with:
+        valueFile: '_config.yml'
+        propertyPath: 'darkmode'
+        value: "!!bool 'false'"
+        commitChange: true
+        message: 'Disable Dark Mode.'
+    
+    - name: Enable dark mode
+      if: ${{ env.HOUR < env.START_LIGHT || env.HOUR > env.START_DARK }} 
+      uses: fjogeleit/yaml-update-action@main
+      with:
+        valueFile: '_config.yml'
+        propertyPath: 'darkmode'
+        value: "!!bool 'true'"
+        commitChange: true
+        message: 'Enable Dark Mode.'

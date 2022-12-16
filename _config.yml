@@ -18,6 +18,13 @@ website: Your website (eg. https://google.com)(optional)
 # Dark Mode (true/false/never)
 darkmode: false
 
+trigger_darkmode: null
+
+# If you would like to trigger darkmode automatically, please set the trigger_darkmode like the following
+# trigger_darkmode:
+#   start_light: '05' # format: 'HH'
+#   start_dark: '18' # format: 'HH'
+
 # Social links
 twitter_username: jekyllrb
 github_username:  jekyll
