@@ -26,18 +26,17 @@ linkedin_username: yoontaepark
 # gtag: "G-GJ4Z3SDN77"
 # # google_analytics: "UA-00000000-0"
 
-# # Analytics
-# analytics:
-#   provider               : "google-gtag" 
-#                           # false (default), "google", "google-universal", "google-gtag", "custom"
-#   google:
-#     tracking_id          : "G-GJ4Z3SDN77"
-#     anonymize_ip         : # true, false (default)
+# Analytics
+analytics:
+  provider               : "google-gtag" 
+                          # false (default), "google", "google-universal", "google-gtag", "custom"
+  google:
+    tracking_id          : "G-GJ4Z3SDN77"
+    anonymize_ip         : # true, false (default)
 
 ## Google Analytics settings
-google_analytics:
-  id: G-GJ4Z3SDN77
-
+# google_analytics:
+#   id: G-GJ4Z3SDN77
 
 # About Section
 # about_title: About Me (Use this to override about section title)
