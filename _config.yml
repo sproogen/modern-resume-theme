@@ -135,15 +135,7 @@ content:
           Tutoring students helped me become a better student, I loved helping others succeed!
         description: | # this will include new lines to allow paragraphs
           - Tutored intermediate-level statistical students in modeling and analysis in R
-      - layout: left
-        title: Research & Business Development Center
-        caption: September 2020 - December 2020
-        sub_title: Consultant
-        quote: >
-          I was impressed by our client's ability to ask great questions & their interest in our growth.
-        description: | # this will include new lines to allow paragraphs
-          - Wrangled 60 GB raw data using SQL and R to visualize the effect of Covid-19 on sales.
-          
+
   - title: Volunteer # Title for the section
     layout: list # Type of content section (list/text)
     content:
