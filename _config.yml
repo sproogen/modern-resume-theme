@@ -6,9 +6,9 @@ favicon: images/rachael_profile.jpg
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
+name: Rachael Smith
+title: Data Scientist
+email: smith.rachael@gmail.com
 website: www.github.com/sproogen/resume-theme
 
 # Dark Mode (true/false/never)
@@ -48,72 +48,119 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/rachael_profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  Hi, my name's Rachael, I am experienced in statistics, business analytics & machine learning.  I love to dream big & am very self driven.  I see challenges as opportunities & have a track record of going above and beyond to accomplish a goal while leading a team along the way.  
+ 
+  Prior to studying Data Science, I founded a leadership charter school & served as Board Vice Chairman for 11 years gaining teamwork & leadership skills. 
+  As a board member I valued access to transparent & accurate data to make good decisions, & I understand how blind decision makers can feel when they don't have access to good data.  
+  
+  I am passionate about understanding my client's challenges & finding the story within the data that can drive businesses to make informed decisions.
+  I am most skilled in: <mark>R</mark> & <mark>Python</mark>.  I love math, programming & problem solving. 
+  
+  I also am skilled at <mark>SQL</mark>, <mark>Machine Learning</mark>, <mark>Google Cloud Platform</mark>, <mark>Excel</mark>, <mark>Power BI</mark>, & <mark>Tableau</mark>.
+  Ask me about wake surfing, baking, building furniture, or remodeling.  
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
-
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
+        title: Brigham Young University - Idaho
+        caption: January 2018 - December 2022
+        sub_title: BS | Data Science<br>Minor | Statistics<br>Minor | Business Analytics<br>Certificate | Machine Learning
         quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+          BYU-ID encourages students to be proactive learners, become highly skilled, & lift others.
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          GPA: 3.9 <br><br>
+          Relevant Courses:<br>Deep Learning | U of I, Machine Learning, Big Data Analytics, Applied Linear Regression, Data Wrangling & Visualization, Database Design, Linear Algebra & Discrete Math 
+ 
+  - title: Experience  # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-
+      - layout: left
+        title: Micron Technology
+        caption: May 2022 - August 2022
+        sub_title: Smart Manufacturing and AI <br> Data Science Intern  
+        quote: >
+          Teams are best when there are strong mentors, collaboration, and trust; sometimes small and simple changes are enough.
+        description: | # this will include new lines to allow paragraphs
+          - Supported data science team to move existing ML models from internal servers into Google Cloud Platform using best practices for loading, modeling, & saving models in GCP
+          - Evaluated, suggested improvements, & presented training on imputers that improved training time & created visualizations showing variations of imputed data to find best K value
+          - Created functions to pull data from multiple complex data systems into training data and actual data to help data science team with real time model monitoring for accuracy & drift
+      - layout: left
+        title: Health Catalyst
+        caption: February 2022 - May 2022
+        sub_title: Analytics Engineer Intern <br> 
+        quote: >
+          Navigating databases, joining tables and engineering features creates stronger data for machine learning.
+        description: | # this will include new lines to allow paragraphs
+          - Predicted patient’s likelihood to respond to outreach with 89% accuracy using machine learning tools in R & international healthcare data, ensuring ethical practices & patient privacy
+          - Feature engineered dataset across 20+ tables with custom SQL functions to join and aggregate data that can be applied across multiple countries and healthcare systems
+          - Revenue attributed to the process exceeded $1M over 3 months in directly attributable revenue, results helped to secure a multi-year, multi-million-dollar engagement
+      - layout: left
+        title: Good 2 Go
+        caption: May 2021 - October 2021
+        sub_title: Data Science Finance Intern
+        quote: >
+          Working Remotely is effective when you have clear expectations, strong communication and a google search bar.
+        description: | # this will include new lines to allow paragraphs
+          - Built an exponential smoothing time series forecasting interactive Power BI tool to predict   next quarter’s unique fuel volume and retail sales for 60 locations across 8 states
+          - Solved complex time series challenges using SQL and R code caused by multiple locations, differing start & end dates, partial months, traditional calendar & 454 retail calendar dates
+      - layout: left
+        title: Research & Business Development Center
+        caption: January 2021 - April 2021
+        sub_title: Technical Project Lead 
+        quote: >
+          Understanding the client's needs while leading a team showed me the value of collaboration and good communication.
+        description: | # this will include new lines to allow paragraphs
+          - Led 2 projects/teams of 6 associates; managed deadlines, articulated and set clear goals, collaborated between client & team, proposed additional steps, & presented final analysis
+          - Engineered features leveraging diverse data to perform statistical analysis of 25K locations comparing client metrics to competitors, used distance matrices to find nearest competitors
+          - Showed significant linear correlation of cell phone location data & client sales
+      - layout: left
+        title: Brigham Young University Idaho
+        caption: September 2020 - December 2020
+        sub_title: Intermediate Statistics <br> Teacher's Assistant & Tutor
+        quote: >
+          Tutoring students helped me become a better student, I loved helping others succeed!
+        description: | # this will include new lines to allow paragraphs
+          - Tutored intermediate-level statistical students in modeling and analysis in R
+      - layout: left
+        title: Research & Business Development Center
+        caption: September 2020 - December 2020
+        sub_title: Consultant
+        quote: >
+          I was impressed by our client's ability to ask great questions & their interest in our growth.
+        description: | # this will include new lines to allow paragraphs
+          - Wrangled 60 GB raw data using SQL and R to visualize the effect of Covid-19 on sales.
+          
+  - title: Volunteer # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: The Village<br>Charter School
+        #link: thevillagecharter.org
+        #link_text: thevillagecharter.org
+        sub_title: Founder <br> Board Vice Chairman
+        caption: May 2009 - June 2020
+        quote: >
+          I developed a passion for education when I realized that teachers can either ignite a love of learning in students or distinguish it.
+        description: | # this will include new lines to allow paragraphs
+          - Achieved Lighthouse Recognition as a Leader in Me Lighthouse School using Franklin Covey's 7 Habits of Highly Successful People.
+          - Approved annual budgets, oversaw board development, open meeting law & school policies, & managed relationship with bondholders & authorizer.  
+          - Recruited 3 exceptional administrators, graduated nine 8th grade classes, & served 1000s of K-8 students in Idaho. 
+          - Designed, Implemented and Secured Authorization for a Leadership Charter School, focused on Hands-on Learning & the 7 Habits of Highly Effective People.  
+          - Awarded and monitored use of over $600K in charter-start grants, established policies & protocols for startup
   - title: A Little More About Me
-    layout: text
+    layout: text 
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
-
+      - Raising 5 children is teaching me the value of different perspectives, patience, consistency, and having a higher purpose
+      - Founding a charter school is like starting any business, and taught me the value of grit & that it is possible to make big things happen, against all odds, when you have a clear vision & the right team by your side
+      - Serving on a school board taught me leadership and presentation skills, the importance integrity in teams, the value of using good, accurate data, data-driven decision making, and the importance of a unified vision 
+      - Going back to college has shown me that it is never too late to pursue your dreams, & it just as valuable to ask questions as to answer them
+      <br>
+      <br>*My whole life I have loved solving problems of all kinds, whether it’s math problems, building furniture, baking, or helping businesses find ways to use their data or measure their mission and vision, I am all in! I am always looking to connect with clients who feel I can add value to their business.* 
 # Footer
-footer_show_references: true
+footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
