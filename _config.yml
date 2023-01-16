@@ -48,7 +48,7 @@ github_username:  lsqqqq
 # gtag: "UA-00000000-0"
 # google_analytics: "UA-00000000-0"
 
-About Section
+# About Section
 about_title: About Me
 # about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
