@@ -6,7 +6,7 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Your Name
+name: Shangqing Lyu
 title: Your job title
 email: Your email (optional)
 # email_title: Email (Email title override)
