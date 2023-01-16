@@ -102,14 +102,13 @@ content:
     layout: list
     content: 
       - layout: top-right
-        sub_title: Deep Learning
+        title: Deep Learning
       - layout: top-right
-        sub_title: Cloud Platform Management
+        title: Cloud Platform Management
       - layout: top-right
-        sub_title: Network Flow Control
+        title: Network Flow Control
 
   - title: Publications
-    layout: list
     content: |
       Tianyi Zhang, Yunlu Feng, Yu Zhao, Guangda Fan, Aiming Yang, **Shangqin Lyu**, Peng Zhang, Fan Song, Chenbin Ma, Yangyang Sun, Youdan Feng, and Guanglei Zhang, “MSHT: Multi-stage hybrid transformer for the ROSE image analysis of pancreatic cancer,” IEEE Journal of Biomedical and Health Informatics., 2022, in press.
       
