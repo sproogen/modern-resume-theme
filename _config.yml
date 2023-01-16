@@ -99,28 +99,14 @@ content:
         caption: 09/2021 - 09/2022
   - title: Publications
     layout: list
-    content:
-      - layout: left
-        # title: Company name
-        sub_title: > 
-          Tianyi Zhang, Yunlu Feng, Yu Zhao, Guangda Fan, Aiming Yang, <mark>Shangqin Lyu<mark>, Peng Zhang, Fan Song, Chenbin Ma, Yangyang Sun, Youdan Feng, and Guanglei Zhang, “MSHT: Multi-stage hybrid transformer for the ROSE image analysis of pancreatic cancer,” IEEE Journal of Biomedical and Health Informatics., 2022, in press.
-        # caption: Date Range (eg. November 2016 - present)
-        # link: Link to company (optional)
-        # quote: >
-        #   Short description of the company (optional)
-        # description: | # this will include new lines to allow paragraphs
-        #   Description of role
-      - layout: left
-        sub_title: >
-          Jinkai Li, Fan Song, Peng Zhang, Chenbin Ma, Tianyi Zhang, Yangyang Sun, Youdan Feng, Xiao Song, Shangqing Lyu, Guanglei Zhang, “A multi-classification model for non-small cell lung cancer subtypes based on independent subtask learning,” Medical Physics, vol. 49, no. 11, pp. 6960–6974, Nov. 2022, doi: 10.1002/mp.15808.
+    content: |
+      Tianyi Zhang, Yunlu Feng, Yu Zhao, Guangda Fan, Aiming Yang, <mark>Shangqin Lyu<mark>, Peng Zhang, Fan Song, Chenbin Ma, Yangyang Sun, Youdan Feng, and Guanglei Zhang, “MSHT: Multi-stage hybrid transformer for the ROSE image analysis of pancreatic cancer,” IEEE Journal of Biomedical and Health Informatics., 2022, in press.
+      
+      Jinkai Li, Fan Song, Peng Zhang, Chenbin Ma, Tianyi Zhang, Yangyang Sun, Youdan Feng, Xiao Song, <mark>Shangqing Lyu<mark>, Guanglei Zhang, “A multi-classification model for non-small cell lung cancer subtypes based on independent subtask learning,” Medical Physics, vol. 49, no. 11, pp. 6960–6974, Nov. 2022, doi: 10.1002/mp.15808.
 
-      - layout: left
-        sub_title: >
-          Keying Zhang, Shigong Long, Shangqing Lyu, and Xiaodan Lyu, “Modeling of Health Evaluation of Container Cloud System Based on Rough Set,” Computer Technology and Development, vol. 30, no. 4, pp. 63–68, 2020.
+      Keying Zhang, Shigong Long, <mark>Shangqing Lyu<mark>, and Xiaodan Lyu, “Modeling of Health Evaluation of Container Cloud System Based on Rough Set,” Computer Technology and Development, vol. 30, no. 4, pp. 63–68, 2020.
 
-      - layout: left
-        sub_title: >
-          Keying Zhang, Liping Peng, Xiaodan Lyu, and Shangqing Lyu, “Elastic Scheduling Strategy for Private Cloud Ｒesource Based on Kubernetes and Openstack,” Computer Technology and Development, vol. 29, no. 2, pp. 109–114, 2019.
+      Keying Zhang, Liping Peng, Xiaodan Lyu, and <mark>Shangqing Lyu<mark>, “Elastic Scheduling Strategy for Private Cloud Resource Based on Kubernetes and Openstack,” Computer Technology and Development, vol. 29, no. 2, pp. 109–114, 2019.
 
   - title: A Little More About Me
     layout: text
