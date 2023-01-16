@@ -1,5 +1,5 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
@@ -85,7 +85,7 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: left
+      - layout: top-right
         title: Beijing University of Posts and Telecommunications
         sub_title: Bachelor in Communication Engineering
         caption: 09/2017 - 07/2021
@@ -93,27 +93,35 @@ content:
         #   Short institution or course description (optional)
         # description: | # this will include new lines to allow paragraphs
         #   Description of qualification
-      - layout: left
+      - layout: top-right
         title: University of Southampton
         sub_title: Master of Science in Internet of Things
         caption: 09/2021 - 09/2022
+
+  - title: Research Direction
+    layout: list
+    content: |
+      * Deep Learning
+      * Cloud Platform Management
+      * Network Flow Control
+
   - title: Publications
     layout: list
     content: |
-      Tianyi Zhang, Yunlu Feng, Yu Zhao, Guangda Fan, Aiming Yang, <mark>Shangqin Lyu<mark>, Peng Zhang, Fan Song, Chenbin Ma, Yangyang Sun, Youdan Feng, and Guanglei Zhang, “MSHT: Multi-stage hybrid transformer for the ROSE image analysis of pancreatic cancer,” IEEE Journal of Biomedical and Health Informatics., 2022, in press.
+      * Tianyi Zhang, Yunlu Feng, Yu Zhao, Guangda Fan, Aiming Yang, **Shangqin Lyu**, Peng Zhang, Fan Song, Chenbin Ma, Yangyang Sun, Youdan Feng, and Guanglei Zhang, “MSHT: Multi-stage hybrid transformer for the ROSE image analysis of pancreatic cancer,” IEEE Journal of Biomedical and Health Informatics., 2022, in press.
       
-      Jinkai Li, Fan Song, Peng Zhang, Chenbin Ma, Tianyi Zhang, Yangyang Sun, Youdan Feng, Xiao Song, <mark>Shangqing Lyu<mark>, Guanglei Zhang, “A multi-classification model for non-small cell lung cancer subtypes based on independent subtask learning,” Medical Physics, vol. 49, no. 11, pp. 6960–6974, Nov. 2022, doi: 10.1002/mp.15808.
+      * Jinkai Li, Fan Song, Peng Zhang, Chenbin Ma, Tianyi Zhang, Yangyang Sun, Youdan Feng, Xiao Song, **Shangqing Lyu**, Guanglei Zhang, “A multi-classification model for non-small cell lung cancer subtypes based on independent subtask learning,” Medical Physics, vol. 49, no. 11, pp. 6960–6974, Nov. 2022, doi: 10.1002/mp.15808.
 
-      Keying Zhang, Shigong Long, <mark>Shangqing Lyu<mark>, and Xiaodan Lyu, “Modeling of Health Evaluation of Container Cloud System Based on Rough Set,” Computer Technology and Development, vol. 30, no. 4, pp. 63–68, 2020.
+      * Keying Zhang, Shigong Long, **Shangqing Lyu**, and Xiaodan Lyu, “Modeling of Health Evaluation of Container Cloud System Based on Rough Set,” Computer Technology and Development, vol. 30, no. 4, pp. 63–68, 2020.
 
-      Keying Zhang, Liping Peng, Xiaodan Lyu, and <mark>Shangqing Lyu<mark>, “Elastic Scheduling Strategy for Private Cloud Resource Based on Kubernetes and Openstack,” Computer Technology and Development, vol. 29, no. 2, pp. 109–114, 2019.
+      * Keying Zhang, Liping Peng, Xiaodan Lyu, and **Shangqing Lyu**, “Elastic Scheduling Strategy for Private Cloud Resource Based on Kubernetes and Openstack,” Computer Technology and Development, vol. 29, no. 2, pp. 109–114, 2019.
 
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+  # - title: A Little More About Me
+  #   layout: text
+  #   content: | # this will include new lines to allow paragraphs
+  #     This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+  #     Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
 footer_show_references: true
