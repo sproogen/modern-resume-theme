@@ -85,7 +85,7 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: top-left
+      - layout: left
         title: Beijing University of Posts and Telecommunications
         sub_title: Bachelor in Communication Engineering
         caption: 09/2017 - 07/2021
@@ -93,7 +93,7 @@ content:
         #   Short institution or course description (optional)
         # description: | # this will include new lines to allow paragraphs
         #   Description of qualification
-      - layout: top-left
+      - layout: left
         title: University of Southampton
         sub_title: Master of Science in Internet of Things
         caption: 09/2021 - 09/2022
