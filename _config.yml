@@ -50,7 +50,7 @@ github_username:  lsqqqq
 
 # About Section
 about_title: About Me
-about_profile_image: images/me.png
+about_profile_image: _test/images/me.png
 about_content: | # this will include new lines to allow paragraphs
 
   Hi there, I am just someone trying to do something great.
@@ -128,8 +128,6 @@ content:
       
       * Keying Zhang, Liping Peng, Xiaodan Lyu, and **Shangqing Lyu**, “Elastic Scheduling Strategy for Private Cloud Resource Based on Kubernetes and Openstack,” Computer Technology and Development, vol. 29, no. 2, pp. 109-114, 2019.
 
-  
-
 
   # - title: A Little More About Me
   #   layout: text
@@ -143,8 +141,8 @@ footer_show_references: true
 # references_title: References on request (Override references text)
 
 # Build settings
-theme: modern-resume-theme
-remote_theme: sproogen/modern-resume-theme
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
 sass:
   sass_dir: _sass
