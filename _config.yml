@@ -142,7 +142,7 @@ footer_show_references: true
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+remote_theme: sproogen/modern-resume-theme
 
 sass:
   sass_dir: _sass
