@@ -124,9 +124,7 @@ content:
 
   - title: Publications
     content: |
-      Just for test...
-
-      ** Here is a comment**
+      Just for test
 
   # * Tianyi Zhang, Yunlu Feng, Yu Zhao, Guangda Fan, Aiming Yang, **Shangqin Lyu**, Peng Zhang, Fan Song, Chenbin Ma, Yangyang Sun, Youdan Feng, and Guanglei Zhang, “MSHT: Multi-stage hybrid transformer for the ROSE image analysis of pancreatic cancer,” IEEE Journal of Biomedical and Health Informatics., 2022, in press.
   # * Jinkai Li, Fan Song, Peng Zhang, Chenbin Ma, Tianyi Zhang, Yangyang Sun, Youdan Feng, Xiao Song, **Shangqing Lyu**, Guanglei Zhang, “A multi-classification model for non-small cell lung cancer subtypes based on independent subtask learning,” Medical Physics, vol. 49, no. 11, pp. 6960-6974, Nov. 2022, doi: 10.1002/mp.15808.
