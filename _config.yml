@@ -56,15 +56,6 @@ about_content: | # this will include new lines to allow paragraphs
   Hi there, I am just someone trying to do something great.
 
   Hope you have a nice day ~
-  
-  
-  # Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  # You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-  #   - Lists
-  #   - Tables
-  #   - <a href="google.com">Links</a>
-  #   - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
   # - title: Projects # Title for the section
@@ -127,7 +118,7 @@ content:
         caption: 10/2020-1/2023
 
   - title: Publications
-    layout: list
+    layout: text
     content: |
       * Tianyi Zhang, Yunlu Feng, Yu Zhao, Guangda Fan, Aiming Yang, **Shangqin Lyu**, Peng Zhang, Fan Song, Chenbin Ma, Yangyang Sun, Youdan Feng, and Guanglei Zhang, “MSHT: Multi-stage hybrid transformer for the ROSE image analysis of pancreatic cancer,” IEEE Journal of Biomedical and Health Informatics., 2022, in press.
 
