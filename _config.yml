@@ -50,7 +50,7 @@ github_username:  lsqqqq
 
 # About Section
 about_title: About Me
-about_profile_image: _test/images/me.png
+about_profile_image: /images/me.png
 about_content: | # this will include new lines to allow paragraphs
 
   Hi there, I am just someone trying to do something great.
