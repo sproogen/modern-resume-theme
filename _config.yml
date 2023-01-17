@@ -123,6 +123,7 @@ content:
         caption: 10/2020-1/2023
 
   - title: Publications
+    layout: list
     content: |
       Just for test
 
