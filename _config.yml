@@ -50,7 +50,7 @@ about_content: | # this will include new lines to allow paragraphs
 
   If you are interested, please contact me via email or linkedin.  
 
-  Resume: <a href="https://drive.google.com/file/d/19Ad10HJvpVBGEzVuoCjf2CD4YeiumGS0/view?usp=sharing">Resume_YoonTaePark.pdf</a>
+  Resume: <a href="https://drive.google.com/file/d/11MNm87WsSLTCXZgtHAihe3yQElIouoVR/view?usp=share_link">Resume_YoonTaePark.pdf</a>
 
 ### content section 
 content:
@@ -63,16 +63,16 @@ content:
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title:  Automated Judicial Case Briefing (mentored by World Bank)
-        link: https://github.com/yoontaepark/portfolio/blob/main/projects/Automated_Judicial_Case_Briefing.pdf
+        link: https://github.com/yoontaepark/capstone-oyez/blob/main/reports/final/Capstone_final_group41_project68.pdf
         link_text: Link) Automated Judicial Case Breifing 
         quote: >
           Creating a model that extracts relevant information from extremely long legal documents
         description: | # this will include new lines to allow paragraphs
-          - Web scrapped US Supreme Court dataset and applied transformer models: BART, T5, and Pegasus
+          - Created a long legal document dataset through web scraping of US Supreme Court judicial cases
 
-          - Evaluated the dataset by RougeL score and got the baseline score of 0.3
+          - Developed a summary generation pipeline using SOTA models (BART, T5, and LED), resulting in a RougeL score 0.47
 
-          - Currently working on fine-tuning dataset and applying data processing methods on long input 
+          - Implemented text extraction methods, such as TextRank, to improve the performance of the summarization model
 
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
@@ -83,11 +83,11 @@ content:
         quote: >
           Correlation Analysis on Generalization Capacities of Different Compositional Problems
         description: | # this will include new lines to allow paragraphs
-          - Identified a set of compositional generalization datasets and models to test, and organized the different datasets into a single unified format 
-
-          - Bulit a codebase for training evaluation pipeline
-
-          - Currently working on different settings, such as different architectures, different sets of hyperparameters, and different random seeds
+          - Evaluated the accuracy of the model on 9 different compositional tasks, using 20 different initial weights
+          
+          - Built a codebase for a training evaluation pipeline, primarily used in the team’s research
+          
+          - Identified a positive correlation on certain tasks, providing evidence of compositional generalization capacity
 
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
