@@ -78,7 +78,7 @@ content:
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: Dissecting Compositional Generalization (mentored by Faculty Fellow)
-        link: https://github.com/yoontaepark/portfolio/blob/main/projects/Dissecting_Compositional_Generalization.pdf
+        link: https://github.com/yoontaepark/comp_gen_nlp/blob/main/reports/final/nlp_final_report_team_9.pdf
         link_text: Link) Dissecting Compositional Generalization
         quote: >
           Correlation Analysis on Generalization Capacities of Different Compositional Problems
