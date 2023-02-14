@@ -209,7 +209,8 @@ content:
           
           -	Built an automation scenario from invoice to accounting system and proposed learning methodologies for each field with a developer
 
-
+      - layout: left
+        title: Samsung Electronics
         sub_title: Finance Manager 
         caption: Feb. 2014 - Oct.2018
         # link: Link to company (optional)
