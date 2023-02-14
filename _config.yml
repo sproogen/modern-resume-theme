@@ -169,11 +169,11 @@ content:
         quote: >
           Worked in e-commerce team, leveraging rest of market data source to improve Walmart e-commerce platform
         description: | # this will include new lines to allow paragraphs
-        - Created a benchmark dataset using rest of market and Walmart item information that enriched the team’s research
+          - Created a benchmark dataset using rest of market and Walmart item information that enriched the team’s research
         
-        - Proposed and implemented a boosting model using a benchmark dataset, resulting in a 35% improvement in the current category mapping performance
+          - Proposed and implemented a boosting model using a benchmark dataset, resulting in a 35% improvement in the current category mapping performance
         
-        - Deployed a machine learning pipeline to predict categories for new items, replacing the team's method
+          - Deployed a machine learning pipeline to predict categories for new items, replacing the team's method
 
       - layout: left
         title: UNDP
@@ -183,9 +183,9 @@ content:
         quote: >
           Worked as a research assistant in SDG(Sustainable Development Goals) AI Lab, contributing on Disaster Risk Reduction project.
         description: | # this will include new lines to allow paragraphs
-        - Collaborated with Bilkent University to develop a model for safely routing people from an earthquake
+          - Collaborated with Bilkent University to develop a model for safely routing people from an earthquake
         
-        - Evaluated the reference risk of streets and suggested the safest path in Istanbul by calculating the total risk
+          - Evaluated the reference risk of streets and suggested the safest path in Istanbul by calculating the total risk
 
       - layout: left
         title: Samsung Electronics
@@ -217,18 +217,18 @@ content:
         quote: >
           Worked as a finance manager in Mobile division
         description: | # this will include new lines to allow paragraphs
-        -	Analyzed, investigated, and reported financial information of the mobile division in monthly closing of financial statements
-        
-        -	Compared forecasts with actual data and added new benchmarks to save 20% in annual budget planning
-        
-        -	Developed a chatbot that provides information on expense management and reimbursement in company intranet; used node.js and natural language processing and completed prototype production 
-        
-        -	Managed facility investments of 8 overseas production plants, reviewed the investment plans and saved USD 730 million by comparing plans with executed investments and reallocating excessive investment budgets to future years
-        
-        -	Lowered production cost per unit from USD 3.73/unit in 2015 to USD 3.43/unit in 2016, saving USD 240 million in total; analyzed yield and capacity utilization of the production plants and identified ways to boost productivity such as production re-scheduling and optimizing internal manufacturing cost
-        
-        -	Won a prize in Samsung Electronics Hackathon 
-  
+          -	Analyzed, investigated, and reported financial information of the mobile division in monthly closing of financial statements
+
+          -	Compared forecasts with actual data and added new benchmarks to save 20% in annual budget planning
+
+          -	Developed a chatbot that provides information on expense management and reimbursement in company intranet; used node.js and natural language processing and completed prototype production 
+
+          -	Managed facility investments of 8 overseas production plants, reviewed the investment plans and saved USD 730 million by comparing plans with executed investments and reallocating excessive investment budgets to future years
+
+          -	Lowered production cost per unit from USD 3.73/unit in 2015 to USD 3.43/unit in 2016, saving USD 240 million in total; analyzed yield and capacity utilization of the production plants and identified ways to boost productivity such as production re-scheduling and optimizing internal manufacturing cost
+
+          -	Won a prize in Samsung Electronics Hackathon 
+            
 
   ### education section
   - title: Education
