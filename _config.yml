@@ -199,15 +199,15 @@ content:
 
           - Identified problems and information on data structure and preprocessing and proposed categorization of input variables to prevent data overfitting
           
-          -	Analyzed and enhanced over six-hundred SAP finance programs on ABAP
+          - Analyzed and enhanced over six-hundred SAP finance programs on ABAP
           
-          -	Developed training materials and educated 300,000 employees, as well as over 100 foreign subsidiaries 
+          - Developed training materials and educated 300,000 employees, as well as over 100 foreign subsidiaries 
           
-          -	Integrated two separate systems on approval and expense management and established automated processes that eliminated inefficiency and directly connects with accounting system to reduce the number of approvals from 1.8 million to 1.2 million a year
+          - Integrated two separate systems on approval and expense management and established automated processes that eliminated inefficiency and directly connects with accounting system to reduce the number of approvals from 1.8 million to 1.2 million a year
           
-          -	Created a system that uses OCR technology to pull accounting information from vendor invoice
+          - Created a system that uses OCR technology to pull accounting information from vendor invoice
           
-          -	Built an automation scenario from invoice to accounting system and proposed learning methodologies for each field with a developer
+          - Built an automation scenario from invoice to accounting system and proposed learning methodologies for each field with a developer
 
       - layout: left
         title: Samsung Electronics
@@ -217,17 +217,17 @@ content:
         quote: >
           Worked as a finance manager in Mobile division
         description: | # this will include new lines to allow paragraphs
-          -	Analyzed, investigated, and reported financial information of the mobile division in monthly closing of financial statements
+          - Analyzed, investigated, and reported financial information of the mobile division in monthly closing of financial statements
 
-          -	Compared forecasts with actual data and added new benchmarks to save 20% in annual budget planning
+          - Compared forecasts with actual data and added new benchmarks to save 20% in annual budget planning
 
-          -	Developed a chatbot that provides information on expense management and reimbursement in company intranet; used node.js and natural language processing and completed prototype production 
+          - Developed a chatbot that provides information on expense management and reimbursement in company intranet; used node.js and natural language processing and completed prototype production 
 
-          -	Managed facility investments of 8 overseas production plants, reviewed the investment plans and saved USD 730 million by comparing plans with executed investments and reallocating excessive investment budgets to future years
+          - Managed facility investments of 8 overseas production plants, reviewed the investment plans and saved USD 730 million by comparing plans with executed investments and reallocating excessive investment budgets to future years
 
-          -	Lowered production cost per unit from USD 3.73/unit in 2015 to USD 3.43/unit in 2016, saving USD 240 million in total; analyzed yield and capacity utilization of the production plants and identified ways to boost productivity such as production re-scheduling and optimizing internal manufacturing cost
+          - Lowered production cost per unit from USD 3.73/unit in 2015 to USD 3.43/unit in 2016, saving USD 240 million in total; analyzed yield and capacity utilization of the production plants and identified ways to boost productivity such as production re-scheduling and optimizing internal manufacturing cost
 
-          -	Won a prize in Samsung Electronics Hackathon 
+          - Won a prize in Samsung Electronics Hackathon 
             
 
   ### education section
