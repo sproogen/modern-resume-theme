@@ -169,11 +169,11 @@ content:
         quote: >
           Worked in e-commerce team, leveraging rest of market data source to improve Walmart e-commerce platform
         description: | # this will include new lines to allow paragraphs
-          - Created a benchmark dataset using rest of market and Walmart item information that enriched the team’s research
-
-          - Proposed a boosting model to train the benchmark dataset that improved current category mapping performance by 35%
-
-          - Built a machine learning pipeline that replaced the team’s deliverable which is to predict category for new items
+        - Created a benchmark dataset using rest of market and Walmart item information that enriched the team’s research
+        
+        - Proposed and implemented a boosting model using a benchmark dataset, resulting in a 35% improvement in the current category mapping performance
+        
+        - Deployed a machine learning pipeline to predict categories for new items, replacing the team's method
 
       - layout: left
         title: UNDP
@@ -183,22 +183,51 @@ content:
         quote: >
           Worked as a research assistant in SDG(Sustainable Development Goals) AI Lab, contributing on Disaster Risk Reduction project.
         description: | # this will include new lines to allow paragraphs
-          - Developed an earthquake response model with Bilkent University to safely route people after an earthquake
-
-          - Evaluated a reference risk of streets, and suggested the safetest path by calculating total risk score
+        - Collaborated with Bilkent University to develop a model for safely routing people from an earthquake
+        
+        - Evaluated the reference risk of streets and suggested the safest path in Istanbul by calculating the total risk
 
       - layout: left
         title: Samsung Electronics
-        sub_title: Finance Manager 
-        caption: Feb. 2014 - Jun.2021
+        sub_title: Machine Learning Project Lead
+        caption: Oct. 2018 - Jun.2021
         # link: Link to company (optional)
         quote: >
-          Worked as a finance manager in Mobile division. Elected as chair of automation projects for finance division that applies machine learning solutions.
+          Elected as chair of automation projects for finance division that applies machine learning solutions.
         description: | # this will include new lines to allow paragraphs
-          - Applied Decision Tree and Naive Bayesian method that enhanced the accuracy of the tasks from 60% to 95%
+          - Improved task accuracy from 60% to 95% through the application of Decision Tree and Naive Bayes methods
 
-          - Completed a prototype production of a chatbot that provides information on expense management and reimbursement      
+          - Identified problems and information on data structure and preprocessing and proposed categorization of input variables to prevent data overfitting
+          
+          -	Analyzed and enhanced over six-hundred SAP finance programs on ABAP
+          
+          -	Developed training materials and educated 300,000 employees, as well as over 100 foreign subsidiaries 
+          
+          -	Integrated two separate systems on approval and expense management and established automated processes that eliminated inefficiency and directly connects with accounting system to reduce the number of approvals from 1.8 million to 1.2 million a year
+          
+          -	Created a system that uses OCR technology to pull accounting information from vendor invoice
+          
+          -	Built an automation scenario from invoice to accounting system and proposed learning methodologies for each field with a developer
 
+
+        sub_title: Finance Manager 
+        caption: Feb. 2014 - Oct.2018
+        # link: Link to company (optional)
+        quote: >
+          Worked as a finance manager in Mobile division
+        description: | # this will include new lines to allow paragraphs
+        -	Analyzed, investigated, and reported financial information of the mobile division in monthly closing of financial statements
+        
+        -	Compared forecasts with actual data and added new benchmarks to save 20% in annual budget planning
+        
+        -	Developed a chatbot that provides information on expense management and reimbursement in company intranet; used node.js and natural language processing and completed prototype production 
+        
+        -	Managed facility investments of 8 overseas production plants, reviewed the investment plans and saved USD 730 million by comparing plans with executed investments and reallocating excessive investment budgets to future years
+        
+        -	Lowered production cost per unit from USD 3.73/unit in 2015 to USD 3.43/unit in 2016, saving USD 240 million in total; analyzed yield and capacity utilization of the production plants and identified ways to boost productivity such as production re-scheduling and optimizing internal manufacturing cost
+        
+        -	Won a prize in Samsung Electronics Hackathon 
+  
 
   ### education section
   - title: Education
