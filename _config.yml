@@ -38,6 +38,11 @@ service_content: |
   - Program Committee - CCS [2022](https://www.sigsac.org/ccs/CCS2022/)
   - Coordination Committee - [Responsible Data Summit 2020](https://responsibledata.ai/)
 
+# Project Section
+
+project_content: |
+  - MPC4F (Multi-Party Computation for Fairness) [[News (Meta AI)]](https://ai.facebook.com/blog/assessing-fairness-of-our-products-while-protecting-peoples-privacy) [[News (Oasis Lab)]](https://www.oasislabs.com/blog/oasis-labs-partners-with-meta-to-assess-fairness-for-its-ai-models)
+
 # Honors Section
 honor_title: Honors and Awards
 honor_content: |
