@@ -1,5 +1,37 @@
 <div class="row clearfix">
   <div class="col-md-12">
-    {{ include.content | strip | markdownify }}
+    <!-- {{ include.content | strip | markdownify }} -->
+    {% for item in include.content %}
+      <div class="scroll-container">
+        <p>
+          {{item.text}}
+          <span class="scroller">
+            <span class="color-space white-bg">
+              <span class="scrolling-text">{{item.items}}</span>
+            </span>
+          </span>
+        </p>
+      </div>
+      <div class="scroll-container">
+        <span class="scroller" style="width: 100%">
+        <span class="color-space transparent-bg" style="width: 100%">
+          <span class="scroll-item">
+          {% for imgItem in item.artwork %}
+            <img class="artwork-img" src="{{imgItem.image | relative_url}}" />
+          {% endfor %}
+          </span>
+          <span class="scroll-item">
+            {% for imgItem in item.artwork %}
+              <img class="artwork-img" src="{{imgItem.image | relative_url}}" />
+            {% endfor %}
+          </span>
+          <!-- <span class="scroll-item">
+            <img class="artwork-img" src="{{item.imgTail | relative_url}}" />
+          </span> -->
+        </span>
+        </span>
+      </div>
+      {% endfor %}
+    </div>
   </div>
 </div>

@@ -28,18 +28,18 @@
 }
 
 .profile-img {
-  width: 200px;
-  height: 200px;
+  width: 240px;
+  height: 240px;
   margin: 0 auto;
   margin-bottom: 20px;
   display: block;
-  border-radius: 100px;
+  // border-radius: 100px;
   background-size: cover;
   background-position: center;
   background-repeat: repeat, no-repeat;
-  -moz-box-shadow: inset 0 0 20px #636161;
-  -webkit-box-shadow: inset 0 0 20px #636161;
-  box-shadow: inset 0 0 20px #636161;
+  // -moz-box-shadow: inset 0 0 20px #636161;
+  // -webkit-box-shadow: inset 0 0 20px #636161;
+  // box-shadow: inset 0 0 20px #636161;
 }
 
 .list-container {
@@ -50,7 +50,8 @@
 
 .border-weak  {
   padding-bottom: 8px;
-  border-bottom: dashed 1px #CCCCCC;
+  // border-bottom: dashed 1px #CCCCCC;
+  border-bottom: solid 1px #CCCCCC;
 }
 
 .layout {

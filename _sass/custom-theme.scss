@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "DotGothic";
+    src: url("../fonts/DotGothic16/DotGothic16-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.scroll-container p {
+    display: flex;
+    vertical-align: baseline;
+}
+
+.scroller {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    // background-color: antiquewhite;
+    width: 70%;
+    margin: 0 1rem;
+}
+.color-space {
+    background-color: yellow;
+    display: inline-block;
+    left: 10%;
+    position: relative;
+    width: 70%;
+    white-space: nowrap;
+    // border-radius: 4px;
+    overflow: visible;
+}
+
+.white-bg {
+    background-color: #00a5ff;
+}
+
+.transparent-bg {
+    background-color: transparent;
+}
+  
+.scrolling-text {
+    display: inline-block;
+    color: #505050;
+  animation: scroll-left 10s linear infinite;
+  font-family: "DotGothic", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+}
+  
+  
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes scroll-left-img {
+    0% {
+      transform: translateX(0px);
+    }
+    100% {
+      transform: translateX(-1350px);
+    }
+  }
+
+.scroll-container .scroll-item {
+    display: inline-block;
+    animation: scroll-left-img 10s linear infinite;
+    // flex-shrink: 0;
+    width: 1200px;
+    margin-right: 150px;
+}
+
+.artwork-img {
+    width: 220px;
+    // height: 200px;
+    overflow: visible;
+    margin: 0 10px;
+    margin-bottom: 20px;
+    display: inline-block;
+    // border-radius: 100px;
+    background-size: auto;
+    background-position: center;
+    background-repeat: repeat, no-repeat;
+    // -moz-box-shadow: inset 0 0 20px #636161;
+    // -webkit-box-shadow: inset 0 0 20px #636161;
+    // box-shadow: inset 0 0 20px #636161;
+  }
+
+
+
+.bordered-image {
+    border: 20px solid #fc49e5; // #ff30d9;
+}

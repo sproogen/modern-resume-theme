@@ -3,12 +3,24 @@
   "About Me" }}</h3>
   <div class="row clearfix">
     {%- if site.about_profile_image -%}
-      <div class="col-xs-12 col-sm-4 col-md-3 no-print">
+      <div class="col-xs-12 col-sm-4 col-md-4 no-print">
         <span class="profile-img" style="background-image: url({{ site.about_profile_image | relative_url }})"></span>
       </div>
     {%- endif -%}
-    <div class="{{ 'col-xs-12 ' }}{%- if site.about_profile_image -%}col-sm-8 col-md-9 col-print-12{%- endif -%}">
+    <div class="{{ 'col-xs-12 ' }}{%- if site.about_profile_image -%}col-sm-8 col-md-8 col-print-12{%- endif -%}">
       {{ site.about_content | strip | markdownify }}
+      <div class="scroll-container">
+        {% for item in site.about_skills %}
+          <p>
+          {{ item.title}}
+          <span class="scroller">
+            <span class="color-space">
+              <span class="scrolling-text">{{ item.content }}</span>
+            </span>
+          </span>
+          </p>
+        {% endfor %}
+      </div>
     </div>
   </div>
 </div>
