@@ -99,7 +99,9 @@ jobs:
           git add Gemfile.lock
           git commit --all --amend --no-edit
       - name: Tag latest version
-        run: gem tag --no-push
+        run: |
+          git commit --all
+          gem tag --no-push
       - run: git push origin HEAD:${{ github.ref }} --tags
       - name: Build Gem
         run: gem build modern-resume-theme.gemspec
