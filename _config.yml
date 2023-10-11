@@ -1,43 +1,30 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+repository: https://github.com/S1erra-Xray/modern-resume-theme
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: Sierra
+title: System administrator and Software developer
+email: Email is hidden
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+# phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
+website: https://S1erra-Xray.github.io/modern-resume-theme/
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+github_username: S1erra-Xray
+telegram_username: sierra_xray
+
 
 # Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+# additional_links:
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -50,66 +37,65 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
-
+  Hello! I'm known online as Sierra. IT sphere
+  I have been training since 2019 and during this time I have managed to learn a lot and also try. 
+  In addition to administration, my skills include developing applications and automating my routine tasks. 
+  
+  I have a high <mark>typing speed</mark> and can <mark>argue</mark> well :)
 content:
   - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+    layout: text # Type of content section (list/text)
     content:
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+      New projects will be described here soon
+      #- layout: center
+      #  border:  # Value of `weak` will display a weak border below this item. # Any
+      # other value (or no value) means no border will be displayed
+      #  title: My life
+      #  link: example.com
+      #  link_text: Link Text
+      #  additional_links:
+      #    #- title:  Github page for project
+    #    #  icon: fab fa-github
+    #    #  url: Link to project (optional)
+    #  quote: >
+    #    Overview is coming soon
+    #  description: | # this will include new lines to allow paragraphs
+    #    Description is coming soon
   - title: Experience
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+        title: Coming soon
+        sub_title: Linux administration
+        caption: November 2023 - today
+        link: example.com
         quote: >
-          Short description of the company (optional)
+
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          Junior linux system administrator
   - title: Education
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+        title: College name
+        sub_title: Yevhen Paton Applied College
+        caption: 2023 - today
         quote: >
-          Short institution or course description (optional)
+          Сourse for training junior system administrators
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
+          Administration of operating systems and servers in general
   - title: A Little More About Me
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+    content: # this will include new lines to allow paragraphs
+      I love linux and use it on a regular basis. Of the non-human languages, I like Python and C#.
+      <br>
+      Also like reading technical literature in terms of books and other articles more than watching videos on youtube.
+      <br>
+      I like to peel back layers of abstraction and learn things at a deep level.
+      <br>
+      ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=000000FF&random=false&width=435&lines=That's+all+for+now!)
 
 # Footer
 footer_show_references: true
@@ -117,16 +103,16 @@ footer_show_references: true
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+remote_theme: S1erra-Xray/modern-resume-theme
 
 sass:
   sass_dir: _sass
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
 
-exclude : [
+exclude: [
   "Gemfile",
   "Gemfile.lock",
   "node_modules",
@@ -137,4 +123,4 @@ exclude : [
   "lib/",
   "scripts/",
   "docker-compose.yml",
-  ]
+]

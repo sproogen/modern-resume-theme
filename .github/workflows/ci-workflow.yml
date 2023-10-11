@@ -54,7 +54,7 @@ jobs:
     name: Bump Version and Deploy
     runs-on: ubuntu-latest
     needs: [ build-test, ci-skip ]
-    if: github.ref == 'refs/heads/master' && github.repository_owner == 'sproogen' && needs.ci-skip.outputs.skip == 'false'
+    if: github.ref == 'refs/heads/master' && github.repository_owner == 'S1erra-Xray' && needs.ci-skip.outputs.skip == 'false'
     steps:
     - uses: actions/checkout@v2
       with:
@@ -141,6 +141,6 @@ jobs:
 
         chmod 0600 ~/.gem/credentials
     - name: Publish Gem to GitHub Packages
-      run: gem push --key github --host https://rubygems.pkg.github.com/sproogen modern-resume-theme-${{ steps.release_version.outputs.RELEASE_VERSION }}.gem
+      run: gem push --key github --host https://rubygems.pkg.github.com/S1erra-Xray modern-resume-theme-${{ steps.release_version.outputs.RELEASE_VERSION }}.gem
     - name: Publish Gem to Rubygems
       run: gem push modern-resume-theme-${{ steps.release_version.outputs.RELEASE_VERSION }}.gem

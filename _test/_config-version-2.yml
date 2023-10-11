@@ -1,5 +1,5 @@
 # Site
-repository: sproogen/modern-resume-theme
+repository: sproogen/my-own-portfolio
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Data type version
@@ -12,7 +12,7 @@ email: test@email.com
 email_title: Email
 phone: 07845248563
 phone_title: Phone
-website: sproogen.github.io/modern-resume-theme
+website: sproogen.github.io/my-own-portfolio
 website_title: Web
 
 # Dark Mode (true/false/never)
@@ -37,7 +37,7 @@ googlescholar_username: D847cGsAAAAJ
 additional_links:
 - title: Test link
   icon: fab fa-ello
-  url: sproogen.github.io/modern-resume-theme
+  url: sproogen.github.io/my-own-portfolio
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -65,7 +65,7 @@ content:
         additional_links:
           - title:  Github page for project
             icon: fab fa-github
-            url: sproogen.github.io/modern-resume-theme
+            url: sproogen.github.io/my-own-portfolio
         quote: >
           Short overview of the project
         description: >
@@ -125,8 +125,8 @@ footer_show_references: true
 references_title: References on request
 
 # Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+# theme: my-own-portfolio (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/my-own-portfolio (Use this if you are hosting your resume on GitHub)
 
 include:
  - _test
