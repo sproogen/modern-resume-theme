@@ -49,20 +49,6 @@ content:
     layout: text # Type of content section (list/text)
     content:
       New projects will be described here soon
-      #- layout: center
-      #  border:  # Value of `weak` will display a weak border below this item. # Any
-      # other value (or no value) means no border will be displayed
-      #  title: My life
-      #  link: example.com
-      #  link_text: Link Text
-      #  additional_links:
-      #    #- title:  Github page for project
-    #    #  icon: fab fa-github
-    #    #  url: Link to project (optional)
-    #  quote: >
-    #    Overview is coming soon
-    #  description: | # this will include new lines to allow paragraphs
-    #    Description is coming soon
   - title: Experience
     layout: list
     content:
