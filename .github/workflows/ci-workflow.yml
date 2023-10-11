@@ -102,9 +102,7 @@ jobs:
         run: |
           git commit --all --no-edit --amend
           gem tag --no-push
-      - run: |
-          git pull
-          git push origin HEAD:${{ github.ref }} --tags
+      - run: git push origin HEAD:${{ github.ref }} --tags
       - name: Build Gem
         run: gem build modern-resume-theme.gemspec
       - name: Get Release Version
