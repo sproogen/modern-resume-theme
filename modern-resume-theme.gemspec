@@ -3,7 +3,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "modern-resume-theme/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "modern-resume-theme"
+  spec.name          = "my-own-portfolio"
   spec.version       = ModernResumeTheme::VERSION
   spec.authors       = ["S1erra-Xray"]
   spec.email         = ["no_mail@gmail.com"]
