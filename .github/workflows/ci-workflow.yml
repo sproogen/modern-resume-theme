@@ -100,7 +100,6 @@ jobs:
           git commit --all --amend --no-edit
       - name: Tag latest version
         run: |
-          git commit --all --no-edit --amend
           gem tag --no-push
       - run: git push origin HEAD:${{ github.ref }} --tags
       - name: Build Gem
