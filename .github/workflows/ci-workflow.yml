@@ -1,24 +1,26 @@
-name: CI workflow
+# TODO: нужно прокоментировть каждую строку этого файла чтобы иметь полное представление обо всём, что тут происходит
 
-on:
+name: CI workflow # название процесса
+
+on: # триггер
   push:
-    branches: [master]
+    branches: [master]  # ветка, в которую будут пушить
   pull_request:
-    branches: [master]
+    branches: [master] # ветка, в которую будут делать запросы на слияние
 
-jobs:
-  build-test:
-    name: Build and Test
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: Set up Ruby
+jobs: # задачи
+  build-test: # именованый идентификатор задачи
+    name: Build and Test # название задачи
+    runs-on: ubuntu-latest # выбор ос и места, где будут запущены задачи
+    steps: # шаги выполнения задачи
+      - uses: actions/checkout@v2 # использование файла с рабочим процессом. в данном случаи это checkout в репозитории https://github.com/actions
+      - name: Set up Ruby # название шага
         # To automatically get bug fixes and new Ruby versions for ruby/setup-ruby,
         # change this to (see https://github.com/ruby/setup-ruby#versioning):
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: 2.6
-      - uses: actions/cache@v2
+        uses: ruby/setup-ruby@v1 # использование файла с рабочим процессом. в данном случаи это setup-ruby в репозитории https://github.com/actions
+        with: # установка аргументов для файла с рабочим процессом
+          ruby-version: 2.6 # аргумент с именем ruby-version имеет значение 2.6
+      - uses: actions/cache@v2 # использование файла с рабочим процессом. в данном случаи это cache в репозитории https://github.com/actions
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
