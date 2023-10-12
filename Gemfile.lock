@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    my-own-portfolio (2.0.13)
+    my-own-portfolio (3.0.13)
       github-pages (~> 209)
       jekyll-seo-tag (~> 2.1)
 
