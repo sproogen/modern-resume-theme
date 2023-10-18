@@ -47,6 +47,7 @@ additional_links:
 # gtm: "GTM-0000000"
 # gtag: "UA-00000000-0"
 # google_analytics: "UA-00000000-0"
+# google_analytics_4: "G-ABCDEFGHIJ"
 
 # About Section
 # about_title: About Me (Use this to override about section title)
