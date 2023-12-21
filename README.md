@@ -1,6 +1,6 @@
 # modern-resume-theme [![Gem Version](https://badge.fury.io/rb/modern-resume-theme.svg)](https://badge.fury.io/rb/modern-resume-theme) ![CI workflow](https://github.com/sproogen/modern-resume-theme/workflows/CI%20workflow/badge.svg?branch=master)
 
-*A modern simple static resume template and theme. Powered by Jekyll and GitHub pages.*  
+*A modern simple static resume template and theme. Powered by Jekyll and GitHub pages.*
 *Host your own resume on GitHub for **free!***
 
 [View Demo](https://sproogen.github.io/modern-resume-theme/)
@@ -47,7 +47,7 @@ Commit and push the resume template to github
 ```
 $ git add --all
 $ git commit -m "Initial resume setup"
-$ git push -u origin master
+$ git push -u origin main
 ```
 ### Step 5 - See it
 You should now be able to see the demo resume template using this theme at `[your-username].github.io`
@@ -59,7 +59,7 @@ You should now be able to see the demo resume template using this theme at `[you
 So now you will be able to see the demo template at your github URL. You can can edit the yml files and replace the demo content with your own. Hopefully it will be fairly simple to work out where all the content goes, but here is a quick overview.
 
 ### `_config.yml`
-This will contain all the of the main configuration for your resume such as your name, email, social media links and about me content. It also contains all the content for your resume.  
+This will contain all the of the main configuration for your resume such as your name, email, social media links and about me content. It also contains all the content for your resume.
 A full example of the _config.yml can be found [here](https://github.com/sproogen/modern-resume-theme/blob/master/_config.yml)
 
 #### Content
@@ -67,7 +67,7 @@ The main content for you resume will all come under the content property in the 
 
 Content will contain an array of sections, there are currently 2 types of layouts for content sections, text and list.
 
-**text** is a basic layout that contains markdown content.  
+**text** is a basic layout that contains markdown content.
 **list** is a the standard layout that is used for things like *Education* and *Experience*.
 
 Below is a the full list of content options.
@@ -104,12 +104,12 @@ content:
 If you would like to add more than the predefined social links in the config file, then you can use the `additional_links` field to add as many additional links with urls and font awesome icons as you wish.
 
 #### Dark Mode
-Dark mode is configured via `_config.yml`  
+Dark mode is configured via `_config.yml`
 ```
 darkmode: true (options: true, false, never)
 ```
-When dark mode is `true` the site will show the dark theme for everyone  
-When dark mode is `false` the site will not show the dark theme, but it will still respect the users device preferences  
+When dark mode is `true` the site will show the dark theme for everyone
+When dark mode is `false` the site will not show the dark theme, but it will still respect the users device preferences
 When dark mode is `never` the site will never be shown in the dark theme
 
 #### Heading Anchors
